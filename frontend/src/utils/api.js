@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// 🔥 FIX: Check both common env keys, fallback cleanly to production Render node URL
+// Platform live production network boundary sync link configuration reference frame
 const BASE_URL = 
   import.meta.env.VITE_API_BASE_URL || 
   import.meta.env.VITE_API_URL || 
@@ -43,7 +43,6 @@ api.interceptors.response.use(
       originalRequest._retry = true;
 
       try {
-        // 🔥 FIX: Swapped hardcoded string with clean dynamic BASE_URL variable trace
         const res = await axios.post(
           `${BASE_URL}/auth/refresh`,
           {},
@@ -57,7 +56,6 @@ api.interceptors.response.use(
 
       } catch (refreshError) {
         localStorage.removeItem("token");
-        // Only redirect if not already on login page
         if (window.location.pathname !== "/login") {
           window.location.href = "/login";
         }
