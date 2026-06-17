@@ -1,6 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
+
+// ============================================================================
+// 🔄 AUTOMATED NAVIGATION AUTO-SCROLL CONTROLLER
+// ============================================================================
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant" // Forces immediate viewport reset across structural routing shifts
+    });
+  }, [pathname]);
+
+  return null;
+};
 
 // ============================================================================
 // 📦 GLOBAL LAYOUT STRUCTURAL UTILITIES & SIDE WINDOWS
@@ -131,6 +148,8 @@ const LayoutWrapper = ({ children }) => {
 function App() {
   return (
     <Router>
+      {/* 🔥 SCROLL INTERCEPTOR PLACED DIRECTLY UNDER ROUTER CONTEXT */}
+      <ScrollToTop />
       <LayoutWrapper>
         <Routes>
           {/* 🛒 PUBLIC CUSTOMER ACCESSIBLE ROUTES */}
@@ -138,7 +157,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:categorySlug" element={<CategoryPage />} />
           
-          {/* ✅ FIXED: Unified dynamic parameter routing tunnel to use the explicit productSlug parameter token strictly */}
+          {/* Unified dynamic parameter routing tunnel using productSlug strictly */}
           <Route path="/product/:productSlug" element={<ProductDetailPage />} />
           
           <Route path="/cart" element={<CartPage />} />
@@ -196,7 +215,7 @@ function App() {
           <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
           <Route path="/return-refund-policy" element={<ReturnPolicyPage />} />
 
-          {/* 🗺️ Replaced raw homepage redirect with true custom NotFound 404 canvas screen */}
+          {/* Canvas screen redirect handling */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </LayoutWrapper>
