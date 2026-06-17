@@ -1,7 +1,13 @@
 import axios from "axios";
 
+// 🔥 FIX: Check both common env keys, fallback cleanly to production Render node URL
+const BASE_URL = 
+  import.meta.env.VITE_API_BASE_URL || 
+  import.meta.env.VITE_API_URL || 
+  "https://perfect-moto.onrender.com/api";
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: BASE_URL,
   withCredentials: true,
 });
 
@@ -37,8 +43,9 @@ api.interceptors.response.use(
       originalRequest._retry = true;
 
       try {
+        // 🔥 FIX: Swapped hardcoded string with clean dynamic BASE_URL variable trace
         const res = await axios.post(
-          `${import.meta.env.VITE_API_URL || "http://localhost:5000/api"}/auth/refresh`,
+          `${BASE_URL}/auth/refresh`,
           {},
           { withCredentials: true }
         );
