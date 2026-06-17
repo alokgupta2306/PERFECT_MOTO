@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { margin: 0; padding: 0; background-color: #0A0A0A; font-family: 'Inter', Arial, sans-serif; }
+    .container { max-width: 600px; margin: 0 auto; background-color: #1A1A1A; }
+    .header { background-color: #0A0A0A; padding: 30px; text-align: center; border-bottom: 2px solid #FFB800; }
+    .header h1 { color: #FFB800; margin: 0; font-size: 28px; letter-spacing: 3px; }
+    .body { padding: 40px 30px; }
+    .body h2 { color: #FFFFFF; font-size: 22px; }
+    .body p { color: #CCCCCC; font-size: 15px; line-height: 1.7; }
+    .tracking-box { background-color: #0A0A0A; border: 1px solid #FFB800; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; }
+    .tracking-box p { margin: 8px 0; color: #CCCCCC; font-size: 14px; }
+    .tracking-box span { color: #FFB800; font-weight: 700; font-size: 18px; font-family: monospace; letter-spacing: 1px; }
+    
+    /* 🚚 PATCH: Premium Gold Shipping Guarantee Highlight Section */
+    .guarantee-box { background-color: rgba(255, 184, 0, 0.05); border: 1px dashed rgba(255, 184, 0, 0.4); border-radius: 8px; padding: 18px; margin: 20px 0; text-align: left; }
+    .guarantee-box h4 { margin: 0 0 6px 0; color: #FFB800; font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+    .guarantee-box p { margin: 0; color: #E5E5E5; font-size: 13px; line-height: 1.6; }
+
+    .steps { margin: 25px 0; background-color: #0A0A0A; border: 1px solid #2A2A2A; padding: 20px; border-radius: 8px; }
+    .step { display: flex; align-items: center; margin: 12px 0; }
+    .step-dot-done { width: 12px; height: 12px; background-color: #22C55E; border-radius: 50%; margin-right: 12px; flex-shrink: 0; }
+    .step-dot-active { width: 12px; height: 12px; background-color: #FFB800; border-radius: 50%; margin-right: 12px; flex-shrink: 0; box-shadow: 0 0 8px #FFB800; }
+    .step-dot-pending { width: 12px; height: 12px; background-color: #2A2A2A; border-radius: 50%; margin-right: 12px; flex-shrink: 0; }
+    .step p { margin: 0; color: #CCCCCC; font-size: 14px; }
+    .btn { display: inline-block; background-color: #FFB800; color: #000000; padding: 14px 32px; text-decoration: none; font-weight: 700; border-radius: 4px; font-size: 15px; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px; }
+    .footer { background-color: #0A0A0A; padding: 20px; text-align: center; border-top: 1px solid #2A2A2A; }
+    .footer p { color: #666666; font-size: 12px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>PERFECT MOTO</h1>
+    </div>
+    <div class="body">
+      <h2>Your Order is On the Way! 🚚</h2>
+      <p>Hey {{name}}, your order <strong style="color:#FFB800;">{{orderNumber}}</strong> has been handed over to our premium courier partner!</p>
+      
+      <div class="tracking-box">
+        <p style="text-transform: uppercase; font-size: 12px; letter-spacing: 1px; margin-bottom: 5px;">Shiprocket Waybill AWB / Tracking Code</p>
+        <span>{{trackingNumber}}</span>
+        <p style="margin-top:12px; font-weight: 600;">Logistics Carrier: <span style="color: #FFFFFF;">{{courierName}}</span></p>
+      </div>
+
+      <!-- ⚡ PATCH: Guaranteed 7-Day Fulfillment Alert Callout Block -->
+      <div class="guarantee-box">
+        <h4>Fulfillment Guarantee Tracker</h4>
+        <p>Your package is actively moving through our priority shipping pipeline to arrive within our promised 7 working day delivery layout. If your delivery timeline breaks past 7 working days, our policy entitles you to a 100% money-back refund[cite: 2]. Simply reach out to support if transit stops or stalls.</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-dot-done"></div>
+          <p style="color: #888888; text-decoration: line-through;">Order Placed</p>
+        </div>
+        <div class="step">
+          <div class="step-dot-done"></div>
+          <p style="color: #888888; text-decoration: line-through;">Order Confirmed</p>
+        </div>
+        <div class="step">
+          <div class="step-dot-active"></div>
+          <p style="color: #FFFFFF; font-weight: 600;">Shipped — In Transit</p>
+        </div>
+        <div class="step">
+          <div class="step-dot-pending"></div>
+          <p>Out for Delivery</p>
+        </div>
+        <div class="step">
+          <div class="step-dot-pending"></div>
+          <p>Delivered</p>
+        </div>
+      </div>
+
+      <div style="text-align: center;">
+        <a href="{{trackingUrl}}" class="btn">Track Shipment Live</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Perfect Moto — Built for Indian Riders</p>
+      <p>perfectmoto.accessories@gmail.com | +91 8356968789</p>
+    </div>
+  </div>
+</body>
+</html>

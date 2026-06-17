@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { margin: 0; padding: 0; background-color: #0A0A0A; font-family: 'Inter', Arial, sans-serif; }
+    .container { max-width: 600px; margin: 0 auto; background-color: #1A1A1A; }
+    .header { background-color: #0A0A0A; padding: 30px; text-align: center; border-bottom: 2px solid #EF4444; }
+    .header h1 { color: #FFB800; margin: 0; font-size: 28px; letter-spacing: 3px; }
+    .body { padding: 40px 30px; }
+    .body h2 { color: #EF4444; font-size: 22px; }
+    .body p { color: #CCCCCC; font-size: 15px; line-height: 1.7; }
+    .cancel-box { background-color: #0A0A0A; border: 1px solid #2A2A2A; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    .cancel-box p { margin: 8px 0; color: #CCCCCC; font-size: 14px; }
+    .cancel-box span { color: #FFB800; font-weight: 700; font-family: monospace; }
+    
+    /* ⚡ PATCH: High-Reassurance Refund Process Block */
+    .refund-box { background-color: rgba(239, 68, 68, 0.05); border: 1px dashed rgba(239, 68, 68, 0.4); border-radius: 8px; padding: 18px; margin: 20px 0; text-align: left; }
+    .refund-box h4 { margin: 0 0 6px 0; color: #EF4444; font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+    .refund-box p { margin: 0; color: #E5E5E5; font-size: 13px; line-height: 1.6; }
+
+    .btn { display: inline-block; background-color: transparent; color: #FFB800; padding: 12px 28px; text-decoration: none; font-weight: 700; border-radius: 4px; font-size: 14px; border: 2px solid #FFB800; margin-top: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .footer { background-color: #0A0A0A; padding: 20px; text-align: center; border-top: 1px solid #2A2A2A; }
+    .footer p { color: #666666; font-size: 12px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>PERFECT MOTO</h1>
+    </div>
+    <div class="body">
+      <h2>Order Cancelled ❌</h2>
+      <p>Hey {{name}}, your order has been officially cancelled.</p>
+      
+      <div class="cancel-box">
+        <p>Order ID: <span>{{orderNumber}}</span></p>
+        <p>Status: <span style="color: #EF4444;">Cancelled</span></p>
+      </div>
+
+      <!-- ⚡ PATCH: Refund Tracking Milestone Text Block -->
+      <div class="refund-box">
+        <h4>100% Refund Verification Profile</h4>
+        <p>{{refundInfo}}</p>
+      </div>
+
+      <p>We are sorry that this transaction didn't work out. If you cancelled by accident or would like to choose a different configuration template for your garage bike setup, feel free to head back to the store at any time.</p>
+      
+      <div style="text-align: center;">
+        <a href="{{process.env.FRONTEND_URL}}/shop" class="btn">Return to Shop</a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Perfect Moto — Built for Indian Riders</p>
+      <p>perfectmoto.accessories@gmail.com | +91 8356968789</p>
+    </div>
+  </div>
+</body>
+</html>

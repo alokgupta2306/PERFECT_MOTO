@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@600;700&display=swap');
+
+/* ============================================================================
+   🎨 TAILWIND V4 CSS-NATIVE THEME VARIABLE ENGINE CONFIGURATION
+   ============================================================================ */
+@theme {
+  --color-primary-gold: #FFB800;
+  --color-gold-hover: #FFC933;
+  --color-gold-dark: #B8860B;
+  --color-deep-black: #0A0A0A;
+  --color-card-dark: #1A1A1A;
+  --color-border-dark: #2A2A2A;
+  --color-pure-white: #FFFFFF;
+  --color-muted-gray: #666666;
+  --color-light-gray: #F5F5F5;
+  --color-success-green: #22C55E;
+  --color-error-red: #EF4444;
+  --color-warning-amber: #F59E0B;
+  --color-info-blue: #3B82F6;
+
+  --font-heading: "Rajdhani", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --shadow-gold-glow: 0 0 20px rgba(255, 184, 0, 0.25);
+  --shadow-gold-glow-lg: 0 0 40px rgba(255, 184, 0, 0.35);
+
+  /* ⚔️ SAMURAI GOLD DESIGN VARIABLES */
+  --color-samurai-bg: #07050A;
+  --color-samurai-card: #12100A;
+  --color-samurai-gold: #D4AF37;
+  --color-samurai-crimson: #8B0000;
+  --color-samurai-cream: #FFF8DC;
+}
+
+/* ============================================================================
+   🏢 BASE ELEVATION LAYER & TYPOGRAPHIC RULES
+   ============================================================================ */
+@layer base {
+  html {
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+    /* ✅ FIXED: Applied global breathing room line height */
+    line-height: 1.65;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-deep-black);
+    color: var(--color-pure-white);
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    min-height: 100vh;
+  }
+
+  body.light {
+    background-color: var(--color-pure-white);
+    color: var(--color-deep-black);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: 0.035em;
+  }
+
+  /* ============================================================================
+     📊 GLOBAL TEXT SIZE ENFORCEMENT (COMPONENT-LEVEL INLINE OVERRIDES)
+     ============================================================================ */
+  /* ✅ FIXED: Forced strict global scaling thresholds across arbitrary and predefined utility maps */
+  .text-\[9px\]  { font-size: 0.75rem !important; }
+  .text-\[10px\] { font-size: 0.8rem !important; }
+  .text-\[11px\] { font-size: 0.85rem !important; }
+  .text-\[12px\] { font-size: 0.875rem !important; }
+  .text-xs       { font-size: 0.875rem !important; }
+  .text-sm       { font-size: 1rem !important; }
+  .text-base     { font-size: 1.1rem !important; }
+  .text-lg       { font-size: 1.25rem !important; }
+  .text-xl       { font-size: 1.4rem !important; }
+  .text-2xl      { font-size: 1.6rem !important; }
+  .text-3xl      { font-size: 2rem !important; }
+  .text-4xl      { font-size: 2.5rem !important; }
+
+  /* ✅ FIXED: De-compressed letter tracking modifiers */
+  .tracking-widest { letter-spacing: 0.15em !important; }
+  .tracking-wider  { letter-spacing: 0.1em !important; }
+
+  /* Fallback structural layout definitions */
+  h1 { font-size: 2.75rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.4rem; }
+  h5 { font-size: 1.2rem; }
+  h6 { font-size: 1rem; }
+
+  p { font-size: 1rem; }
+  span, label, li, td, th { font-size: 0.9375rem; }
+  input, textarea, select, button { font-family: var(--font-body); }
+
+  .max-w-7xl {
+    max-width: 1440px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* ============================================================================
+     ☀️ LIGHT MODE UTILITY RE-MAPPING INVERSIONS
+     ============================================================================ */
+  html.light body {
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+  }
+  html.light .bg-deep-black { background-color: #F5F5F5 !important; }
+  html.light .bg-card-dark {
+    background-color: #FFFFFF !important;
+    border-color: #E0E0E0 !important;
+  }
+  html.light .text-pure-white { color: #0A0A0A !important; }
+  html.light .text-muted-gray { color: #444444 !important; }
+  html.light .border-border-dark { border-color: #E0E0E0 !important; }
+  html.light .bg-border-dark { background-color: #E0E0E0 !important; }
+  html.light input, html.light textarea, html.light select {
+    background-color: #F5F5F5 !important;
+    color: #0A0A0A !important;
+    border-color: #CCCCCC !important;
+  }
+  html.light header {
+    background-color: #FFFFFF !important;
+    border-color: #E0E0E0 !important;
+  }
+
+  /* ============================================================================
+     ⚔️ SAMURAI GOLD PRESET THEMATIC OVERRIDES
+     ============================================================================ */
+  html.samurai body {
+    background-color: #07050A;
+    color: #FFF8DC;
+  }
+  html.samurai .bg-deep-black { background-color: #07050A !important; }
+  html.samurai .bg-card-dark {
+    background-color: #12100A !important;
+    border-color: #D4AF37 !important;
+  }
+  html.samurai .text-pure-white { color: #FFF8DC !important; }
+  html.samurai .text-primary-gold { color: #D4AF37 !important; }
+  html.samurai .bg-primary-gold { background-color: #D4AF37 !important; }
+  html.samurai .border-border-dark { border-color: #2A2000 !important; }
+  html.samurai header {
+    background-color: #07050A !important;
+    border-color: #D4AF37 !important;
+  }
+  html.samurai input, html.samurai textarea, html.samurai select {
+    background-color: #12100A !important;
+    color: #FFF8DC !important;
+    border-color: #D4AF37 !important;
+  }
+
+  /* ============================================================================
+     📱 RESPONSIVE VIEWPORT CONTAINERS
+     ============================================================================ */
+  @media (max-width: 768px) {
+    html { font-size: 17px; }
+    .max-w-7xl {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+/* ============================================================================
+   🏁 CUSTOM BRAND VECTOR GRAPHIC PATTERNS
+   ============================================================================ */
+@layer utilities {
+  .bg-hexagon-pattern {
+    background-color: #0a0a0a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cpath fill='%23FFB800' fill-opacity='0.04' d='M14 1L2 8v14h12l12-7V8L14 1zM14 26L2 33v14h12l12-7V33L14 26z'/%3E%3C/svg%3E");
+  }
+
+  body.light .bg-hexagon-pattern {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cpath fill='%23B8860B' fill-opacity='0.04' d='M14 1L2 8v14h12l12-7V8L14 1zM14 26L2 33v14h12l12-7V33L14 26z'/%3E%3C/svg%3E");
+  }
+
+  body.samurai .bg-hexagon-pattern {
+    background-color: #07050A;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cpath fill='%23D4AF37' fill-opacity='0.03' d='M14 1L2 8v14h12l12-7V8L14 1zM14 26L2 33v14h12l12-7V33L14 26z'/%3E%3C/svg%3E");
+  }
+
+  .bg-speed-lines {
+    background: linear-gradient(45deg, transparent 45%, rgba(255, 184, 0, 0.05) 50%, transparent 55%);
+    background-size: 10px 10px;
+  }
+
+  .border-tire-tread {
+    border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='4' viewBox='0 0 40 4'%3E%3Cpath d='M0 0l5 4h5l-5-4zm20 0l5 4h5l-5-4z' fill='%23FFB800'/%3E%3C/svg%3E") 2 repeat;
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { margin: 0; padding: 0; background-color: #0A0A0A; font-family: 'Inter', Arial, sans-serif; }
+    .container { max-width: 600px; margin: 0 auto; background-color: #1A1A1A; }
+    .header { background-color: #0A0A0A; padding: 30px; text-align: center; border-bottom: 2px solid #FFB800; }
+    .header h1 { color: #FFB800; margin: 0; font-size: 28px; letter-spacing: 3px; }
+    .body { padding: 40px 30px; }
+    .body h2 { color: #FFFFFF; font-size: 22px; }
+    .body p { color: #CCCCCC; font-size: 15px; line-height: 1.7; }
+    .points-box { background-color: #0A0A0A; border: 1px solid #FFB800; border-radius: 8px; padding: 25px; margin: 20px 0; text-align: center; }
+    .points-box h3 { color: #FFB800; font-size: 36px; margin: 0; }
+    .points-box p { color: #CCCCCC; font-size: 14px; margin: 8px 0 0 0; }
+    .stars { font-size: 32px; text-align: center; margin: 20px 0; letter-spacing: 5px; }
+    .product-box { background-color: #0A0A0A; border: 1px solid #2A2A2A; border-radius: 8px; padding: 15px; margin: 20px 0; }
+    .product-box p { color: #CCCCCC; font-size: 14px; margin: 4px 0; }
+    .product-box span { color: #FFB800; font-weight: 700; }
+    .btn { display: inline-block; background-color: #FFB800; color: #000000; padding: 14px 32px; text-decoration: none; font-weight: 700; border-radius: 4px; font-size: 15px; margin-top: 20px; }
+    .footer { background-color: #0A0A0A; padding: 20px; text-align: center; border-top: 1px solid #2A2A2A; }
+    .footer p { color: #666666; font-size: 12px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>PERFECT MOTO</h1>
+    </div>
+    <div class="body">
+      <h2>How's Your New Gear? ⭐</h2>
+      <p>Hey {{name}}, you received your order <strong style="color:#FFB800;">{{orderNumber}}</strong> a few days ago. We'd love to hear what you think!</p>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <div class="points-box">
+        <h3>+50</h3>
+        <p>Loyalty Points for writing a review!</p>
+      </div>
+      <div class="product-box">
+        <p>Order: <span>{{orderNumber}}</span></p>
+        <p>Products: <span>{{productNames}}</span></p>
+      </div>
+      <p>Takes less than 2 minutes. Your feedback helps other Indian riders make better decisions!</p>
+      <a href="{{reviewUrl}}" class="btn">WRITE YOUR REVIEW</a>
+    </div>
+    <div class="footer">
+      <p>Perfect Moto — Built for Indian Riders</p>
+      <p>perfectmoto.accessories@gmail.com | +91 8356968789</p>
+    </div>
+  </div>
+</body>
+</html>

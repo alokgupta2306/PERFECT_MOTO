@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { margin: 0; padding: 0; background-color: #0A0A0A; font-family: 'Inter', Arial, sans-serif; }
+    .container { max-width: 600px; margin: 0 auto; background-color: #1A1A1A; }
+    .header { background-color: #0A0A0A; padding: 30px; text-align: center; border-bottom: 2px solid #FFB800; }
+    .header h1 { color: #FFB800; margin: 0; font-size: 28px; letter-spacing: 3px; }
+    .body { padding: 40px 30px; }
+    .body h2 { color: #FFFFFF; font-size: 22px; }
+    .body p { color: #CCCCCC; font-size: 15px; line-height: 1.7; }
+    .btn { display: inline-block; background-color: #FFB800; color: #000000; padding: 14px 32px; text-decoration: none; font-weight: 700; border-radius: 4px; font-size: 15px; margin-top: 20px; }
+    .footer { background-color: #0A0A0A; padding: 20px; text-align: center; border-top: 1px solid #2A2A2A; }
+    .footer p { color: #666666; font-size: 12px; margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>PERFECT MOTO</h1>
+    </div>
+    <div class="body">
+      <h2>Welcome to the Tribe, {{name}}! 🏍️</h2>
+      <p>You've just joined India's most premium motorcycle accessories store.</p>
+      <p>Use code <strong style="color:#FFB800;">WELCOME10</strong> for 10% off your first order!</p>
+      <a href="{{shopUrl}}" class="btn">SHOP NOW</a>
+    </div>
+    <div class="footer">
+      <p>Perfect Moto — Built for Indian Riders</p>
+      <p>perfectmoto.accessories@gmail.com | +91 8356968789</p>
+    </div>
+  </div>
+</body>
+</html>
