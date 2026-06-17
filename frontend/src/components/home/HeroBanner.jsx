@@ -74,7 +74,7 @@ const HeroBanner = () => {
   };
 
   return (
-    <div className="relative w-full h-[70vh] md:h-[60vh] bg-deep-black border-b border-border-dark overflow-hidden group select-none">
+    <div className="relative w-full h-[40vh] md:h-[60vh] bg-deep-black border-b border-border-dark overflow-hidden group select-none">
       
       {/* FIXED (Issue 2): Replaced missing bg-speed-lines utility with an active inline CSS diagonal motion blur pattern gradient */}
       {/* Generated per Section 05: Left to right diagonal lines with exactly 5% opacity matching brand theme guidelines */}
