@@ -33,13 +33,26 @@ const settingsController = require("./controllers/settingsController");
 const referralController = require("./controllers/referralController");
 
 const app = express();
+app.set('trust proxy', 1);
 
 // Set up security layers to inject defensive HTTP headers automatically
 app.use(helmet());
 
 // Cross-Origin Resource Sharing matching technical specifications
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: (origin, callback) => {
+    const allowed = [
+      'http://localhost:5173',
+      'https://perfect-moto.vercel.app',
+      'https://perfect-moto-git-main-jaddu1.vercel.app',
+      'https://perfect-moto-gzyf9lz92-jaddu1.vercel.app'
+    ];
+    if (!origin || allowed.some(o => origin.startsWith(o.replace(/\/$/, '')))) {
+      callback(null, true);
+    } else {
+      callback(new Error('CORS blocked'));
+    }
+  },
   credentials: true
 }));
 
