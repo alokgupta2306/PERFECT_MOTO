@@ -13,6 +13,20 @@ const generateNanoReferralCode = () => {
   return crypto.randomBytes(4).toString('hex').toUpperCase();
 };
 
+/**
+ * 🔥 HELPER CONFIGURATION MATRIX: Dynamic Cookie Security Configuration
+ * Automatically switches settings between localhost development and secure cross-domain cloud hosting
+ */
+const getCookieOptions = (maxAgeOverride = null) => {
+  const isProd = process.env.NODE_ENV === 'production';
+  return {
+    httpOnly: true, // Prevents cross-site scripting (XSS) client token hijacking
+    secure: isProd, // 🔥 CRITICAL: Must be true over secure HTTPS cloud architectures
+    sameSite: isProd ? 'none' : 'lax', // 🔥 CRITICAL: 'none' permits cross-origin cookie allocation across Vercel/Render
+    ...(maxAgeOverride !== null && { maxAge: maxAgeOverride })
+  };
+};
+
 // @desc    Register a new customer account
 // @route   POST /api/auth/register
 // @access  Public
@@ -44,12 +58,8 @@ exports.register = async (req, res, next) => {
     const accessToken = generateAccessToken(newUser._id);
     const refreshToken = generateRefreshToken(newUser._id);
 
-    res.cookie('refreshToken', refreshToken, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'strict',
-      maxAge: 30 * 24 * 60 * 60 * 1000
-    });
+    // 🔥 FIXED: Utilizing production-safe cloud cookie engine configuration options
+    res.cookie('refreshToken', refreshToken, getCookieOptions(30 * 24 * 60 * 60 * 1000));
 
     newUser.password = undefined;
 
@@ -88,12 +98,8 @@ exports.login = async (req, res, next) => {
     const accessToken = generateAccessToken(user._id);
     const refreshToken = generateRefreshToken(user._id);
 
-    res.cookie('refreshToken', refreshToken, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'strict',
-      maxAge: 30 * 24 * 60 * 60 * 1000
-    });
+    // 🔥 FIXED: Utilizing production-safe cloud cookie engine configuration options
+    res.cookie('refreshToken', refreshToken, getCookieOptions(30 * 24 * 60 * 60 * 1000));
 
     user.password = undefined;
 
@@ -149,11 +155,8 @@ exports.refresh = async (req, res, next) => {
 // @access  Auth
 exports.logout = async (req, res, next) => {
   try {
-    res.clearCookie('refreshToken', {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'strict'
-    });
+    // 🔥 FIXED: Utilizing production-safe options frame parameters matching the original dynamic options mapping
+    res.clearCookie('refreshToken', getCookieOptions());
     return res.status(200).json({ success: true, message: 'Session successfully disconnected' });
   } catch (error) {
     next(error);
@@ -459,12 +462,8 @@ exports.googleAuth = async (req, res, next) => {
     const accessToken = generateAccessToken(user._id);
     const refreshToken = generateRefreshToken(user._id);
 
-    res.cookie('refreshToken', refreshToken, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === 'production',
-      sameSite: 'strict',
-      maxAge: 30 * 24 * 60 * 60 * 1000
-    });
+    // 🔥 FIXED: Utilizing production-safe cloud cookie engine configuration options
+    res.cookie('refreshToken', refreshToken, getCookieOptions(30 * 24 * 60 * 60 * 1000));
 
     return res.status(200).json({ 
       success: true, 
