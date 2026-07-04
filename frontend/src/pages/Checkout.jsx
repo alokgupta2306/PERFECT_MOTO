@@ -14,7 +14,7 @@ const Checkout = () => {
   // Controlled UI Selection States
   const [addresses, setAddresses] = useState([]);
   const [selectedAddress, setSelectedAddress] = useState("");
-  const [paymentMethod] = useState("shiprocket");
+  const [paymentMethod] = useState("razorpay");
   const [isProcessing, setIsProcessing] = useState(false);
 
   // New Address Inline Form States
@@ -129,7 +129,19 @@ const Checkout = () => {
     }
   };
 
-  // Complete Live API Post Order Sequence + Shiprocket Redirection Link Workflow
+  // Razorpay runtime injection configuration loader helper function
+  const loadRazorpayScript = () => {
+    return new Promise((resolve) => {
+      if (window.Razorpay) return resolve(true);
+      const script = document.createElement("script");
+      script.src = "https://checkout.razorpay.com/v1/checkout.js";
+      script.onload = () => resolve(true);
+      script.onerror = () => resolve(false);
+      document.body.appendChild(script);
+    });
+  };
+
+  // Complete Live API Post Order Sequence + Razorpay Modal Workflow
   const handlePlaceOrder = async (e) => {
     e.preventDefault();
     if (!selectedAddress) {
@@ -166,20 +178,60 @@ const Checkout = () => {
 
       const res = await api.post("/orders", orderPayload);
       const orderId = res.data.order._id;
+      const orderNumber = res.data.order.orderNumber;
 
-      const paymentRes = await api.post("/payment/create-order", {
-        orderId: orderId,
-      });
-
-      if (paymentRes.data.success && paymentRes.data.paymentLink) {
-        clearCart();
-        window.location.href = paymentRes.data.paymentLink;
-      } else {
-        throw new Error("Logistics gateway did not return an active authorization payment link.");
+      const loaded = await loadRazorpayScript();
+      if (!loaded) {
+        throw new Error("Payment gateway failed to load. Check your connection and try again.");
       }
-      
+
+      const paymentRes = await api.post("/payment/create-order", { orderId });
+      const { razorpayOrderId, amount, key } = paymentRes.data;
+
+      const options = {
+        key,
+        amount,
+        currency: "INR",
+        name: "Perfect Moto",
+        description: `Order #${orderNumber}`,
+        order_id: razorpayOrderId,
+        prefill: {
+          name: user?.name,
+          email: user?.email,
+          contact: chosenAddress.phone,
+        },
+        theme: { color: "#FFB800" }, // Custom core brand identity mapping matching config specifications
+        handler: async (response) => {
+          try {
+            await api.post("/payment/verify", {
+              razorpayOrderId: response.razorpay_order_id,
+              razorpayPaymentId: response.razorpay_payment_id,
+              razorpaySignature: response.razorpay_signature,
+              orderId,
+            });
+            clearCart();
+            navigate("/order-confirmation", { state: { orderId } });
+          } catch {
+            alert("Payment verification failed. Please contact support.");
+            setIsProcessing(false);
+          }
+        },
+        modal: {
+          ondismiss: () => {
+            setIsProcessing(false);
+          },
+        },
+      };
+
+      const rzp = new window.Razorpay(options);
+      rzp.on("payment.failed", (response) => {
+        alert(`Payment failed: ${response.error.description}`);
+        setIsProcessing(false);
+      });
+      rzp.open();
+
     } catch (err) {
-      alert(err.response?.data?.message || err.message || "Order engine checkout trace failure loop tripped.");
+      alert(err.response?.data?.message || err.message || "Order checkout failed.");
       setIsProcessing(false);
     }
   };
@@ -365,7 +417,6 @@ const Checkout = () => {
                       <CheckCircle2 size={16} className="absolute top-3 right-3 text-primary-gold" />
                     )}
 
-                    {/* 🔥 NEW FEATURE: Delete address action button positioned smoothly inside card frame */}
                     <button
                       type="button"
                       onClick={(e) => handleDeleteAddress(e, addr._id)}
@@ -397,8 +448,10 @@ const Checkout = () => {
           {/* Section B: Secured Payment Hub Parameters */}
           <div id="secure-payment-hub" className="bg-card-dark border border-border-dark rounded-xl p-5 shadow-md border-solid">
             <div className="flex items-center gap-2 mb-4 border-b border-border-dark pb-3">
-              <CreditCard size={18} className="text-primary-gold" />
-              <h3 className="font-heading font-bold uppercase tracking-wider text-sm text-pure-white">2. Secure Transaction Endpoint</h3>
+              <div className="flex items-center gap-2">
+                <CreditCard size={18} className="text-primary-gold" />
+                <h3 className="font-heading font-bold uppercase tracking-wider text-sm text-pure-white">2. Secure Transaction Endpoint</h3>
+              </div>
             </div>
 
             <div className="space-y-3">
@@ -409,7 +462,7 @@ const Checkout = () => {
                       <div className="h-2 w-2 rounded-full bg-primary-gold" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-heading font-bold uppercase tracking-wider text-pure-white">Shiprocket Prepaid Checkout</h4>
+                      <h4 className="text-xs font-heading font-bold uppercase tracking-wider text-pure-white">Razorpay Secure Checkout</h4>
                       <p className="text-[11px] text-muted-gray mt-0.5">Secure processing supporting Credit/Debit Cards, UPI systems, NetBanking, and Wallets</p>
                     </div>
                   </div>
@@ -476,11 +529,11 @@ const Checkout = () => {
               {isProcessing ? (
                 <div className="flex items-center gap-2">
                   <Loader2 size={14} className="animate-spin" />
-                  <span>Redirecting to Shiprocket Hub...</span>
+                  <span>Opening Secure Payment...</span>
                 </div>
               ) : (
                 <>
-                  <span>Pay Online via Shiprocket</span>
+                  <span>Pay Online via Razorpay</span>
                   <ArrowRight size={16} />
                 </>
               )}
@@ -488,7 +541,7 @@ const Checkout = () => {
 
             <div className="flex items-center justify-center gap-1.5 text-[10px] text-muted-gray uppercase tracking-wider font-semibold text-center mt-4 border-t border-border-dark pt-3 border-solid">
               <ShieldCheck size={14} className="text-success-green" />
-              <span>Unified Shiprocket API Security Encryption Protocol</span>
+              <span>Razorpay Secured Payment Gateway</span>
             </div>
           </div>
         </div>

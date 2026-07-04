@@ -14,10 +14,8 @@ const AdminEditProduct = () => {
 
   // Dynamic Lookup Dataset State Tables
   const [categories, setCategories] = useState([]);
-  const [bikesData, setBikesData] = useState({ brands: [] });
-  const [availableModels, setAvailableModels] = useState([]);
 
-  // FIXED (Issue 1 & Issue 5): Complete structural configuration form metrics tracking Product schema layout
+  // Complete structural configuration form metrics tracking Product schema layout
   const [formState, setFormState] = useState({
     title: "",
     brand: "",
@@ -25,6 +23,9 @@ const AdminEditProduct = () => {
     price: "",
     salePrice: "",
     stock: "",
+    weight: "",
+    length: "",
+    breadth: "",
     description: "",
     targetBikeBrand: "",
     targetBikeModel: "",
@@ -32,14 +33,13 @@ const AdminEditProduct = () => {
     yearTo: "2026"
   });
 
-  // FIXED (Issue 1): Concurrent Promise payload execution layer to safely pull operational configurations on mount
+  // Concurrent Promise payload execution layer to safely pull operational configurations on mount
   useEffect(() => {
     const fetchAllProductMetadata = async () => {
       try {
-        const [productRes, catRes, bikesRes] = await Promise.all([
+        const [productRes, catRes] = await Promise.all([
           api.get(`/products/${id}`),
-          api.get("/categories"),
-          api.get("/bikes")
+          api.get("/categories")
         ]);
 
         const p = productRes.data.product;
@@ -52,6 +52,9 @@ const AdminEditProduct = () => {
           price: p.price || "",
           salePrice: p.salePrice || "",
           stock: p.stock || "",
+          weight: p.dimensions?.weight || "",
+          length: p.dimensions?.length || "",
+          breadth: p.dimensions?.breadth || "",
           description: p.description || "",
           targetBikeBrand: initialBikeMatch.brand || "",
           targetBikeModel: initialBikeMatch.model || "",
@@ -60,7 +63,6 @@ const AdminEditProduct = () => {
         });
 
         setCategories(catRes.data.categories || []);
-        setBikesData(bikesRes.data || { brands: [] });
       } catch (err) {
         console.error("Back-office database integration initialization failure loop tripped:", err);
         navigate("/admin/products");
@@ -71,30 +73,11 @@ const AdminEditProduct = () => {
     fetchAllProductMetadata();
   }, [id, navigate]);
 
-  // FIXED (Issue 1): Synchronize structural model profiles variant dropdown dynamically off manufacturer updates
-  useEffect(() => {
-    if (formState.targetBikeBrand && bikesData.brands?.length > 0) {
-      const brandObj = bikesData.brands.find(b => b.brand === formState.targetBikeBrand);
-      if (brandObj?.models) {
-        const structuralModelList = brandObj.models.map(m => m.model || m);
-        setAvailableModels(structuralModelList);
-        
-        // Only override model selection if currently cached form variant doesn't belong to the newly resolved manufacturer
-        if (!structuralModelList.includes(formState.targetBikeModel)) {
-          setFormState(prev => ({ ...prev, targetBikeModel: structuralModelList[0] || "" }));
-        }
-      }
-    } else {
-      setAvailableModels([]);
-    }
-  }, [formState.targetBikeBrand, bikesData]);
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormState((prev) => ({ ...prev, [name]: value }));
   };
 
-  // FIXED (Issue 2): Replaced fake simulation timeout with an active automated PUT update transaction
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -115,10 +98,15 @@ const AdminEditProduct = () => {
         price: Number(formState.price),
         salePrice: formState.salePrice ? Number(formState.salePrice) : undefined,
         stock: Number(formState.stock),
+        dimensions: {
+          weight: formState.weight ? Number(formState.weight) : undefined,
+          length: formState.length ? Number(formState.length) : undefined,
+          breadth: formState.breadth ? Number(formState.breadth) : undefined
+        },
         description: formState.description.trim(),
         compatibleBikes: formState.targetBikeBrand && formState.targetBikeModel ? [{
-          brand: formState.targetBikeBrand,
-          model: formState.targetBikeModel,
+          brand: formState.targetBikeBrand.trim(),
+          model: formState.targetBikeModel.trim(),
           yearFrom: Number(formState.yearFrom) || 2019,
           yearTo: Number(formState.yearTo) || 2026
         }] : []
@@ -137,7 +125,7 @@ const AdminEditProduct = () => {
     }
   };
 
-  // FIXED (Issue 1): Themed latency indicator template boundary
+  // Themed latency indicator template boundary
   if (loading) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center text-center p-8">
@@ -193,7 +181,6 @@ const AdminEditProduct = () => {
               />
             </div>
             <div>
-              {/* FIXED (Issue 6): Display automated system slug values inline cleanly matching real business trace routes */}
               <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">System Reference URL Slug (Locked)</label>
               <input
                 type="text"
@@ -204,7 +191,7 @@ const AdminEditProduct = () => {
             </div>
           </div>
 
-          {/* FIXED (Issue 5): Appended required Description long text form element area box */}
+          {/* Storefront Description Specifications */}
           <div>
             <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Storefront Description Specifications</label>
             <textarea
@@ -228,7 +215,6 @@ const AdminEditProduct = () => {
                 onChange={handleInputChange}
                 className="w-full h-10 px-3 bg-deep-black text-primary-gold border border-border-dark rounded-lg text-xs font-heading uppercase tracking-wider focus:outline-none focus:border-primary-gold cursor-pointer transition-colors"
               >
-                {/* FIXED (Issue 3): Render real live categories returned off async pipeline fetches */}
                 {categories.map((cat) => (
                   <option key={cat._id} value={cat._id}>{cat.name}</option>
                 ))}
@@ -248,7 +234,6 @@ const AdminEditProduct = () => {
               />
             </div>
 
-            {/* FIXED (Issue 5): Integrated functional Promotional Markdown SalePrice entry input mapping */}
             <div>
               <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Promo Sale Price (Optional)</label>
               <input
@@ -276,6 +261,48 @@ const AdminEditProduct = () => {
             </div>
           </div>
 
+          {/* Logistics Dimensions Sub-Object Inputs Layout Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Weight (grams)</label>
+              <input
+                type="number"
+                name="weight"
+                min="0"
+                placeholder="e.g. 1400"
+                value={formState.weight}
+                onChange={handleInputChange}
+                className="w-full h-10 px-4 bg-deep-black text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
+              />
+            </div>
+
+            <div>
+              <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Length (cm)</label>
+              <input
+                type="number"
+                name="length"
+                min="0"
+                placeholder="e.g. 30"
+                value={formState.length}
+                onChange={handleInputChange}
+                className="w-full h-10 px-4 bg-deep-black text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
+              />
+            </div>
+
+            <div>
+              <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Breadth (cm)</label>
+              <input
+                type="number"
+                name="breadth"
+                min="0"
+                placeholder="e.g. 25"
+                value={formState.breadth}
+                onChange={handleInputChange}
+                className="w-full h-10 px-4 bg-deep-black text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
+              />
+            </div>
+          </div>
+
           {/* Section C: Core Fitment Validation Logic Panel Frame */}
           <div className="p-4 bg-deep-black border border-border-dark rounded-xl space-y-4">
             <h4 className="text-[11px] font-heading font-bold text-primary-gold uppercase tracking-widest flex items-center gap-1.5 border-b border-border-dark pb-2">
@@ -286,37 +313,29 @@ const AdminEditProduct = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Target Bike Brand</label>
-                <select
+                <input
+                  type="text"
                   name="targetBikeBrand"
                   value={formState.targetBikeBrand}
                   onChange={handleInputChange}
-                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs focus:outline-none focus:border-primary-gold cursor-pointer transition-colors"
-                >
-                  {/* FIXED (Issue 4): Hydrate dynamic bike manufacturers natively off remote server indexes */}
-                  {bikesData.brands?.map((b) => (
-                    <option key={b.brand} value={b.brand}>{b.brand}</option>
-                  ))}
-                </select>
+                  placeholder="e.g. Royal Enfield"
+                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs normal-case focus:outline-none focus:border-primary-gold transition-colors"
+                />
               </div>
 
               <div>
                 <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Target Bike Variant Model</label>
-                <select
+                <input
+                  type="text"
                   name="targetBikeModel"
                   value={formState.targetBikeModel}
                   onChange={handleInputChange}
-                  disabled={availableModels.length === 0}
-                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs focus:outline-none focus:border-primary-gold cursor-pointer transition-colors disabled:opacity-40"
-                >
-                  {/* FIXED (Issue 4): Renders synchronized model names cleanly without hardcoding profiles */}
-                  {availableModels.map((m) => (
-                    <option key={m} value={m}>{m}</option>
-                  ))}
-                </select>
+                  placeholder="e.g. Classic 350"
+                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs normal-case focus:outline-none focus:border-primary-gold transition-colors"
+                />
               </div>
             </div>
 
-            {/* FIXED (Issue 5): Embedded responsive manufacturing session limits inputs layout group */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-border-dark/30">
               <div>
                 <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1 flex items-center gap-1">

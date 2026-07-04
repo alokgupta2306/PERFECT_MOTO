@@ -53,6 +53,7 @@ import CategoryPage from "./pages/CategoryPage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound"; 
+import ServiceAppointment from "./pages/ServiceAppointment";
 
 // ============================================================================
 // 🔑 2. RIDER AUTHENTICATION SECURITY PATH IMPORTS
@@ -63,7 +64,6 @@ import RegisterPage from "./pages/Register";
 // ============================================================================
 // 👤 3. RIDER ACCOUNT PORTAL IMPORTS (src/pages/account/)
 // ============================================================================
-import GaragePage from "./pages/account/Garage";
 import MyProfilePage from "./pages/account/MyProfilePage";
 import MyOrdersPage from "./pages/account/MyOrdersPage";
 import OrderDetailPage from "./pages/account/OrderDetailPage";
@@ -86,6 +86,7 @@ import AdminNotifyMe from "./pages/admin/AdminNotifyMe";
 import AdminCoupons from "./pages/admin/AdminCoupons";
 import AdminBundles from "./pages/admin/AdminBundles";
 import AdminSettings from "./pages/admin/AdminSettings";
+import AdminServiceAppointments from "./pages/admin/AdminServiceAppointments";
 
 // Sourced back-office custom control panel views
 import AdminHomepageEditor from "./pages/admin/AdminHomepageEditor";
@@ -166,6 +167,7 @@ function App() {
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<ServiceAppointment />} />
 
           {/* 🔑 VALIDATION ACCESS ENTRY GATEWAYS */}
           <Route path="/login" element={<PublicOnlyRoute><LoginPage /></PublicOnlyRoute>} />
@@ -177,7 +179,6 @@ function App() {
           <Route path="/order-confirmation" element={<PrivateRoute><OrderConfirmationPage /></PrivateRoute>} />
 
           {/* 👤 AUTHENTICATED CUSTOMER PRIVATE WORKSPACE LOCKS */}
-          <Route path="/account/garage" element={<PrivateRoute><GaragePage /></PrivateRoute>} />
           <Route path="/account/profile" element={<PrivateRoute><MyProfilePage /></PrivateRoute>} />
           <Route path="/account/orders" element={<PrivateRoute><MyOrdersPage /></PrivateRoute>} />
           <Route path="/account/orders/:id" element={<PrivateRoute><OrderDetailPage /></PrivateRoute>} />
@@ -208,12 +209,14 @@ function App() {
           <Route path="/admin/media" element={<AdminRoute><AdminMediaLibrary /></AdminRoute>} />
           <Route path="/admin/content" element={<AdminRoute><AdminContentEditor /></AdminRoute>} />
           <Route path="/admin/settings" element={<AdminRoute><AdminSettings /></AdminRoute>} />
+          <Route path="/admin/service-appointments" element={<AdminRoute><AdminServiceAppointments /></AdminRoute>} />
 
           {/* 📜 COMPLIANCE LEGAL DATA OVERVIEWS */}
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms-conditions" element={<TermsConditionsPage />} />
           <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
           <Route path="/return-refund-policy" element={<ReturnPolicyPage />} />
+
 
           {/* Canvas screen redirect handling */}
           <Route path="*" element={<NotFound />} />

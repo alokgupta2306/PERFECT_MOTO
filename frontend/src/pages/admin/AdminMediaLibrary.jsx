@@ -27,7 +27,7 @@ const AdminMediaLibrary = () => {
     dataFormPayload.append("image", selectedFile);
 
     try {
-      const res = await api.post("/uploads", dataFormPayload, {
+      const res = await api.post("/upload", dataFormPayload, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       setUploadedUrl(res.data?.url || res.data?.secure_url);

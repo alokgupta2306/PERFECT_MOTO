@@ -1,3 +1,4 @@
+// backend/models/Product.js
 const mongoose = require('mongoose');
 
 const imageSchema = new mongoose.Schema({
@@ -35,6 +36,15 @@ const productSchema = new mongoose.Schema({
   gstPercent: { type: Number, default: 18 },
   stock: { type: Number, default: 0, min: 0 },
   lowStockAlert: { type: Number, default: 5 },
+  
+  // Aligned with AdminAddProduct form payload and shipmentController logistics aggregation loops
+  weight: { type: Number, min: 0, default: 0.5 },      // in kg
+  dimensions: {
+    length: { type: Number, min: 0, default: 10 },    // in cm
+    width: { type: Number, min: 0, default: 10 },     // in cm
+    height: { type: Number, min: 0, default: 10 }     // in cm
+  },
+  
   compatibleBikes: [compatibleBikeSchema],
   isFeatured: { type: Boolean, default: false },
   isNewArrival: { type: Boolean, default: false },
@@ -52,7 +62,7 @@ const productSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// ✅ Auto-generate slug from name before saving — synchronous, no callback needed
+// Auto-generate slug from name before saving — synchronous, no callback needed
 productSchema.pre('save', function() {
   if (this.isModified('name') && !this.slug) {
     this.slug = this.name

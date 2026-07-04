@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Wrench, CheckCircle2, ArrowLeft, Save, Loader2, Info, Calendar } from "lucide-react";
+import { Wrench, CheckCircle2, ArrowLeft, Save, Loader2, Info } from "lucide-react";
 import api from "../../utils/api";
 
 const AdminAddProduct = () => {
@@ -10,10 +10,8 @@ const AdminAddProduct = () => {
   
   // Asynchronous lookup dataset states
   const [categories, setCategories] = useState([]);
-  const [bikesData, setBikesData] = useState({ brands: [] });
-  const [availableModels, setAvailableModels] = useState([]);
 
-  // ✅ FIXED (Change 1): Added binary file array tracker and baseline image previews
+  // Binary file array tracker and baseline image previews
   const [selectedImages, setSelectedImages] = useState([]);
   const [imagePreview, setImagePreview] = useState([]);
 
@@ -28,8 +26,10 @@ const AdminAddProduct = () => {
     description: "",
     targetBikeBrand: "",
     targetBikeModel: "",
-    yearFrom: "2019",
-    yearTo: "2026",
+    weight: "",
+    length: "",
+    width: "",
+    height: "",
     isFeatured: false,
     isNewArrival: false,
     isBestSeller: false
@@ -53,42 +53,7 @@ const AdminAddProduct = () => {
     fetchCategories();
   }, []);
 
-  // Fetch unified Indian bikes catalog for fitment parameters mapping
-  useEffect(() => {
-    const fetchBikesCatalog = async () => {
-      try {
-        const res = await api.get("/bikes");
-        setBikesData(res.data || { brands: [] });
-        if (res.data?.brands?.length > 0) {
-          const firstBrand = res.data.brands[0];
-          setFormState((prev) => ({
-            ...prev,
-            targetBikeBrand: firstBrand.brand,
-            targetBikeModel: firstBrand.models?.[0]?.model || firstBrand.models?.[0] || ""
-          }));
-        }
-      } catch (err) {
-        console.error("Failed to hydrate motorcycle configuration datasets:", err);
-      }
-    };
-    fetchBikesCatalog();
-  }, []);
-
-  // Synchronize model profiles variant dropdown dynamically when manufacturer brand transitions
-  useEffect(() => {
-    if (formState.targetBikeBrand && bikesData.brands.length > 0) {
-      const selectedBrandData = bikesData.brands.find(b => b.brand === formState.targetBikeBrand);
-      if (selectedBrandData?.models) {
-        const modelNames = selectedBrandData.models.map(m => m.model || m);
-        setAvailableModels(modelNames);
-        setFormState((prev) => ({ ...prev, targetBikeModel: modelNames[0] || "" }));
-      } else {
-        setAvailableModels([]);
-      }
-    }
-  }, [formState.targetBikeBrand, bikesData]);
-
-  // ✅ FIXED (Change 2): Sourced file system local object endpoint parser capping uploads at 4 items
+  // Sourced file system local object endpoint parser capping uploads at 4 items
   const handleImageChange = (e) => {
     const files = Array.from(e.target.files).slice(0, 4);
     setSelectedImages(files);
@@ -123,27 +88,33 @@ const AdminAddProduct = () => {
         stock: Number(formState.stock),
         description: formState.description.trim(),
         status: "active",
+        weight: Number(formState.weight),
+        dimensions: {
+          length: Number(formState.length),
+          width: Number(formState.width),
+          height: Number(formState.height)
+        },
         isFeatured: formState.isFeatured,
         isNewArrival: formState.isNewArrival,
         isBestSeller: formState.isBestSeller,
         compatibleBikes: formState.targetBikeBrand && formState.targetBikeModel ? [{
-          brand: formState.targetBikeBrand,
-          model: formState.targetBikeModel,
-          yearFrom: Number(formState.yearFrom) || 2019,
-          yearTo: Number(formState.yearTo) || 2026
+          brand: formState.targetBikeBrand.trim(),
+          model: formState.targetBikeModel.trim(),
+          yearFrom: 2019, // Kept baseline fallback parameters for compatibility grid logic
+          yearTo: 2026
         }] : []
       };
 
       const productRes = await api.post("/products", productPayload);
-const newProductId = productRes.data.product._id;
+      const newProductId = productRes.data.product._id;
 
-if (selectedImages.filter(Boolean).length > 0) {
-  const formData = new FormData();
-  selectedImages.filter(Boolean).forEach(image => formData.append("images", image));
-  await api.post(`/products/${newProductId}/images`, formData, {
-    headers: { "Content-Type": "multipart/form-data" }
-  });
-}
+      if (selectedImages.filter(Boolean).length > 0) {
+        const formData = new FormData();
+        selectedImages.filter(Boolean).forEach(image => formData.append("images", image));
+        await api.post(`/products/${newProductId}/images`, formData, {
+          headers: { "Content-Type": "multipart/form-data" }
+        });
+      }
       
       setSuccessState("Product node authorized and compiled successfully inside active catalog.");
       setTimeout(() => {
@@ -303,70 +274,83 @@ if (selectedImages.filter(Boolean).length > 0) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Target Bike Manufacturer</label>
-                <select
+                <input
+                  type="text"
                   name="targetBikeBrand"
                   value={formState.targetBikeBrand}
                   onChange={handleInputChange}
-                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs focus:outline-none focus:border-primary-gold cursor-pointer transition-colors"
-                >
-                  {bikesData.brands.length === 0 ? (
-                    <option value="">Loading manufacturing data...</option>
-                  ) : (
-                    bikesData.brands.map((b) => (
-                      <option key={b.brand} value={b.brand}>{b.brand}</option>
-                    ))
-                  )}
-                </select>
+                  placeholder="e.g. Royal Enfield"
+                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs normal-case focus:outline-none focus:border-primary-gold transition-colors"
+                />
               </div>
 
               <div>
                 <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Target Bike Variant Model</label>
-                <select
+                <input
+                  type="text"
                   name="targetBikeModel"
                   value={formState.targetBikeModel}
                   onChange={handleInputChange}
-                  disabled={availableModels.length === 0}
-                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs focus:outline-none focus:border-primary-gold cursor-pointer transition-colors disabled:opacity-40"
-                >
-                  {availableModels.length === 0 ? (
-                    <option value="">-- No models available --</option>
-                  ) : (
-                    availableModels.map((m) => (
-                      <option key={m} value={m}>{m}</option>
-                    ))
-                  )}
-                </select>
+                  placeholder="e.g. Classic 350"
+                  className="w-full h-10 px-3 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs normal-case focus:outline-none focus:border-primary-gold transition-colors"
+                />
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2 border-t border-border-dark/30">
+            {/* Package Logistics Dimensions Input Section Grid Layout */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2 border-t border-border-dark/30">
               <div>
-                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1 flex items-center gap-1">
-                  <Calendar size={10} className="text-muted-gray" />
-                  <span>Batch Production From (Year)</span>
-                </label>
+                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Weight (kg)</label>
                 <input
                   type="number"
-                  name="yearFrom"
-                  min="2000"
-                  max="2030"
-                  value={formState.yearFrom}
+                  name="weight"
+                  step="0.01"
+                  min="0"
+                  required
+                  placeholder="1.5"
+                  value={formState.weight}
                   onChange={handleInputChange}
                   className="w-full h-10 px-4 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
                 />
               </div>
 
               <div>
-                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1 flex items-center gap-1">
-                  <Calendar size={10} className="text-muted-gray" />
-                  <span>Batch Production To (Year)</span>
-                </label>
+                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Length (cm)</label>
                 <input
                   type="number"
-                  name="yearTo"
-                  min="2000"
-                  max="2030"
-                  value={formState.yearTo}
+                  name="length"
+                  min="0"
+                  required
+                  placeholder="10"
+                  value={formState.length}
+                  onChange={handleInputChange}
+                  className="w-full h-10 px-4 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Width (cm)</label>
+                <input
+                  type="number"
+                  name="width"
+                  min="0"
+                  required
+                  placeholder="10"
+                  value={formState.width}
+                  onChange={handleInputChange}
+                  className="w-full h-10 px-4 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[10px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1">Height (cm)</label>
+                <input
+                  type="number"
+                  name="height"
+                  min="0"
+                  required
+                  placeholder="10"
+                  value={formState.height}
                   onChange={handleInputChange}
                   className="w-full h-10 px-4 bg-card-dark text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold transition-colors"
                 />
@@ -375,14 +359,14 @@ if (selectedImages.filter(Boolean).length > 0) {
             
             <div className="text-[10px] text-muted-gray flex items-center gap-1 bg-deep-black p-2 rounded border border-border-dark/30">
               <Info size={12} className="text-primary-gold shrink-0" />
-              <span>Specifying custom year limits flags a safety compatibility grid label dynamically inside matching user interfaces.</span>
+              <span>Accurate weight and dimensions ensure correct Shiprocket shipping cost and courier assignment.</span>
             </div>
           </div>
 
-          {/* ✅ FIXED (Change 3): Mounted interactive file input module wrapper with absolute grid viewports mapping */}
+          {/* Product Images (Max 4 Preview & File Array Control) */}
           <div>
             <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">
-              Product Images (Max 4)
+              Product Images (Max 4 Preview Context)
             </label>
             <input
               type="file"
@@ -405,44 +389,42 @@ if (selectedImages.filter(Boolean).length > 0) {
             )}
           </div>
 
-          {/* Image Upload Section */}
+          {/* Image Segment Upload Grid */}
+          <div className="space-y-4">
+            <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray">
+              Product Images Layout Deck
+            </label>
 
-          {/* Image Upload Section */}
-<div className="space-y-4">
-  <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray">
-    Product Images
-  </label>
+            {/* Main Image */}
+            <div>
+              <label className="block text-[10px] text-primary-gold font-bold uppercase tracking-wider mb-1">Main Image (1)</label>
+              <input type="file" accept="image/*"
+                onChange={(e) => {
+                  const file = e.target.files[0];
+                  if (file) setSelectedImages(prev => { const arr = [...prev]; arr[0] = file; return arr; });
+                  if (file) setImagePreview(prev => { const arr = [...prev]; arr[0] = URL.createObjectURL(file); return arr; });
+                }}
+                className="w-full text-xs text-muted-gray file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-primary-gold file:text-deep-black file:font-bold file:uppercase file:text-xs cursor-pointer"
+              />
+              {imagePreview[0] && <img src={imagePreview[0]} className="w-24 h-24 object-cover rounded-lg border-2 border-primary-gold mt-2" alt="Main layout component" />}
+            </div>
 
-  {/* Main Image */}
-  <div>
-    <label className="block text-[10px] text-primary-gold font-bold uppercase tracking-wider mb-1">Main Image (1)</label>
-    <input type="file" accept="image/*"
-      onChange={(e) => {
-        const file = e.target.files[0];
-        if (file) setSelectedImages(prev => { const arr = [...prev]; arr[0] = file; return arr; });
-        if (file) setImagePreview(prev => { const arr = [...prev]; arr[0] = URL.createObjectURL(file); return arr; });
-      }}
-      className="w-full text-xs text-muted-gray file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-primary-gold file:text-deep-black file:font-bold file:uppercase file:text-xs cursor-pointer"
-    />
-    {imagePreview[0] && <img src={imagePreview[0]} className="w-24 h-24 object-cover rounded-lg border-2 border-primary-gold mt-2" />}
-  </div>
-
-  {/* Sub Images */}
-  {[1, 2, 3].map((i) => (
-    <div key={i}>
-      <label className="block text-[10px] text-muted-gray font-bold uppercase tracking-wider mb-1">Sub Image {i}</label>
-      <input type="file" accept="image/*"
-        onChange={(e) => {
-          const file = e.target.files[0];
-          if (file) setSelectedImages(prev => { const arr = [...prev]; arr[i] = file; return arr; });
-          if (file) setImagePreview(prev => { const arr = [...prev]; arr[i] = URL.createObjectURL(file); return arr; });
-        }}
-        className="w-full text-xs text-muted-gray file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-border-dark file:text-pure-white file:font-bold file:uppercase file:text-xs cursor-pointer"
-      />
-      {imagePreview[i] && <img src={imagePreview[i]} className="w-20 h-20 object-cover rounded-lg border border-border-dark mt-2" />}
-    </div>
-  ))}
-</div>
+            {/* Sub Images */}
+            {[1, 2, 3].map((i) => (
+              <div key={i}>
+                <label className="block text-[10px] text-muted-gray font-bold uppercase tracking-wider mb-1">Sub Image {i}</label>
+                <input type="file" accept="image/*"
+                  onChange={(e) => {
+                    const file = e.target.files[0];
+                    if (file) setSelectedImages(prev => { const arr = [...prev]; arr[i] = file; return arr; });
+                    if (file) setImagePreview(prev => { const arr = [...prev]; arr[i] = URL.createObjectURL(file); return arr; });
+                  }}
+                  className="w-full text-xs text-muted-gray file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-border-dark file:text-pure-white file:font-bold file:uppercase file:text-xs cursor-pointer"
+                />
+                {imagePreview[i] && <img src={imagePreview[i]} className="w-20 h-20 object-cover rounded-lg border border-border-dark mt-2" alt={`Sub segment matrix index #${i}`} />}
+              </div>
+            ))}
+          </div>
 
           {/* Homepage Visibility Toggles */}
           <div className="flex flex-wrap gap-6 pt-2 border-t border-border-dark/30">

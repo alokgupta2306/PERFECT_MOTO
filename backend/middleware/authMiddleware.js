@@ -1,3 +1,4 @@
+// backend/middleware/authMiddleware.js
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
@@ -37,4 +38,18 @@ const verifyToken = async (req, res, next) => {
   }
 };
 
-module.exports = { verifyToken };
+/**
+ * @desc    Admin Access Guard Middleware
+ * Runs directly after verifyToken to validate the user's administrative privileges
+ */
+const requireAdmin = (req, res, next) => {
+  if (!req.user || req.user.role !== 'admin') {
+    return res.status(403).json({ success: false, message: 'Admin access required. Resource mapping forbidden.' });
+  }
+  next();
+};
+
+module.exports = { 
+  verifyToken, 
+  requireAdmin 
+};

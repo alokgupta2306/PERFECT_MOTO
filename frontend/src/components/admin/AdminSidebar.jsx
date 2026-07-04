@@ -17,6 +17,7 @@ import {
   Share2, 
   Bell, 
   Settings, 
+  Wrench,
   LogOut 
 } from "lucide-react";
 import useAuth from "../../hooks/useAuth";
@@ -34,6 +35,7 @@ const AdminSidebar = () => {
       items: [
         { label: "Dashboard", path: "/admin", icon: LayoutDashboard },
         { label: "Orders Ledger", path: "/admin/orders", icon: ShoppingBag },
+        { label: "Service Appointments", path: "/admin/service-appointments", icon: Wrench },
         { label: "Products Catalog", path: "/admin/products", icon: FolderTree },
         { label: "Add New Product", path: "/admin/products/add", icon: PlusCircle },
         { label: "Category Taxonomy", path: "/admin/categories", icon: Layers }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // Added NavLink to route parameter trace definitions
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { Search, ShoppingBag, User, Sun, Moon, Warehouse, LogIn, UserPlus } from "lucide-react";
+import { Search, ShoppingBag, User, Sun, Moon, LogIn, UserPlus } from "lucide-react";
 
 // Unified imports to utilize default custom hook setups consistently
 import useAuth from "../../hooks/useAuth";
@@ -43,6 +43,7 @@ const Header = () => {
           {[
             { label: "Home", path: "/" },
             { label: "Shop", path: "/shop" },
+            { label: "Motorcycle Service", path: "/service" },
             { label: "About", path: "/about" },
             { label: "Contact", path: "/contact" },
             { label: "Track Order", path: "/track" },
@@ -85,27 +86,12 @@ const Header = () => {
             type="button"
             onClick={toggleTheme}
             title={`Current: ${theme?.toUpperCase() ?? "DARK"} Mode. Click to cycle.`}
-            // ✅ FIXED: Reconfigured hover background and added a soft gray structural border matrix
             className="p-2 rounded-full bg-gray-100 border border-gray-300 transition-all duration-200"
           >
-            {/* ✅ FIXED: Bumped icons size up to 24 and set dark mode icon to gray-700 for optimal visibility */}
             {theme === "dark" && <Moon size={24} className="text-gray-700" />}
             {theme === "light" && <Sun size={24} className="text-amber-500" />}
             {theme === "samurai" && <span className="text-2xl leading-none">⚔️</span>}
           </button>
-
-          {/* Garage Hub Route Shortcut Link */}
-          <Link
-            to="/account/garage"
-            title="My Garage Management Center"
-            className="p-2 text-gray-700 hover:text-primary-gold transition-colors hidden sm:block"
-          >
-            <div className="flex items-center gap-1">
-              {/* ✅ FIXED: Set vector wheel base size to 24 and text color match mapping */}
-              <Warehouse size={24} className="text-gray-700 hover:text-primary-gold transition-colors" />
-              <span className="font-heading text-sm font-bold tracking-wider text-gray-700 hover:text-primary-gold transition-colors ml-0.5">GARAGE</span>
-            </div>
-          </Link>
 
           {/* CONDITIONAL AUTHENTICATION INTERFACE BLOCKS */}
           {isAuthenticated ? (
@@ -115,7 +101,6 @@ const Header = () => {
                 className="flex items-center gap-2 text-gray-700 hover:text-primary-gold transition-colors text-sm font-heading font-bold uppercase tracking-wider"
                 title="Rider Dashboard Workspace"
               >
-                {/* ✅ FIXED: Sourced uniform gray layout parameters */}
                 <User size={24} className="text-gray-700 hover:text-primary-gold transition-colors" />
                 <span className="hidden lg:inline max-w-[110px] truncate text-gray-700 font-semibold">
                   {user?.name ? user.name.split(" ")[0].toUpperCase() : "RIDER"}
@@ -151,7 +136,6 @@ const Header = () => {
 
           {/* Core Master Dynamic Cart Drawer Trigger Link */}
           <Link to="/cart" className="p-2 text-gray-700 hover:text-primary-gold transition-colors relative" title="Shopping Cart">
-            {/* ✅ FIXED: Standardized text token configurations to gray-700 with size 24 scale */}
             <ShoppingBag size={24} className="text-gray-700 hover:text-primary-gold transition-colors" />
             {totalCartUnits > 0 && (
               <span className="absolute top-0 right-0 h-5 w-5 bg-primary-gold text-deep-black text-[10px] font-extrabold rounded-full flex items-center justify-center shadow-sm animate-bounce">

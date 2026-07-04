@@ -1,3 +1,4 @@
+// backend/middleware/errorMiddleware.js
 const errorHandler = (err, req, res, next) => {
   console.error('SERVER_ERROR_TRACE:', err.stack);
 

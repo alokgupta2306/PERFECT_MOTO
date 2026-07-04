@@ -1,3 +1,4 @@
+// backend/models/SiteSettings.js
 const mongoose = require('mongoose');
 
 const siteSettingsSchema = new mongoose.Schema({
@@ -13,18 +14,25 @@ const siteSettingsSchema = new mongoose.Schema({
   },
   logo: { type: String, trim: true },
   favicon: { type: String, trim: true },
+  address: { type: String, trim: true }, // Added missing field to support AdminContentEditor persistence
   contactEmail: { 
     type: String, 
     default: 'perfectmoto.accessories@gmail.com',
     trim: true,
     lowercase: true,
-    match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please provide a valid corporate email address']
+    validate: {
+      validator: (v) => !v || /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v),
+      message: 'Please provide a valid corporate email address'
+    }
   },
   contactPhone: { 
     type: String, 
     default: '+918356968789',
     trim: true,
-    match: [/^\+?[1-9]\d{1,14}$/, 'Please provide a valid phone number with country code']
+    validate: {
+      validator: (v) => !v || /^\+?[1-9]\d{1,14}$/.test(v),
+      message: 'Please provide a valid phone number with country code'
+    }
   },
   socialLinks: {
     instagram: { type: String, trim: true },
@@ -53,7 +61,10 @@ const siteSettingsSchema = new mongoose.Schema({
     type: String, 
     trim: true,
     uppercase: true,
-    match: [/^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$/, 'Please provide a valid Indian GSTIN number']
+    validate: {
+      validator: (v) => !v || /^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$/.test(v),
+      message: 'Please provide a valid Indian GSTIN number'
+    }
   },
   loyaltySettings: {
     pointsPerRupee: { 
@@ -100,7 +111,6 @@ const siteSettingsSchema = new mongoose.Schema({
     trim: true 
   }
 }, {
-  // Enforces data model audit consistency by keeping automatic createdAt and updatedAt fields active
   timestamps: true
 });
 

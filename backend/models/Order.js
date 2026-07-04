@@ -21,7 +21,7 @@ const statusHistorySchema = new mongoose.Schema({
 
 const orderSchema = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-  orderNumber: { type: String, required: true, unique: true },
+  orderNumber: { type: String, required: true, unique: true }, // Recharts / Postman format matching verbatim[cite: 1]
   items: [orderItemSchema],
   shippingAddress: {
     fullName: { type: String, required: true },
@@ -32,17 +32,21 @@ const orderSchema = new mongoose.Schema({
     state: { type: String, required: true },
     pincode: { type: String, required: true }
   },
-  // PATCH: Restructured to completely restrict COD and limit options to shiprocket
-  paymentMethod: { type: String, enum: ['shiprocket'], required: true },
+  paymentMethod: { type: String, enum: ['razorpay'], default: 'razorpay' },
   paymentStatus: { 
     type: String, 
     enum: ['pending', 'paid', 'failed', 'refunded'], 
     default: 'pending' 
   },
-  // PATCH: Cleaned out all Razorpay field mappings; replaced with tracking elements[cite: 3]
+  razorpayOrderId: { type: String },
+  razorpayPaymentId: { type: String },
+  razorpaySignature: { type: String },
+  
+  // Shiprocket fields for shipment tracking (post-payment logistics only)
   shiprocketOrderId: { type: String },
   shiprocketShipmentId: { type: String },
-  awbCode: { type: String }, // Air Waybill Number acting as tracking reference[cite: 3]
+  awbCode: { type: String }, // Air Waybill Number acting as tracking reference[cite: 1]
+  
   orderStatus: { 
     type: String, 
     enum: ['placed', 'confirmed', 'shipped', 'out_for_delivery', 'delivered', 'cancelled', 'return_requested', 'returned'], 
@@ -68,9 +72,9 @@ const orderSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Database indexes for fast querying and scannability
+// Database indexes for fast querying and scannability[cite: 1]
 orderSchema.index({ user: 1, createdAt: -1 });
 orderSchema.index({ orderStatus: 1, createdAt: -1 });
-orderSchema.index({ shiprocketOrderId: 1 }); // Performance optimizations lookup key[cite: 3]
-
+orderSchema.index({ shiprocketOrderId: 1 }); // Performance optimizations lookup key[cite: 1]
+ 
 module.exports = mongoose.model('Order', orderSchema);

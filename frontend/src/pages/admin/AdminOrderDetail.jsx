@@ -11,6 +11,7 @@ const AdminOrderDetail = () => {
   const [order, setOrder] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
+  const [isCreatingShipment, setIsCreatingShipment] = useState(false);
   const [successBanner, setSuccessBanner] = useState("");
 
   // Controlled Form Inputs for Database Status Updates
@@ -23,7 +24,7 @@ const AdminOrderDetail = () => {
   useEffect(() => {
     const fetchAdminOrderDetails = async () => {
       try {
-        // Enforces full administrative document data population (Section 19, Admin API Routes)
+        // Enforces full administrative document data population
         const res = await api.get(`/orders/${id}`);
         const o = res.data.order;
         
@@ -50,7 +51,7 @@ const AdminOrderDetail = () => {
     setSuccessBanner("");
 
     try {
-      // PATCH: Explicitly dispatch tracking updates + awbCode straight through to your status modifier route 
+      // Explicitly dispatch tracking updates + awbCode straight through to status modifier route 
       await api.put(`/orders/${id}/status`, {
         orderStatus: selectedStatus,
         trackingNumber,
@@ -66,6 +67,39 @@ const AdminOrderDetail = () => {
       alert(err.response?.data?.message || "Override rules rejected by database integrity filters.");
     } finally {
       setIsSaving(false);
+    }
+  };
+
+  // Triggers automated ad-hoc creation loop against backend fulfillment integrations
+  const handleCreateShipment = async () => {
+    if (order.paymentStatus !== "paid") {
+      alert("Cannot create shipment — this order has not been paid yet.");
+      return;
+    }
+
+    setIsCreatingShipment(true);
+    setSuccessBanner("");
+
+    try {
+      const res = await api.post("/shipment/create", { orderId: id });
+      if (res.data.success) {
+        setSelectedStatus("shipped");
+        setSuccessBanner("Shipment created successfully via Shiprocket. Courier tracking node compiled.");
+        
+        // Pull down freshly mirrored AWB and operational logistics IDs from server documents
+        const refreshed = await api.get(`/orders/${id}`);
+        const updatedOrder = refreshed.data.order;
+        
+        setOrder(updatedOrder);
+        setAwbCode(updatedOrder.awbCode || "");
+        setSelectedStatus(updatedOrder.orderStatus);
+        setTimeout(() => setSuccessBanner(""), 4000);
+      }
+    } catch (err) {
+      console.error("Shiprocket shipment booking pipeline failure:", err);
+      alert(err.response?.data?.message || "Failed to finalize shipment creation with Shiprocket endpoints.");
+    } finally {
+      setIsCreatingShipment(false);
     }
   };
 
@@ -144,6 +178,43 @@ const AdminOrderDetail = () => {
             </div>
           </div>
 
+          {/* Logistics Automated Fulfillment Integration Card Deck Layout */}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-deep-black/30 p-4 rounded-xl border border-border-dark/40 gap-4">
+            <div>
+              <span className="text-[10px] text-muted-gray uppercase tracking-widest block font-bold mb-1">Financial Settlement Status</span>
+              <span className={`text-[10px] font-heading font-bold uppercase tracking-wider px-2.5 py-1 rounded border border-solid ${
+                order.paymentStatus === "paid"
+                  ? "text-success-green border-success-green/30 bg-success-green/10"
+                  : "text-error-red border-error-red/30 bg-error-red/10"
+              }`}>
+                {order.paymentStatus || "pending"}
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={handleCreateShipment}
+              disabled={order.paymentStatus !== "paid" || isCreatingShipment || !!order.shiprocketShipmentId}
+              className="w-full sm:w-auto h-10 px-5 bg-primary-gold hover:bg-gold-hover text-deep-black font-heading font-bold uppercase tracking-wider text-xs rounded-lg flex items-center justify-center gap-1.5 transition-all shadow-md disabled:opacity-40 transform active:scale-95 cursor-pointer border-transparent"
+            >
+              {isCreatingShipment ? (
+                <>
+                  <Loader2 size={14} className="animate-spin" />
+                  <span>Booking Shipment...</span>
+                </>
+              ) : order.shiprocketShipmentId ? (
+                <>
+                  <CheckCircle2 size={14} className="text-deep-black" />
+                  <span>Shipment Booked</span>
+                </>
+              ) : (
+                <>
+                  <Truck size={14} />
+                  <span>Create Shiprocket Shipment</span>
+                </>
+              )}
+            </button>
+          </div>
+
           {/* Secure Picking Checklist Layout */}
           {order.items && order.items.length > 0 && (
             <div className="space-y-2 uppercase font-heading">
@@ -164,8 +235,8 @@ const AdminOrderDetail = () => {
             </div>
           )}
 
-          {/* PATCH: Quad-split grid form wrapping live Shiprocket AWB logistics telemetry inputs */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 border-t border-border-dark/30 pt-4 uppercase font-heading">
+          {/* Quad-split grid form wrapping live Shiprocket AWB logistics telemetry inputs */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 border-t border-t-border-dark/30 pt-4 uppercase font-heading">
             <div>
               <label className="block text-[11px] font-semibold tracking-wider text-muted-gray mb-1.5 flex items-center gap-1">
                 <Truck size={12} className="text-primary-gold" />

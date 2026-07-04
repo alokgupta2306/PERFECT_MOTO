@@ -79,7 +79,7 @@ exports.createOrder = async (req, res, next) => {
       orderNumber,
       items: validatedItems,
       shippingAddress,
-      paymentMethod, // Inherits hardcoded prepaid 'shiprocket' parameter mapping
+      paymentMethod, // Razorpay prepaid checkout
       paymentStatus: 'pending',
       orderStatus: 'placed',
       itemsTotal,
@@ -128,7 +128,7 @@ exports.getMyOrders = async (req, res, next) => {
 // @access  Auth
 exports.getOrderById = async (req, res, next) => {
   try {
-    const order = await Order.findById(req.params.id);
+    const order = await Order.findById(req.params.id).populate('user', 'name email phone');
     if (!order) {
       return res.status(404).json({ success: false, message: 'Order not found.' });
     }
@@ -254,7 +254,7 @@ exports.updateOrderStatus = async (req, res, next) => {
       return res.status(404).json({ success: false, message: 'Order not found.' });
     }
 
-    // 🔥 FIX: Normalize status casing string to prevent structural matching bypasses
+    // Normalize status casing string to prevent structural matching bypasses
     const normalizedStatus = orderStatus ? orderStatus.trim().toLowerCase() : order.orderStatus;
     order.orderStatus = normalizedStatus;
 
@@ -269,15 +269,9 @@ exports.updateOrderStatus = async (req, res, next) => {
 
     await order.save();
 
-    // 🔥 CORE DISPATCH PIPELINE: Handles case-insensitive matches cleanly
+    // Handles custom administrative delivered/cancelled emails safely inline
     try {
-      if (normalizedStatus === 'confirmed') {
-        console.log(`[SMTP Trigger] Deserializing template parameters for confirmation mail to: ${order.user?.email}`);
-        await sendOrderConfirmedEmail(order);
-      } else if (normalizedStatus === 'shipped') {
-        console.log(`[SMTP Trigger] Deserializing template parameters for shipment mail to: ${order.user?.email}`);
-        await sendOrderShippedEmail(order);
-      } else if (normalizedStatus === 'delivered') {
+      if (normalizedStatus === 'delivered') {
         console.log(`[SMTP Trigger] Deserializing template parameters for delivery mail to: ${order.user?.email}`);
         await sendOrderDeliveredEmail(order);
       } else if (normalizedStatus === 'cancelled') {

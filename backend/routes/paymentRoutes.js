@@ -1,14 +1,17 @@
 // backend/routes/paymentRoutes.js
 const express = require('express');
-const { createShiprocketOrder, shiprocketWebhook } = require('../controllers/paymentController');
+const { createRazorpayOrder, verifyPayment, razorpayWebhook } = require('../controllers/paymentController');
 const { verifyToken } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
-// @route   POST /api/payment/create-order -> Authenticated user initiates checkout link mapping
-router.post('/create-order', verifyToken, createShiprocketOrder);
+// @route   POST /api/payment/create-order -> Authenticated user creates Razorpay order
+router.post('/create-order', verifyToken, createRazorpayOrder);
 
-// @route   POST /api/payment/webhook -> Public logistics background automation webhooks entry point
-router.post('/webhook', shiprocketWebhook); 
+// @route   POST /api/payment/verify -> Authenticated user verifies payment signature
+router.post('/verify', verifyToken, verifyPayment);
+
+// @route   POST /api/payment/webhook -> Public, Razorpay server-to-server webhook
+router.post('/webhook', razorpayWebhook);
 
 module.exports = router;

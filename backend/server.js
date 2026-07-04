@@ -1,4 +1,3 @@
-// backend/server.js
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -14,8 +13,9 @@ const authRoutes = require('./routes/authRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const productRoutes = require('./routes/productRoutes');
 const orderRoutes = require('./routes/orderRoutes');
-// PATCH: Updated comments profile to reflect our transition away from old legacy handlers
-const paymentRoutes = require('./routes/paymentRoutes'); // Handles transactions via Shiprocket configurations
+const serviceAppointmentRoutes = require('./routes/serviceAppointmentRoutes');
+const paymentRoutes = require('./routes/paymentRoutes'); // Handles transactions via Razorpay
+const shipmentRoutes = require('./routes/shipmentRoutes');
 const bikeRoutes = require('./routes/bikeRoutes');
 const couponRoutes = require('./routes/couponRoutes');
 const bundleRoutes = require('./routes/bundleRoutes');
@@ -56,8 +56,13 @@ app.use(cors({
   credentials: true
 }));
 
-// Payload parsing constraints configuration
-app.use(express.json({ limit: '10mb' }));
+// Payload parsing constraints capturing raw buffers to prevent signature verification faults
+app.use(express.json({
+  limit: '10mb',
+  verify: (req, res, buf) => {
+    req.rawBody = buf;
+  }
+}));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Initialize Passport middleware
@@ -117,7 +122,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/orders', orderRoutes);
+app.use('/api/service-appointments', serviceAppointmentRoutes);
 app.use('/api/payment', paymentRoutes); 
+app.use('/api/shipment', shipmentRoutes);
 app.use('/api/bikes', bikeRoutes);
 app.use('/api/coupons', couponRoutes);
 app.use('/api/bundles', bundleRoutes);

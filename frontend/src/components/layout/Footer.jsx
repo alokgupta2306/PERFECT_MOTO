@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-2">
             <Phone size={14} className="text-gold-dark" />
-            <a href="tel:+918356968789" className="hover:text-gold-dark transition-colors select-all">+91 8356968789</a>
+            <a href="tel:+918356968789" className="hover:text-gold-dark transition-colors select-all">+91 9326604100</a>
           </div>
           <div className="flex items-center gap-2 mt-2 border-t border-gray-400/40 pt-2">
             <ShieldCheck size={16} className="text-success-green" />

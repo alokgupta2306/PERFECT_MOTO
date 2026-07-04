@@ -131,11 +131,11 @@ const OrderConfirmationPage = () => {
 
       <div className="p-4 bg-card-dark border border-border-dark rounded-lg text-left mb-8 uppercase font-heading">
         <h4 className="text-xs font-bold text-primary-gold tracking-wider flex items-center gap-1.5">
-          <span>⚡ Live Order Update Notification</span>
-        </h4>
-        <p className="text-[11px] text-muted-gray mt-1 leading-relaxed normal-case font-body">
-          An automated transactional invoice breakdown and automated confirmation route tracking token has been transmitted to your mobile (+91 {order?.shippingAddress?.phone}) via WhatsApp notifications.
-        </p>
+  <span>⚡ Order Confirmation Sent</span>
+</h4>
+<p className="text-[11px] text-muted-gray mt-1 leading-relaxed normal-case font-body">
+  An automated order confirmation with your invoice breakdown has been sent to your email ({order?.user?.email || "your registered email"}).
+</p>
       </div>
 
       {/* Navigation Redirect Utilities */}

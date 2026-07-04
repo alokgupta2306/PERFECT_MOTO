@@ -1,11 +1,13 @@
+// frontend/src/pages/admin/AdminCategories.jsx
 import React, { useState, useEffect } from "react";
-import { FolderPlus, Trash2, Edit3, Save, Layers, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { FolderPlus, Trash2, Edit3, Save, Layers, CheckCircle2, AlertCircle, Loader2, Upload } from "lucide-react";
 import api from "../../utils/api";
 
 const AdminCategories = () => {
   const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isUploadingImage, setIsUploadingImage] = useState(false);
   const [feedback, setFeedback] = useState({ success: "", error: "" });
   
   const [formData, setFormData] = useState({ name: "", slug: "", image: "", sortOrder: 1 });
@@ -33,6 +35,36 @@ const AdminCategories = () => {
       .replace(/[^a-z0-9\s-]/g, "")
       .replace(/\s+/g, "-");
     setFormData(prev => ({ ...prev, name: nameVal, slug: computedSlug }));
+  };
+
+  // Binary stream upload handler mapping files seamlessly onto Cloudinary infrastructure
+  const handleImageFileUpload = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setIsUploadingImage(true);
+    setFeedback({ success: "", error: "" });
+
+    try {
+      const uploadData = new FormData();
+      uploadData.append("image", file);
+
+      const res = await api.post("/upload", uploadData, {
+        headers: { "Content-Type": "multipart/form-data" }
+      });
+
+      const uploadedUrl = res.data?.url || res.data?.imageUrl || res.data?.image?.url;
+      if (uploadedUrl) {
+        setFormData(prev => ({ ...prev, image: uploadedUrl }));
+        setFeedback({ success: "Image uploaded successfully.", error: "" });
+      } else {
+        throw new Error("Upload succeeded but no URL was returned.");
+      }
+    } catch (err) {
+      setFeedback({ success: "", error: err.response?.data?.message || "Image upload failed." });
+    } finally {
+      setIsUploadingImage(false);
+    }
   };
 
   const handleFormSubmit = async (e) => {
@@ -143,15 +175,51 @@ const AdminCategories = () => {
               />
             </div>
 
+            {/* Enhanced Image URL Input and Binary Media Drop Deck */}
             <div>
-              <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Resource Image URL</label>
+              <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">Category Image</label>
               <input
                 type="text"
                 value={formData.image}
                 onChange={(e) => setFormData({ ...formData, image: e.target.value })}
-                placeholder="https://res.cloudinary.com/..."
+                placeholder="Paste image URL — https://res.cloudinary.com/..."
                 className="w-full h-10 px-4 bg-deep-black text-pure-white border border-border-dark rounded-lg text-xs font-mono focus:outline-none focus:border-primary-gold"
               />
+
+              <div className="flex items-center gap-2 my-2">
+                <div className="flex-1 h-px bg-border-dark" />
+                <span className="text-[10px] text-muted-gray font-heading font-bold uppercase tracking-wider">Or</span>
+                <div className="flex-1 h-px bg-border-dark" />
+              </div>
+
+              <label className="w-full h-10 px-4 bg-deep-black border border-border-dark hover:border-primary-gold rounded-lg text-xs font-heading font-bold uppercase tracking-wider text-muted-gray hover:text-primary-gold flex items-center justify-center gap-2 cursor-pointer transition-all">
+                {isUploadingImage ? (
+                  <>
+                    <Loader2 size={13} className="animate-spin" />
+                    <span>Uploading...</span>
+                  </>
+                ) : (
+                  <>
+                    <Upload size={13} />
+                    <span>Upload from Device</span>
+                  </>
+                )}
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handleImageFileUpload}
+                  disabled={isUploadingImage}
+                  className="hidden"
+                />
+              </label>
+
+              {formData.image && (
+                <img
+                  src={formData.image}
+                  alt="Category preview"
+                  className="w-full h-24 object-cover rounded-lg border border-border-dark mt-2 bg-deep-black"
+                />
+              )}
             </div>
 
             <div>
@@ -169,7 +237,7 @@ const AdminCategories = () => {
             <div className="pt-2">
               <button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isSubmitting || isUploadingImage}
                 className="w-full h-10 bg-primary-gold hover:bg-gold-hover disabled:bg-primary-gold/40 text-deep-black font-heading font-bold uppercase tracking-wider rounded-lg transition-all text-xs flex items-center justify-center gap-1.5"
               >
                 {isSubmitting ? <Loader2 size={13} className="animate-spin" /> : <FolderPlus size={13} />}
