@@ -13,7 +13,23 @@ exports.getProducts = async (req, res, next) => {
       queryPayload.name = { $regex: search, $options: 'i' };
     }
 
-    if (category) queryPayload.category = category;
+    if (category) {
+  const Category = require('../models/Category');
+  const categoryDoc = await Category.findOne({ slug: category });
+  if (categoryDoc) {
+    queryPayload.category = categoryDoc._id;
+  } else {
+    // No matching category — return empty results instead of crashing
+    return res.status(200).json({
+      success: true,
+      count: 0,
+      total: 0,
+      currentPage: Number(page),
+      totalPages: 0,
+      products: []
+    });
+  }
+}
     if (brand) queryPayload.brand = brand;
 
     if (minPrice || maxPrice) {
