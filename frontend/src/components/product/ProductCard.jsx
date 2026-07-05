@@ -59,9 +59,9 @@ const ProductCard = ({ product, fitmentStatus }) => {
       
       {/* Dynamic Main Thumbnail Box Click Trigger */}
       <div 
-        className="relative cursor-pointer overflow-hidden bg-deep-black h-40 flex items-center justify-center border-b border-border-dark/30 rounded-t-xl" 
-        onClick={() => navigate(`/product/${product?.slug || productId}`)}
-      >
+  className="relative cursor-pointer overflow-hidden bg-deep-black aspect-[3/4] flex items-center justify-center border-b border-border-dark/30 rounded-t-xl" 
+  onClick={() => navigate(`/product/${product?.slug || productId}`)}
+>
         <img 
           src={productThumbnailImage} 
           alt={productName} 

@@ -7,7 +7,7 @@ import ProductCard from "../product/ProductCard";
 const FeaturedProducts = () => {
   const navigate = useNavigate();
 
-  // FIXED (Issue 1): Replaced hardcoded mockup array with live reactive backend hook states
+  // Replaced hardcoded mockup array with live reactive backend hook states
   const [featuredCluster, setFeaturedCluster] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -34,7 +34,7 @@ const FeaturedProducts = () => {
         <h3 className="font-heading font-bold text-pure-white uppercase tracking-wider text-xs">
           Featured Products
         </h3>
-        {/* FIXED (Issue 3): Attached dynamic programmatic navigation router tunnel straight to the CTA label */}
+        {/* Attached dynamic programmatic navigation router tunnel straight to the CTA label */}
         <span 
           onClick={() => navigate("/shop?isFeatured=true")}
           className="text-[10px] text-primary-gold font-heading font-bold uppercase tracking-widest cursor-pointer hover:underline transition-all hover:text-gold-hover"
@@ -43,7 +43,7 @@ const FeaturedProducts = () => {
         </span>
       </div>
 
-      {/* FIXED (Issue 4): Added informative themed skeleton placeholder boundaries to optimize latency feel */}
+      {/* Added informative themed skeleton placeholder boundaries to optimize latency feel */}
       {loading && (
         <div className="w-full py-12 flex flex-col items-center justify-center text-center">
           <Loader2 size={24} className="text-primary-gold animate-spin mb-2" />
@@ -53,7 +53,7 @@ const FeaturedProducts = () => {
         </div>
       )}
 
-      {/* FIXED (Issue 4): Empty state placeholder template rendered if zero items match queries */}
+      {/* Empty state placeholder template rendered if zero items match queries */}
       {!loading && featuredCluster.length === 0 && (
         <div className="w-full p-8 border border-dashed border-border-dark rounded-xl text-center bg-card-dark/10">
           <AlertCircle size={28} className="text-muted-gray mx-auto mb-2" />
@@ -61,16 +61,19 @@ const FeaturedProducts = () => {
         </div>
       )}
 
-      {/* Primary Products Inventory Grid Canvas Layout */}
+      {/* Horizontal Scroll-Snap Carousel Layout Deck */}
       {!loading && featuredCluster.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* FIXED (Issue 2): Normalizes key mapping metrics to parse genuine Mongoose array properties */}
+        <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-none scroll-smooth -mx-4 px-4 sm:mx-0 sm:px-0">
           {featuredCluster.map((product) => (
-            <ProductCard 
+            <div 
               key={product._id} 
-              product={product} 
-              fitmentStatus="neutral" 
-            />
+              className="shrink-0 snap-start w-[62%] xs:w-[48%] sm:w-[40%] md:w-[30%] lg:w-[23%]"
+            >
+              <ProductCard 
+                product={product} 
+                fitmentStatus="neutral" 
+              />
+            </div>
           ))}
         </div>
       )}

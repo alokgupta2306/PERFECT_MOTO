@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { PackageOpen, Sparkles, ShoppingCart, Loader2 } from "lucide-react";
 import api from "../../utils/api";
-// FIXED (Issue 2): Standardized cart hook import location matching your project file layouts
 import useCart from "../../hooks/useCart";
 
 const BundleDeals = () => {
-  // FIXED (Issue 2): Extracted the correct cart mutation context method
   const { addItemToCart } = useCart();
 
-  // FIXED (Issue 1): Initializing state vectors to replace hardcoded datasets with live endpoints
   const [bundles, setBundles] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -27,7 +24,6 @@ const BundleDeals = () => {
     fetchPromotionalBundles();
   }, []);
 
-  // FIXED (Issue 3): Loop iteration redesigned to map correct schema field criteria dynamically
   const handleBundleCommit = (bundle) => {
     if (!bundle?.products || bundle.products.length === 0) return;
 
@@ -35,10 +31,8 @@ const BundleDeals = () => {
       const productObj = item.product;
       if (!productObj) return;
 
-      // Extract Cloudinary optimization asset frame falls or first main catalog visual
       const mainImage = productObj.images?.find((img) => img.isMain)?.url || productObj.images?.[0]?.url || "/placeholder.jpg";
 
-      // Structure data properties perfectly matching expected CartContext item mapping inputs
       const normalizedCartItem = {
         _id: productObj._id,
         name: productObj.name,
@@ -47,12 +41,10 @@ const BundleDeals = () => {
         image: mainImage
       };
 
-      // Push individual components iteratively into user kit queues with default quantity 1
       addItemToCart(normalizedCartItem, 1);
     });
   };
 
-  // FIXED (Issue 4): Safely block empty views while loading backgrounds execute asynchronously
   if (loading) {
     return (
       <div className="w-full py-8 flex flex-col items-center justify-center text-center">
@@ -66,26 +58,24 @@ const BundleDeals = () => {
 
   if (bundles.length === 0) return null;
 
-  // FIXED (Issue 4): Refactored full layout view template to render all dynamic database bundles cleanly
   return (
     <div className="w-full space-y-4 select-none animate-fade-in">
       <div className="border-b border-border-dark pb-2">
         <h3 className="font-heading font-bold text-pure-white uppercase tracking-wider text-xs">
-          Bundle Deals —<span className="text-primary-gold">Save More</span>
+          Bundle Deals — <span className="text-primary-gold">Save More</span>
         </h3>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+      {/* Horizontal Scroll-Snap Row Layout Deck */}
+      <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-none scroll-smooth -mx-4 px-4 sm:mx-0 sm:px-0">
         {bundles.map((bundle) => {
           const bundleId = bundle._id;
           const bundleName = bundle.name;
           const promotionalPrice = bundle.bundlePrice || 0;
           
-          // Compute net cash savings value delta rule securely
           const netSavingsDelta = bundle.savings || ((bundle.originalTotal || 0) - promotionalPrice);
           const savingsDisplayLabel = netSavingsDelta > 0 ? `Save ₹${netSavingsDelta}` : "Promo Surcharge Match";
 
-          // Generate dynamic collection string to list bundled components text cleanly inline
           const compositionListText = bundle.products
             ?.map((p) => p.product?.name)
             .filter(Boolean)
@@ -94,7 +84,7 @@ const BundleDeals = () => {
           return (
             <div 
               key={bundleId} 
-              className="w-full bg-gradient-to-br from-card-dark via-deep-black to-card-dark border border-border-dark rounded-xl p-5 relative overflow-hidden flex flex-col justify-between group hover:border-primary-gold hover:shadow-gold-glow transition-all duration-300 min-h-[180px]"
+              className="shrink-0 snap-start w-[85%] sm:w-[70%] md:w-[55%] lg:w-[45%] bg-gradient-to-br from-card-dark via-deep-black to-card-dark border border-border-dark rounded-xl p-5 relative overflow-hidden flex flex-col justify-between group hover:border-primary-gold hover:shadow-gold-glow transition-all duration-300 min-h-[180px]"
             >
               {/* Absolute Floating Combined Savings Badge */}
               <div className="absolute top-0 right-0 bg-primary-gold text-deep-black font-heading font-extrabold text-[9px] px-3 py-1 uppercase tracking-widest rounded-bl-lg shadow flex items-center gap-1 z-10">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// FIXED: Removed broken Instagram brand icon from Lucide import
 import { Camera, Heart, Loader2, AlertCircle } from "lucide-react";
 import api from "../../utils/api";
 
@@ -58,19 +57,19 @@ const CustomerPhotos = () => {
           <Camera size={18} className="text-muted-gray/40" />
         </div>
 
-        {/* Gallery Grid */}
+        {/* Gallery Scroll-Snap Carousel Layout Row */}
         {photos.length === 0 ? (
           <div className="border border-dashed border-border-dark rounded-xl p-8 text-center text-muted-gray/60 bg-card-dark/10">
             No customer lookbook photos verified yet. Be the first to upload yours!
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 animate-fade-in">
+          <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-none scroll-smooth -mx-4 px-4 sm:mx-0 sm:px-0 animate-fade-in">
             {photos.map((review, index) => {
               const displayImage = review.images?.[0]?.url || "/placeholder.jpg";
               return (
                 <div 
                   key={review._id || index} 
-                  className="bg-card-dark border border-border-dark/60 rounded-xl overflow-hidden group hover:border-primary-gold/40 transition-all duration-300 shadow-sm relative aspect-square"
+                  className="shrink-0 snap-start w-[45%] sm:w-[30%] md:w-[23%] bg-card-dark border border-border-dark/60 rounded-xl overflow-hidden group hover:border-primary-gold/40 transition-all duration-300 shadow-sm relative aspect-square"
                 >
                   <img 
                     src={displayImage} 
@@ -92,7 +91,6 @@ const CustomerPhotos = () => {
                       </p>
                     </div>
 
-                    {/* FIXED: Replaced lucide brand icon with a native inline vector SVG element */}
                     <div className="w-full flex items-center justify-between border-t border-border-dark/40 pt-2 text-muted-gray/60 text-[9px] font-mono">
                       <div className="flex items-center gap-1 text-error-red">
                         <Heart size={10} fill="currentColor" />
