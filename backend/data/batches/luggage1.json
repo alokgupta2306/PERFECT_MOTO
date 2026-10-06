@@ -1,0 +1,854 @@
+[
+{
+"name": "Rynox Navigator Trail Tail Bag 40L",
+"slug": "rynox-navigator-trail-tail-bag-40l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "A rugged 40-liter tail bag engineered for long-distance motorcycle touring. Features 100% waterproof roll-top construction, heavy-duty mounting straps, and a modular design for easy loading.",
+"features": [
+"40 Liters total storage capacity",
+"100% waterproof roll-top drybag main compartment",
+"Heavy-duty quick-release mounting straps",
+"Ergonomic shoulder strap for off-bike carry",
+"Reflective branding for nighttime safety"
+],
+"specifications": [
+{"key": "Capacity", "value": "40 Liters"},
+{"key": "Material", "value": "1000D Polyester & TPU"},
+{"key": "Waterproof", "value": "Yes, Roll-Top Drybag"},
+{"key": "Mounting", "value": "Universal 4-Point Straps"},
+{"key": "Dimensions", "value": "50cm x 30cm x 28cm"}
+],
+"whatsInBox": [
+"1x Rynox Navigator Tail Bag",
+"1x Waterproof Inner Liner",
+"4x Mount Straps",
+"1x Shoulder Strap"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Navigator+Tail+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BNavigator%2BTail%2BBag)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4799,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Navigator Trail Tail Bag 40L",
+"metaDescription": "Rynox Navigator Trail 40L waterproof motorcycle tail bag. Rugged storage for long tours."
+},
+{
+"name": "Viaterra Claw Mini Tail Bag 32L",
+"slug": "viaterra-claw-mini-tail-bag-32l",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "Compact and sturdy 32-liter tail bag designed for weekend getaways and daily motorcycle commuting. Features multiple compartments and heavy-duty FRP frame support.",
+"features": [
+"32 Liters optimized storage space",
+"FRP internal frame for structural rigidity",
+"Includes 100% waterproof rain cover",
+"Quick mounting system with secure anchor straps",
+"Easy access external pockets"
+],
+"specifications": [
+{"key": "Capacity", "value": "32 Liters"},
+{"key": "Material", "value": "1680D Polyester"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Mounting", "value": "Universal Strap Kit"},
+{"key": "Dimensions", "value": "45cm x 28cm x 25cm"}
+],
+"whatsInBox": [
+"1x Viaterra Claw Mini Bag",
+"1x Waterproof Rain Cover",
+"1x Strap Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+Claw+Mini](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BClaw%2BMini)",
+"isMain": true
+}
+],
+"price": 4299,
+"salePrice": 3699,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Viaterra Claw Mini Tail Bag 32L",
+"metaDescription": "Viaterra Claw Mini 32L motorcycle tail bag with frame support and waterproof rain cover."
+},
+{
+"name": "Guardian Gears Expedition Saddlebags 48L",
+"slug": "guardian-gears-expedition-saddlebags-48l",
+"brand": "Guardian Gears",
+"category": "luggage",
+"subcategory": "Saddlebags",
+"description": "Heavy-duty 48-liter saddlebags built for cross-country motorcycle touring. Constructed from high-density fabric with heat-resistant base panels and waterproof inner liners.",
+"features": [
+"48 Liters combined bag capacity",
+"Heat-resistant base material prevents exhaust burns",
+"Waterproof inner dry bags included",
+"Robust compression straps for tight load stability",
+"Wide Velcro bridge for secure seat mounting"
+],
+"specifications": [
+{"key": "Capacity", "value": "48 Liters (24L each side)"},
+{"key": "Material", "value": "1200D PU Coated Polyester"},
+{"key": "Waterproof", "value": "Inner Dry Bags Included"},
+{"key": "Mounting", "value": "Over-the-Seat Harness"},
+{"key": "Dimensions", "value": "40cm x 25cm x 20cm per bag"}
+],
+"whatsInBox": [
+"1x Pair of Saddlebags",
+"2x Waterproof Inner Dry Bags",
+"1x Mounting Harness"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Guardian+Expedition+Saddlebags](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGuardian%2BExpedition%2BSaddlebags)",
+"isMain": true
+}
+],
+"price": 6499,
+"salePrice": 5499,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Guardian Gears Expedition Saddlebags 48L",
+"metaDescription": "Guardian Gears Expedition 48L motorcycle saddlebags with inner dry bags and heat protection."
+},
+{
+"name": "Rynox Magnet Tank Bag 15L",
+"slug": "rynox-magnet-tank-bag-15l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Tank Bag",
+"description": "Versatile magnetic tank bag designed for metal fuel tanks. Features a transparent map/phone pocket, expandable main compartment, and heavy-duty neodymium magnets.",
+"features": [
+"15 Liters total expandable capacity",
+"Powerful neodymium magnets for secure metal tank grip",
+"Transparent touch-friendly smartphone pocket",
+"Includes 100% waterproof rain cover",
+"Converts easily into a backpack for off-bike carry"
+],
+"specifications": [
+{"key": "Capacity", "value": "15 Liters Expandable"},
+{"key": "Material", "value": "1680D Polyester"},
+{"key": "Mounting", "value": "Magnetic Base & Safety Strap"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Device Pocket", "value": "Transparent Mobile Pouch"}
+],
+"whatsInBox": [
+"1x Rynox Magnet Tank Bag",
+"1x Waterproof Rain Cover",
+"1x Safety Steering Strap",
+"1x Backpack Straps"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Magnet+Tank+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BMagnet%2BTank%2BBag)",
+"isMain": true
+}
+],
+"price": 3799,
+"salePrice": 3199,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Magnet Tank Bag 15L",
+"metaDescription": "Rynox 15L magnetic motorcycle tank bag with phone pocket and rain cover."
+},
+{
+"name": "Viaterra Fly Tank Bag Magnetic 13L",
+"slug": "viaterra-fly-tank-bag-magnetic-13l",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Tank Bag",
+"description": "Streamlined 13-liter magnetic tank bag designed to sit comfortably on commuter and touring motorcycles without obstructing handlebars.",
+"features": [
+"13 Liters streamlined storage volume",
+"Strong base magnets with scratch-resistant fabric lining",
+"Clear top map and mobile phone pocket",
+"Integrated rain cover stored in dedicated pocket",
+"YKK genuine zippers and pullers"
+],
+"specifications": [
+{"key": "Capacity", "value": "13 Liters"},
+{"key": "Material", "value": "PU Coated 1200D Fabric"},
+{"key": "Mounting", "value": "Magnetic Flaps & Safety Strap"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Dimensions", "value": "35cm x 24cm x 18cm"}
+],
+"whatsInBox": [
+"1x Viaterra Fly Tank Bag",
+"1x Rain Cover",
+"1x Safety Strap"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+Fly+Tank+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BFly%2BTank%2BBag)",
+"isMain": true
+}
+],
+"price": 3499,
+"salePrice": 2999,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Viaterra Fly Tank Bag Magnetic 13L",
+"metaDescription": "Viaterra Fly 13L magnetic motorcycle tank bag with clear map pocket and rain cover."
+},
+{
+"name": "Rynox Adventurer Touring Backpack 35L",
+"slug": "rynox-adventurer-touring-backpack-35l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Backpack",
+"description": "Ergonomic 35-liter riding backpack engineered to distribute weight evenly across the shoulders and back. Features laptop sleeve, helmet holder flap, and built-in rain cover.",
+"features": [
+"35 Liters spacious multi-compartment storage",
+"Dedicated padded laptop compartment up to 15 inches",
+"External stowable helmet carry mesh flap",
+"Breathable air-mesh padded back panel",
+"High-visibility rain cover included in base pocket"
+],
+"specifications": [
+{"key": "Capacity", "value": "35 Liters"},
+{"key": "Material", "value": "1000D Polyester Fabric"},
+{"key": "Laptop", "value": "Fits up to 15 inch laptop"},
+{"key": "Waterproof", "value": "Rain Cover in Base"},
+{"key": "Ergonomics", "value": "Padded Shoulder & Waist Strap"}
+],
+"whatsInBox": [
+"1x Rynox Adventurer Backpack",
+"1x Integrated Rain Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Adventurer+Backpack](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BAdventurer%2BBackpack)",
+"isMain": true
+}
+],
+"price": 3999,
+"salePrice": 3399,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Adventurer Touring Backpack 35L",
+"metaDescription": "Rynox Adventurer 35L motorcycle riding backpack with laptop sleeve and helmet holder."
+},
+{
+"name": "Dirt Legal Heavy Duty Panniers Set 60L",
+"slug": "dirt-legal-heavy-duty-panniers-set-60l",
+"brand": "Dirt Legal",
+"category": "luggage",
+"subcategory": "Panniers",
+"description": "Hard-wearing adventure panniers designed for mounting on motorcycle luggage racks. Built from robust aluminum composite with waterproof rubber seals.",
+"features": [
+"60 Liters total storage across twin boxes",
+"Robust aluminum composite shell construction",
+"Waterproof and dustproof rubber lid gaskets",
+"Secure stainless steel locking latches",
+"Tie-down loops on lids for extra gear stacking"
+],
+"specifications": [
+{"key": "Capacity", "value": "60 Liters (30L each box)"},
+{"key": "Material", "value": "Aluminum Alloy & Polymer Corners"},
+{"key": "Mounting", "value": "Rack Mount System"},
+{"key": "Lock", "value": "Stainless Steel Key Locks"},
+{"key": "Weight", "value": "11 kg total pair"}
+],
+"whatsInBox": [
+"2x Aluminum Pannier Boxes",
+"2x Mounting Hardware Kits",
+"4x Keys"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Dirt+Legal+Panniers+60L](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DDirt%2BLegal%2BPanniers%2B60L)",
+"isMain": true
+}
+],
+"price": 22999,
+"salePrice": 19999,
+"gstPercent": 18,
+"stock": 8,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Dirt Legal Heavy Duty Panniers Set 60L",
+"metaDescription": "Dirt Legal 60L aluminum motorcycle pannier boxes with secure locks and waterproof seals."
+},
+{
+"name": "Guardian Gears Commuter Tail Bag 25L",
+"slug": "guardian-gears-commuter-tail-bag-25l",
+"brand": "Guardian Gears",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "Compact 25-liter tail bag tailored for daily office commutes and short weekend rides. Fits easily on pillion seats of sports bikes and commuters.",
+"features": [
+"25 Liters compact daily storage",
+"Durable water-repellent exterior fabric",
+"Includes waterproof rain cover",
+"Quick-release universal strap mounting",
+"Reflective strips for enhanced night safety"
+],
+"specifications": [
+{"key": "Capacity", "value": "25 Liters"},
+{"key": "Material", "value": "600D PU Polyester"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Mounting", "value": "Universal Strap Kit"},
+{"key": "Dimensions", "value": "38cm x 25cm x 20cm"}
+],
+"whatsInBox": [
+"1x Commuter Tail Bag",
+"1x Rain Cover",
+"1x Strap Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Guardian+Commuter+Tail+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGuardian%2BCommuter%2BTail%2BBag)",
+"isMain": true
+}
+],
+"price": 2799,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 60,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Guardian Gears Commuter Tail Bag 25L",
+"metaDescription": "Guardian Gears Commuter 25L motorcycle tail bag with rain cover and compact design."
+},
+{
+"name": "Viaterra Pod 12 Waterproof Drybag Tail Bag",
+"slug": "viaterra-pod-12-waterproof-drybag-tail-bag",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "100% waterproof 12-liter drybag tail bag designed for minimalist packers and off-road trail riders. Can be mounted solo or stacked on top of larger panniers.",
+"features": [
+"12 Liters 100% waterproof drybag construction",
+"Roll-top closure with secure buckle seal",
+"Heavy duty tie-down loops for versatile mounting",
+"High frequency welded seams prevent water ingress",
+"Compact footprint fits any motorcycle tail"
+],
+"specifications": [
+{"key": "Capacity", "value": "12 Liters"},
+{"key": "Material", "value": "Heavy Duty Tarpaulin & TPU"},
+{"key": "Waterproof", "value": "100% Waterproof Welded Seams"},
+{"key": "Mounting", "value": "Integrated Tie-Down Loops"},
+{"key": "Dimensions", "value": "32cm x 20cm x 20cm"}
+],
+"whatsInBox": [
+"1x Viaterra Pod 12 Drybag",
+"2x Mounting Straps"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+Pod+12+Drybag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BPod%2B12%2BDrybag)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 2099,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Viaterra Pod 12 Waterproof Drybag Tail Bag",
+"metaDescription": "Viaterra Pod 12 100% waterproof motorcycle drybag tail bag for minimalist touring."
+},
+{
+"name": "Rynox Nomad Saddlebags 64L",
+"slug": "rynox-nomad-saddlebags-64l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Saddlebags",
+"description": "Massive 64-liter capacity saddlebags designed for long-haul expedition touring. Features internal waterproof dry bags, expansion gussets, and sturdy mounting harnesses.",
+"features": [
+"64 Liters combined massive storage space",
+"Independent 100% waterproof dry bag liners",
+"Expandable zippered gussets on main compartment",
+"Heat resistant bottom panels to protect against exhausts",
+"Ergonomic carry handles for off-bike transport"
+],
+"specifications": [
+{"key": "Capacity", "value": "64 Liters (32L each side)"},
+{"key": "Material", "value": "1680D Polyester & Tarpaulin"},
+{"key": "Waterproof", "value": "Inner Dry Bag Liners"},
+{"key": "Mounting", "value": "Over-the-Seat Harness & Straps"},
+{"key": "Dimensions", "value": "45cm x 30cm x 24cm per bag"}
+],
+"whatsInBox": [
+"1x Pair of Nomad Saddlebags",
+"2x Waterproof Dry Bag Liners",
+"1x Mounting Harness Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Nomad+Saddlebags](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BNomad%2BSaddlebags)",
+"isMain": true
+}
+],
+"price": 7999,
+"salePrice": 6899,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Nomad Saddlebags 64L",
+"metaDescription": "Rynox Nomad 64L motorcycle saddlebags with waterproof dry bag liners for expedition touring."
+},
+{
+"name": "Viaterra HoleCheck Saddlebags 54L",
+"slug": "viaterra-holecheck-saddlebags-54l",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Saddlebags",
+"description": "Touring saddlebags engineered with fiber-reinforced backing plates to eliminate sagging over rear tyre and luggage stays. Offers 54 liters of organized packing space.",
+"features": [
+"54 Liters total heavy-duty storage",
+"FRP backbone plates prevent bag sagging",
+"Includes 100% waterproof roll-top inner liners",
+"Easy access bottle holder pockets on exterior",
+"Secure 3-point mounting harness system"
+],
+"specifications": [
+{"key": "Capacity", "value": "54 Liters (27L each side)"},
+{"key": "Material", "value": "1200D PU Coated Fabric"},
+{"key": "Waterproof", "value": "Roll-Top Inner Dry Bags"},
+{"key": "Mounting", "value": "Harness & Compression Straps"},
+{"key": "Dimensions", "value": "42cm x 28cm x 22cm per bag"}
+],
+"whatsInBox": [
+"1x Pair of Saddlebags",
+"2x Roll-Top Dry Liners",
+"1x Harness Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+HoleCheck+Saddlebags](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BHoleCheck%2BSaddlebags)",
+"isMain": true
+}
+],
+"price": 7299,
+"salePrice": 6199,
+"gstPercent": 18,
+"stock": 22,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Viaterra HoleCheck Saddlebags 54L",
+"metaDescription": "Viaterra HoleCheck 54L motorcycle saddlebags with backbone plates and dry liners."
+},
+{
+"name": "Guardian Gears Trail Tank Bag 10L",
+"slug": "guardian-gears-trail-tank-bag-10l",
+"brand": "Guardian Gears",
+"category": "luggage",
+"subcategory": "Tank Bag",
+"description": "Compact 10-liter tank bag designed for short rides and dual-sport motorcycles with narrow fuel tanks. Features magnetic mounting and clear mobile phone pouch.",
+"features": [
+"10 Liters compact tank storage",
+"Secure magnetic base flaps with safety strap",
+"Transparent touch-screen mobile pocket",
+"Includes waterproof rain cover",
+"Durable water-repellent exterior fabric"
+],
+"specifications": [
+{"key": "Capacity", "value": "10 Liters"},
+{"key": "Material", "value": "600D Polyester"},
+{"key": "Mounting", "value": "Magnets & Steering Strap"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Dimensions", "value": "30cm x 20cm x 15cm"}
+],
+"whatsInBox": [
+"1x Trail Tank Bag",
+"1x Rain Cover",
+"1x Safety Strap"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Guardian+Trail+Tank+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGuardian%2BTrail%2BTank%2BBag)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 1999,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Guardian Gears Trail Tank Bag 10L",
+"metaDescription": "Guardian Gears Trail 10L magnetic motorcycle tank bag with clear phone pocket."
+},
+{
+"name": "Rynox H2Go Waterproof Backpack 20L",
+"slug": "rynox-h2go-waterproof-backpack-20l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Backpack",
+"description": "100% waterproof 20-liter roll-top backpack built for monsoon riding and daily wet-weather commutes. Keeps your laptop and essentials completely bone dry.",
+"features": [
+"20 Liters 100% waterproof main compartment",
+"Roll-top closure with secure buckle seal",
+"Internal padded sleeve for tablet or laptop",
+"Ergonomic padded shoulder and chest straps",
+"Welded seam construction with zero stitch holes"
+],
+"specifications": [
+{"key": "Capacity", "value": "20 Liters"},
+{"key": "Material", "value": "Heavy Duty Tarpaulin Fabric"},
+{"key": "Waterproof", "value": "100% Waterproof Welded Seams"},
+{"key": "Laptop", "value": "Padded Sleeve Included"},
+{"key": "Closure", "value": "Roll-Top Seal"}
+],
+"whatsInBox": [
+"1x Rynox H2Go Waterproof Backpack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+H2Go+Backpack](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BH2Go%2BBackpack)",
+"isMain": true
+}
+],
+"price": 3299,
+"salePrice": 2799,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Rynox H2Go Waterproof Backpack 20L",
+"metaDescription": "Rynox H2Go 20L 100% waterproof roll-top motorcycle backpack for monsoon riding."
+},
+{
+"name": "Viaterra Claw Evo Tail Bag 48L",
+"slug": "viaterra-claw-evo-tail-bag-48l",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "Flagship 48-liter tail bag engineered for extended motorcycle tours. Features an integrated frame, multiple external compartments, and 100% waterproof dry inner liners.",
+"features": [
+"48 Liters large touring capacity",
+"FRP internal frame for superior load stability",
+"Independent 100% waterproof inner dry liners",
+"External bungee cords for strapping extra gear",
+"Ergonomic shoulder strap for easy off-bike carry"
+],
+"specifications": [
+{"key": "Capacity", "value": "48 Liters"},
+{"key": "Material", "value": "1680D Polyester & Tarpaulin"},
+{"key": "Waterproof", "value": "Inner Dry Liners Included"},
+{"key": "Mounting", "value": "Universal 4-Way Strap Kit"},
+{"key": "Dimensions", "value": "52cm x 32cm x 28cm"}
+],
+"whatsInBox": [
+"1x Viaterra Claw Evo Bag",
+"2x Waterproof Dry Liners",
+"1x Strap Kit",
+"1x Shoulder Strap"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+Claw+Evo](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BClaw%2BEvo)",
+"isMain": true
+}
+],
+"price": 5999,
+"salePrice": 5199,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Viaterra Claw Evo Tail Bag 48L",
+"metaDescription": "Viaterra Claw Evo 48L motorcycle tail bag with internal frame and waterproof liners."
+},
+{
+"name": "Guardian Gears Jumbo Saddlebags 60L",
+"slug": "guardian-gears-jumbo-saddlebags-60l",
+"brand": "Guardian Gears",
+"category": "luggage",
+"subcategory": "Saddlebags",
+"description": "Extra-large 60-liter saddlebags built for riders who pack heavy for multi-week road trips. Features reinforced walls and waterproof rain covers.",
+"features": [
+"60 Liters massive twin compartment capacity",
+"Reinforced sidewalls maintain boxy shape",
+"Includes waterproof rain covers for both bags",
+"Heat-resistant lower base protection panels",
+"Secure over-the-seat mounting harness"
+],
+"specifications": [
+{"key": "Capacity", "value": "60 Liters (30L each side)"},
+{"key": "Material", "value": "1200D Heavy Polyester"},
+{"key": "Waterproof", "value": "Rain Covers Included"},
+{"key": "Mounting", "value": "Velcro Harness & Straps"},
+{"key": "Dimensions", "value": "46cm x 28cm x 24cm per bag"}
+],
+"whatsInBox": [
+"1x Pair of Jumbo Saddlebags",
+"2x Rain Covers",
+"1x Harness"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Guardian+Jumbo+Saddlebags](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGuardian%2BJumbo%2BSaddlebags)",
+"isMain": true
+}
+],
+"price": 6299,
+"salePrice": 5399,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Guardian Gears Jumbo Saddlebags 60L",
+"metaDescription": "Guardian Gears Jumbo 60L motorcycle saddlebags for heavy packing tourers."
+},
+{
+"name": "Rynox Expedition Dry Tank Bag 20L",
+"slug": "rynox-expedition-dry-tank-bag-20l",
+"brand": "Rynox",
+"category": "luggage",
+"subcategory": "Tank Bag",
+"description": "100% waterproof 20-liter tank bag designed for adventure touring in extreme weather. Features strap-mount system and roll-top dry bag main compartment.",
+"features": [
+"20 Liters 100% waterproof roll-top main compartment",
+"Strap-mount system ideal for non-metallic adventure tanks",
+"Transparent map and tablet reader pocket on lid",
+"Welded seams with zero water penetration",
+"Quick release buckles for fast fueling access"
+],
+"specifications": [
+{"key": "Capacity", "value": "20 Liters"},
+{"key": "Material", "value": "Tarpaulin & TPU Welded Seams"},
+{"key": "Mounting", "value": "4-Point Strap Mount"},
+{"key": "Waterproof", "value": "100% Waterproof Dry Bag"},
+{"key": "Dimensions", "value": "38cm x 26cm x 20cm"}
+],
+"whatsInBox": [
+"1x Rynox Expedition Dry Tank Bag",
+"1x Strap Mounting Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Expedition+Tank+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BExpedition%2BTank%2BBag)",
+"isMain": true
+}
+],
+"price": 4599,
+"salePrice": 3999,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Rynox Expedition Dry Tank Bag 20L",
+"metaDescription": "Rynox Expedition Dry 20L 100% waterproof motorcycle tank bag with strap mount."
+},
+{
+"name": "Viaterra Oxus Modular Saddlebags 44L",
+"slug": "viaterra-oxus-modular-saddlebags-44l",
+"brand": "Viaterra",
+"category": "luggage",
+"subcategory": "Saddlebags",
+"description": "Modular 44-liter saddlebags featuring a unique direct-mount design compatible with most motorcycle saddle stays. Includes waterproof inner dry bags.",
+"features": [
+"44 Liters modular touring capacity",
+"Direct mount system locks securely onto saddle stays",
+"Includes 100% waterproof roll-top inner dry bags",
+"Abrasion-resistant exterior fabric construction",
+"External compression straps for load security"
+],
+"specifications": [
+{"key": "Capacity", "value": "44 Liters (22L each side)"},
+{"key": "Material", "value": "1680D Polyester"},
+{"key": "Waterproof", "value": "Roll-Top Inner Dry Bags"},
+{"key": "Mounting", "value": "Stay Mount Compatible"},
+{"key": "Dimensions", "value": "38cm x 26cm x 20cm per bag"}
+],
+"whatsInBox": [
+"1x Pair of Oxus Saddlebags",
+"2x Waterproof Dry Bags",
+"1x Mounting Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Viaterra+Oxus+Saddlebags](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DViaterra%2BOxus%2BSaddlebags)",
+"isMain": true
+}
+],
+"price": 8499,
+"salePrice": 7299,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Viaterra Oxus Modular Saddlebags 44L",
+"metaDescription": "Viaterra Oxus 44L modular motorcycle saddlebags designed for luggage stay mounting."
+},
+{
+"name": "Guardian Gears King Tail Bag 50L",
+"slug": "guardian-gears-king-tail-bag-50l",
+"brand": "Guardian Gears",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "Giant 50-liter tail bag built for riders who prefer strapping a single large bag across the pillion seat instead of using saddlebags.",
+"features": [
+"50 Liters massive pillion tail storage",
+"Rigid internal base board prevents sagging",
+"Includes 100% waterproof rain cover",
+"Multiple external pockets for quick access items",
+"Heavy-duty quick-release mounting strap system"
+],
+"specifications": [
+{"key": "Capacity", "value": "50 Liters"},
+{"key": "Material", "value": "1200D Heavy Polyester"},
+{"key": "Waterproof", "value": "Rain Cover Included"},
+{"key": "Mounting", "value": "4-Point Universal Straps"},
+{"key": "Dimensions", "value": "55cm x 35cm x 30cm"}
+],
+"whatsInBox": [
+"1x Guardian King Tail Bag",
+"1x Rain Cover",
+"4x Mounting Straps"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Guardian+King+Tail+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGuardian%2BKing%2BTail%2BBag)",
+"isMain": true
+}
+],
+"price": 4999,
+"salePrice": 4299,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Guardian Gears King Tail Bag 50L",
+"metaDescription": "Guardian Gears King 50L giant motorcycle tail bag for maximum pillion storage."
+},
+{
+"name": "Dirt Legal Enduro Fender Bag",
+"slug": "dirt-legal-enduro-fender-bag",
+"brand": "Dirt Legal",
+"category": "luggage",
+"subcategory": "Tail Bag",
+"description": "Compact tool and tube bag designed to mount securely onto dirt bike and adventure motorcycle front or rear fenders.",
+"features": [
+"Compact tool roll and spare tube carrier",
+"Heavy-duty bolt-on fender mounting base",
+"Water-resistant heavy fabric construction",
+"Secure buckle flap closure",
+"Durable anti-slip base prevents shifting on trails"
+],
+"specifications": [
+{"key": "Capacity", "value": "3 Liters Tool Storage"},
+{"key": "Material", "value": "1680D Ballistic Nylon"},
+{"key": "Mounting", "value": "Fender Bolt-On Kit"},
+{"key": "Waterproof", "value": "Water-Resistant"},
+{"key": "Dimensions", "value": "25cm x 15cm x 8cm"}
+],
+"whatsInBox": [
+"1x Enduro Fender Bag",
+"1x Mounting Hardware Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Dirt+Legal+Fender+Bag](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DDirt%2BLegal%2BFender%2BBag)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1199,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Dirt Legal Enduro Fender Bag",
+"metaDescription": "Dirt Legal motorcycle enduro fender bag for tools and spare tubes."
+}
+]

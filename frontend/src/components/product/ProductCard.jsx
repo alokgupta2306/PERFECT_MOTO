@@ -62,12 +62,17 @@ const ProductCard = ({ product, fitmentStatus }) => {
   className="relative cursor-pointer overflow-hidden bg-deep-black aspect-[3/4] flex items-center justify-center border-b border-border-dark/30 rounded-t-xl" 
   onClick={() => navigate(`/product/${product?.slug || productId}`)}
 >
-        <img 
-          src={productThumbnailImage} 
-          alt={productName} 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" 
-          loading="lazy"
-        />
+        <img
+  src={productThumbnailImage}
+  alt={productName}
+  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+  loading="eager"
+  decoding="async"
+  onError={(e) => {
+    e.currentTarget.onerror = null;
+    e.currentTarget.src = FALLBACK_IMG;
+  }}
+/>
         
         {/* Absolute Floating Algorithmic Compatibility Badges Layer */}
         {fitmentStatus === "compatible" && (

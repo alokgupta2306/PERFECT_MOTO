@@ -65,20 +65,22 @@ const CustomerPhotos = () => {
         ) : (
           <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-none scroll-smooth -mx-4 px-4 sm:mx-0 sm:px-0 animate-fade-in">
             {photos.map((review, index) => {
-              const displayImage = review.images?.[0]?.url || "/placeholder.jpg";
+              const displayImage = review.images?.[0]?.url;
               return (
                 <div 
                   key={review._id || index} 
                   className="shrink-0 snap-start w-[45%] sm:w-[30%] md:w-[23%] bg-card-dark border border-border-dark/60 rounded-xl overflow-hidden group hover:border-primary-gold/40 transition-all duration-300 shadow-sm relative aspect-square"
                 >
-                  <img 
-                    src={displayImage} 
-                    alt={review.product?.name || "Rider Gear"} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  {displayImage && (
+                    <img 
+                      src={displayImage} 
+                      alt={review.product?.name || "Rider Gear"} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  )}
                   
                   {/* Hover Overlay Box */}
-                  <div className="absolute inset-0 bg-deep-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 flex flex-col justify-between items-start backdrop-blur-xs">
+                  <div className="absolute inset-0 bg-deep-black/80 p-4 flex flex-col justify-between items-start backdrop-blur-xs">
                     <div className="space-y-1">
                       <span className="text-[9px] text-primary-gold font-heading font-extrabold uppercase tracking-wider block">
                         @{review.user?.name || "Rider"}
@@ -92,7 +94,7 @@ const CustomerPhotos = () => {
                     </div>
 
                     <div className="w-full flex items-center justify-between border-t border-border-dark/40 pt-2 text-muted-gray/60 text-[9px] font-mono">
-                      <div className="flex items-center gap-1 text-error-red">
+                      <div className="flex items-center gap-1 text-success-green">
                         <Heart size={10} fill="currentColor" />
                         <span className="font-bold">{review.rating}/5</span>
                       </div>

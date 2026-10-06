@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Save, Plus, Trash2, CheckCircle2, Image, Bell, ToggleLeft, ToggleRight } from "lucide-react";
+import { Save, Plus, Trash2, CheckCircle2, Image, Bell, ToggleLeft, ToggleRight, Loader2 } from "lucide-react";
 import api from "../../utils/api";
 
 const AdminHomepageEditor = () => {
@@ -11,7 +11,8 @@ const AdminHomepageEditor = () => {
   });
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
-  const [successBanner, setSuccessBanner] = useState("");
+  const [uploadingIndex, setUploadingIndex] = useState(null);
+  const [statusMessage, setStatusMessage] = useState({ text: "", isError: false });
 
   useEffect(() => {
     const fetchContent = async () => {
@@ -27,15 +28,32 @@ const AdminHomepageEditor = () => {
     fetchContent();
   }, []);
 
+  // Show status banner message helper
+  const showStatus = (text, isError = false) => {
+    setStatusMessage({ text, isError });
+    setTimeout(() => setStatusMessage({ text: "", isError: false }), 4000);
+  };
+
   const handleSave = async () => {
+    // Validation Check: Prevent saving banners with missing image or title
+    const invalidBannerIndex = content.heroBanners?.findIndex(
+      (b) => !b.image?.trim() || !b.title?.trim()
+    );
+
+    if (invalidBannerIndex !== -1 && invalidBannerIndex !== undefined) {
+      showStatus(
+        `Banner ${invalidBannerIndex + 1} is incomplete. Every banner requires both an image and a title before saving.`,
+        true
+      );
+      return;
+    }
+
     setSaving(true);
     try {
       await api.put("/homepage", content);
-      setSuccessBanner("Homepage updated successfully.");
-      setTimeout(() => setSuccessBanner(""), 3000);
-    } catch {
-      setSuccessBanner("Failed to save. Try again.");
-      setTimeout(() => setSuccessBanner(""), 3000);
+      showStatus("Homepage content updated successfully!");
+    } catch (err) {
+      showStatus(err.response?.data?.message || "Failed to save homepage content. Try again.", true);
     } finally {
       setSaving(false);
     }
@@ -71,7 +89,8 @@ const AdminHomepageEditor = () => {
   if (loading) return <div className="text-center py-20 text-muted-gray">Loading...</div>;
 
   return (
-    <div className="max-w-5xl mx-auto space-y-8 animate-fade-in">
+    <div className="max-w-5xl mx-auto space-y-8 animate-fade-in pb-12">
+      {/* Top Bar Header */}
       <div className="flex justify-between items-center border-b border-border-dark pb-4">
         <div>
           <h1 className="text-2xl font-heading font-bold text-pure-white uppercase tracking-wide">
@@ -81,22 +100,27 @@ const AdminHomepageEditor = () => {
         </div>
         <button
           onClick={handleSave}
-          disabled={saving}
-          className="h-9 px-5 bg-primary-gold text-deep-black font-heading font-bold uppercase text-xs rounded-lg flex items-center gap-2 disabled:opacity-50"
+          disabled={saving || uploadingIndex !== null}
+          className="h-9 px-5 bg-primary-gold hover:bg-gold-hover text-deep-black font-heading font-bold uppercase text-xs rounded-lg flex items-center gap-2 disabled:opacity-50 transition-all"
         >
           <Save size={14} />
           {saving ? "Saving..." : "Save All Changes"}
         </button>
       </div>
 
-      {successBanner && (
-        <div className="p-3 bg-success-green/10 border border-success-green text-success-green text-xs rounded-lg flex items-center gap-2 font-semibold">
-          <CheckCircle2 size={14} />
-          <span>{successBanner}</span>
+      {/* Dynamic Status / Feedback Banner */}
+      {statusMessage.text && (
+        <div className={`p-3.5 border text-xs rounded-lg flex items-center gap-2 font-semibold ${
+          statusMessage.isError 
+            ? "bg-error-red/10 border-error-red text-error-red" 
+            : "bg-success-green/10 border-success-green text-success-green"
+        }`}>
+          <CheckCircle2 size={16} />
+          <span>{statusMessage.text}</span>
         </div>
       )}
 
-      {/* Announcement Bar */}
+      {/* Announcement Bar Section */}
       <div className="bg-card-dark border border-border-dark rounded-xl p-5 space-y-4">
         <div className="flex items-center gap-2 text-primary-gold">
           <Bell size={16} />
@@ -132,7 +156,7 @@ const AdminHomepageEditor = () => {
         </div>
       </div>
 
-      {/* Hero Banners */}
+      {/* Hero Banners Section */}
       <div className="bg-card-dark border border-border-dark rounded-xl p-5 space-y-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2 text-primary-gold">
@@ -141,7 +165,7 @@ const AdminHomepageEditor = () => {
           </div>
           <button
             onClick={addBanner}
-            className="h-8 px-3 bg-deep-black border border-border-dark text-primary-gold text-xs font-heading font-bold uppercase rounded-lg flex items-center gap-1 hover:border-primary-gold"
+            className="h-8 px-3 bg-deep-black border border-border-dark text-primary-gold text-xs font-heading font-bold uppercase rounded-lg flex items-center gap-1 hover:border-primary-gold transition-colors"
           >
             <Plus size={13} /> Add Banner
           </button>
@@ -155,7 +179,7 @@ const AdminHomepageEditor = () => {
 
         <div className="space-y-6">
           {content.heroBanners?.map((banner, index) => (
-            <div key={index} className="border border-border-dark rounded-xl p-4 space-y-4 relative">
+            <div key={index} className="border border-border-dark rounded-xl p-4 space-y-4 relative bg-deep-black/40">
               <div className="flex justify-between items-center">
                 <span className="text-[11px] font-heading font-bold uppercase tracking-wider text-muted-gray">
                   Banner {index + 1}
@@ -169,13 +193,14 @@ const AdminHomepageEditor = () => {
                       ? <ToggleRight size={18} className="text-success-green" />
                       : <ToggleLeft size={18} className="text-muted-gray" />
                     }
-                    <span className={banner.isActive ? "text-success-green" : "text-muted-gray"}>
+                    <span className={banner.isActive ? "text-success-green font-semibold" : "text-muted-gray"}>
                       {banner.isActive ? "Active" : "Inactive"}
                     </span>
                   </button>
                   <button
                     onClick={() => removeBanner(index)}
                     className="text-muted-gray hover:text-error-red transition-colors"
+                    title="Delete Banner"
                   >
                     <Trash2 size={14} />
                   </button>
@@ -184,10 +209,10 @@ const AdminHomepageEditor = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 
-                {/* ✅ FIXED: Implemented unified Image text path mapping combined with direct binary multipart upload triggers */}
+                {/* Image Upload / URL Input */}
                 <div className="sm:col-span-2">
                   <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">
-                    Image URL or Upload from PC
+                    Image URL or Upload from PC <span className="text-error-red">*</span>
                   </label>
                   <input
                     type="text"
@@ -196,11 +221,21 @@ const AdminHomepageEditor = () => {
                     placeholder="https://res.cloudinary.com/..."
                     className="w-full h-10 px-4 bg-deep-black text-pure-white border border-border-dark rounded-lg text-xs focus:outline-none focus:border-primary-gold"
                   />
-                  <div className="flex items-center gap-2 mt-2">
+                  
+                  <div className="flex items-center gap-3 mt-2">
                     <span className="text-[10px] text-muted-gray uppercase tracking-wider font-bold">OR</span>
-                    <label className="cursor-pointer h-8 px-4 bg-deep-black border border-border-dark hover:border-primary-gold text-primary-gold text-[10px] font-heading font-bold uppercase tracking-wider rounded-lg flex items-center gap-1.5 transition-colors">
-                      <Image size={12} />
-                      <span>Upload from PC</span>
+                    <label className={`cursor-pointer h-8 px-4 bg-deep-black border border-border-dark hover:border-primary-gold text-primary-gold text-[10px] font-heading font-bold uppercase tracking-wider rounded-lg flex items-center gap-1.5 transition-colors ${uploadingIndex === index ? "opacity-50 pointer-events-none" : ""}`}>
+                      {uploadingIndex === index ? (
+                        <>
+                          <Loader2 size={12} className="animate-spin" />
+                          <span>Uploading...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Image size={12} />
+                          <span>Upload from PC</span>
+                        </>
+                      )}
                       <input
                         type="file"
                         accept="image/*"
@@ -208,15 +243,21 @@ const AdminHomepageEditor = () => {
                         onChange={async (e) => {
                           const file = e.target.files[0];
                           if (!file) return;
+                          
+                          setUploadingIndex(index);
                           const formData = new FormData();
                           formData.append("image", file);
+                          
                           try {
                             const res = await api.post("/upload", formData, {
                               headers: { "Content-Type": "multipart/form-data" }
                             });
                             updateBanner(index, "image", res.data.url);
-                          } catch {
-                            alert("Upload failed. Try again.");
+                            showStatus(`Image uploaded for Banner ${index + 1}!`);
+                          } catch (err) {
+                            showStatus(err.response?.data?.message || "Upload failed. Please try again.", true);
+                          } finally {
+                            setUploadingIndex(null);
                           }
                         }}
                       />
@@ -225,11 +266,13 @@ const AdminHomepageEditor = () => {
                       <span className="text-[10px] text-success-green font-semibold">✓ Image set</span>
                     )}
                   </div>
+
+                  {/* Banner Image Preview */}
                   {banner.image && (
                     <img
                       src={banner.image}
                       alt="Banner preview"
-                      className="mt-2 h-24 w-full object-cover rounded-lg border border-border-dark"
+                      className="mt-3 h-28 w-full object-cover rounded-lg border border-border-dark"
                       onError={e => e.target.style.display = "none"}
                     />
                   )}
@@ -237,7 +280,7 @@ const AdminHomepageEditor = () => {
 
                 <div>
                   <label className="block text-[11px] font-heading font-semibold uppercase tracking-wider text-muted-gray mb-1.5">
-                    Title
+                    Title <span className="text-error-red">*</span>
                   </label>
                   <input
                     type="text"
@@ -316,12 +359,12 @@ const AdminHomepageEditor = () => {
         </div>
       </div>
 
-      {/* Save Button Bottom */}
-      <div className="flex justify-end pb-8">
+      {/* Bottom Action Controls */}
+      <div className="flex justify-end pt-4">
         <button
           onClick={handleSave}
-          disabled={saving}
-          className="h-10 px-8 bg-primary-gold text-deep-black font-heading font-bold uppercase text-xs rounded-lg flex items-center gap-2 disabled:opacity-50"
+          disabled={saving || uploadingIndex !== null}
+          className="h-10 px-8 bg-primary-gold hover:bg-gold-hover text-deep-black font-heading font-bold uppercase text-xs rounded-lg flex items-center gap-2 disabled:opacity-50 transition-all shadow-md"
         >
           <Save size={14} />
           {saving ? "Saving..." : "Save All Changes"}

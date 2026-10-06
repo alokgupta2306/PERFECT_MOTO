@@ -1,0 +1,1207 @@
+[
+{
+"name": "Rynox Nomad Evo Touring Boots All Black",
+"slug": "rynox-nomad-evo-touring-boots-all-black",
+"brand": "Rynox",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Engineered for long-distance adventure touring, the Nomad Evo boots combine robust microfiber leather with a waterproof membrane. Features molded shin guards and reinforced ankle impact cups for optimal protection.",
+"features": [
+"Waterproof and breathable internal hipora membrane",
+"Injection molded TPU shin and ankle armor guards",
+"Oil and slip resistant heavy-duty rubber sole",
+"Accordion flex zones on instep and Achilles tendon",
+"Double buckle and hook-and-loop secure closure"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather & TPU"},
+{"key": "Protection", "value": "Shin, Ankle & Toe Armor"},
+{"key": "Waterproof", "value": "Yes, Waterproof Membrane"},
+{"key": "Sole", "value": "Anti-Slip Vulcanized Rubber"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Rynox Nomad Evo Boots",
+"1x Care Manual"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Nomad+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BNomad%2BBoots)",
+"isMain": true
+}
+],
+"price": 8999,
+"salePrice": 7699,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Nomad Evo Touring Boots All Black",
+"metaDescription": "Buy Rynox Nomad Evo waterproof touring boots in all black. CE certified adventure protection."
+},
+{
+"name": "Solace Trooper Adventure Boots Brown",
+"slug": "solace-trooper-adventure-boots-brown",
+"brand": "Solace",
+"category": "boots",
+"subcategory": "Adventure Boots",
+"description": "Rugged adventure touring boots crafted from full-grain oil-treated leather. Features sturdy aluminum buckle closures and steel toe shank reinforcement for off-road durability.",
+"features": [
+"Full-grain oil-treated leather upper construction",
+"Adjustable quick-lock aluminum buckles",
+"Steel shank reinforced anti-twist sole",
+"Internal waterproof breathable liner",
+"Molded polyurethane shin and calf plates"
+],
+"specifications": [
+{"key": "Material", "value": "Full Grain Leather & PU"},
+{"key": "Protection", "value": "Shin Plate & Steel Shank"},
+{"key": "Closure", "value": "Aluminum Buckles & Velcro"},
+{"key": "Sole", "value": "Off-Road Tread Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Solace Trooper Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Trooper+Boots+Brown](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BTrooper%2BBoots%2BBrown)",
+"isMain": true
+}
+],
+"price": 11999,
+"salePrice": 9999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Trooper Adventure Boots Brown",
+"metaDescription": "Solace Trooper adventure touring boots in brown leather with aluminum buckles and steel shank."
+},
+{
+"name": "Axor Apex Short Riding Shoes Black Grey",
+"slug": "axor-apex-short-riding-shoes-black-grey",
+"brand": "Axor",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Casual sneaker-style short riding shoes designed for city commuting and weekend rides. Built with reinforced ankle discs, toe box reinforcement, and high-grip rubber soles.",
+"features": [
+"Microfiber and mesh upper construction",
+"Molded TPU ankle disc protection cups",
+"Reinforced internal toe box and heel counter",
+"Oil and slip resistant multi-density rubber sole",
+"Traditional lace closure with hook-and-loop strap"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Mesh"},
+{"key": "Protection", "value": "Ankle Cups & Heel Counter"},
+{"key": "Style", "value": "Short Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Axor Apex Riding Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Riding+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BRiding%2BShoes)",
+"isMain": true
+}
+],
+"price": 4999,
+"salePrice": 4199,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Short Riding Shoes Black Grey",
+"metaDescription": "Axor Apex short riding shoes in black and grey. Sneaker style ankle protection for daily commuting."
+},
+{
+"name": "Royal Enfield Trail Waterproof Boots Black",
+"slug": "royal-enfield-trail-waterproof-boots-black",
+"brand": "Royal Enfield",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Official Royal Enfield waterproof touring boots designed to handle unpredictable weather and rough terrain. Crafted with genuine leather and robust ankle reinforcement.",
+"features": [
+"Waterproof membrane inner lining",
+"Genuine leather upper construction",
+"Reinforced shift pad on left boot",
+"Molded ankle and heel protection guards",
+"Lugged rubber sole for superior foot grip"
+],
+"specifications": [
+{"key": "Material", "value": "Genuine Leather & Textile"},
+{"key": "Protection", "value": "Ankle & Shift Pad Armor"},
+{"key": "Waterproof", "value": "Yes, Waterproof Lining"},
+{"key": "Sole", "value": "Lugged Rubber Tread"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x Pair of Royal Enfield Trail Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Trail+Boots+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BTrail%2BBoots%2BBlack)",
+"isMain": true
+}
+],
+"price": 9500,
+"salePrice": 8199,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Royal Enfield Trail Waterproof Boots Black",
+"metaDescription": "Official Royal Enfield Trail waterproof riding boots in black. Genuine leather adventure boots."
+},
+{
+"name": "Alpinestars S-MX 6 V2 Riding Boots Black Red",
+"slug": "alpinestars-s-mx-6-v2-riding-boots-black-red",
+"brand": "Alpinestars",
+"category": "boots",
+"subcategory": "Racing Boots",
+"description": "Track and street performance racing boots featuring an innovative TPU lateral ankle brace protection. Built with microfiber uppers and breathable inner mesh lining.",
+"features": [
+"Biomechanical TPU lateral ankle brace protection",
+"Ergonomic forefoot streamlining and toe box",
+"High modulus TPU injected shin guard and calf",
+"Air vents on heel counter and shin plate",
+"Replaceable bi-injected TPU slider"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Upper Construction"},
+{"key": "Protection", "value": "TPU Ankle Brace, Shin & Slider"},
+{"key": "Closure", "value": "Zip & Velcro Elastic Mounted"},
+{"key": "Sole", "value": "Compound Rubber Racing Sole"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Alpinestars SMX-6 V2 Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+SMX6+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BSMX6%2BBoots)",
+"isMain": true
+}
+],
+"price": 24999,
+"salePrice": 21999,
+"gstPercent": 18,
+"stock": 8,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Alpinestars S-MX 6 V2 Riding Boots Black Red",
+"metaDescription": "Alpinestars S-MX 6 V2 performance racing boots in black and red with TPU ankle brace."
+},
+{
+"name": "Scoyco MT040WP Waterproof Riding Shoes Black",
+"slug": "scoyco-mt040wp-waterproof-riding-shoes-black",
+"brand": "Scoyco",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Waterproof short riding shoes engineered for commuting and touring convenience. Features built-in ankle protection cups and waterproof inner bootie construction.",
+"features": [
+"Waterproof inner membrane construction",
+"Injected TPU ankle protection discs",
+"Wear-resistant shifting pad overlay on toe",
+"High-grip rubber outsole for wet traction",
+"Quick lace system with velcro strap lock"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Waterproof Fabric"},
+{"key": "Protection", "value": "Ankle Discs & Shift Pad"},
+{"key": "Waterproof", "value": "Waterproof Membrane"},
+{"key": "Sole", "value": "Anti-Skid Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Scoyco MT040WP Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+MT040WP+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BMT040WP%2BShoes)",
+"isMain": true
+}
+],
+"price": 6499,
+"salePrice": 5399,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Scoyco MT040WP Waterproof Riding Shoes Black",
+"metaDescription": "Scoyco MT040WP waterproof short riding shoes in black. Ideal for wet weather commuting."
+},
+{
+"name": "Tarmac Epic Short Riding Boots Black",
+"slug": "tarmac-epic-short-riding-boots-black",
+"brand": "Tarmac",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Mid-height ankle riding boots offering superior protection compared to sneakers without the bulk of full-length touring boots. Features reinforced toe and heel cups.",
+"features": [
+"Microfiber synthetic leather exterior",
+"Rigid plastic ankle cup reinforcement",
+"Reinforced toe box and heel counter",
+"Rubber gear shift pad overlay",
+"Side zipper entry with velcro retention flap"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather"},
+{"key": "Protection", "value": "Ankle Cups, Toe & Heel"},
+{"key": "Height", "value": "Mid-Ankle Boot"},
+{"key": "Sole", "value": "Vulcanized Rubber Tread"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Tarmac Epic Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Tarmac+Epic+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DTarmac%2BEpic%2BBoots)",
+"isMain": true
+}
+],
+"price": 5799,
+"salePrice": 4799,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Tarmac Epic Short Riding Boots Black",
+"metaDescription": "Tarmac Epic mid-height ankle riding boots in black. Robust protection for street riders."
+},
+{
+"name": "Cramster TRG Touring Leather Boots Brown",
+"slug": "cramster-trg-touring-leather-boots-brown",
+"brand": "Cramster",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Traditional full-leather touring boots built for endurance riders. Features heavy-duty leather construction, reinforced shin plates, and ankle protection inserts.",
+"features": [
+"Genuine full-grain leather outer shell",
+"Reinforced shin plate and ankle armor",
+"Durable oil-resistant rubber lug sole",
+"Wide velcro calf adjustment strap",
+"Water-resistant treatment finish"
+],
+"specifications": [
+{"key": "Material", "value": "Full Grain Cowhide Leather"},
+{"key": "Protection", "value": "Shin & Ankle Armor"},
+{"key": "Closure", "value": "Side Zipper & Velcro Flap"},
+{"key": "Sole", "value": "Heavy Duty Lug Sole"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Cramster TRG Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Cramster+TRG+Boots+Brown](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DCramster%2BTRG%2BBoots%2BBrown)",
+"isMain": true
+}
+],
+"price": 7999,
+"salePrice": 6699,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Cramster TRG Touring Leather Boots Brown",
+"metaDescription": "Cramster TRG touring leather boots in brown. Durable full-grain leather for long distance riders."
+},
+{
+"name": "Rynox Stride Riding Shoes Black Red",
+"slug": "rynox-stride-riding-shoes-black-red",
+"brand": "Rynox",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Ergonomically designed short riding shoes offering daily wearability paired with CE certified ankle and heel protection. Styled in black with sporty red accents.",
+"features": [
+"CE certified ankle and heel protection cups",
+"Breathable 3D mesh interior lining",
+"Abrasion-resistant microfiber upper shell",
+"Anti-slip multi-density rubber sole",
+"Reflective heel insert for night safety"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Mesh"},
+{"key": "Protection", "value": "CE Certified Ankle & Heel"},
+{"key": "Style", "value": "Sport Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber Tread"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Rynox Stride Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Stride+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BStride%2BShoes)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4699,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Stride Riding Shoes Black Red",
+"metaDescription": "Rynox Stride short riding shoes in black and red. CE certified ankle protection for commuters."
+},
+{
+"name": "Solace Urban Street Riding Sneaker Grey",
+"slug": "solace-urban-street-riding-sneaker-grey",
+"brand": "Solace",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Casual low-cut riding sneakers designed for urban riders who want discreet protection without sacrificing walkability. Features reinforced ankle discs and toe boxes.",
+"features": [
+"Durable canvas and microfiber upper",
+"Integrated TPU ankle disc protectors",
+"Reinforced toe box and heel structure",
+"Anti-torsion shank embedded in sole",
+"Lace closure with secure elastic band loop"
+],
+"specifications": [
+{"key": "Material", "value": "Canvas & Microfiber"},
+{"key": "Protection", "value": "Ankle Discs & Reinforced Toe"},
+{"key": "Style", "value": "Casual Riding Sneaker"},
+{"key": "Sole", "value": "Vulcanized Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Solace Urban Sneakers"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Urban+Sneakers](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BUrban%2BSneakers)",
+"isMain": true
+}
+],
+"price": 4599,
+"salePrice": 3899,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Urban Street Riding Sneaker Grey",
+"metaDescription": "Solace Urban street riding sneakers in grey. Casual style with integrated ankle protection."
+},
+{
+"name": "Axor Terrain Adventure Boots Black",
+"slug": "axor-terrain-adventure-boots-black",
+"brand": "Axor",
+"category": "boots",
+"subcategory": "Adventure Boots",
+"description": "Heavy-duty adventure touring boots featuring robust polyurethane shin plates and micro-adjustable buckle closures. Built for rigorous off-road trail riding.",
+"features": [
+"Polyurethane shin and calf armor plates",
+"Micro-adjustable quick-release buckle system",
+"Steel toe cap reinforcement",
+"Water-resistant gaiter top seal",
+"Lugged anti-slip off-road rubber sole"
+],
+"specifications": [
+{"key": "Material", "value": "Synthetic Leather & PU Plates"},
+{"key": "Protection", "value": "Shin Plate, Steel Toe & Ankle"},
+{"key": "Closure", "value": "4 Buckles & Velcro Top"},
+{"key": "Sole", "value": "Off-Road Lugged Tread"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Axor Terrain Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Terrain+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BTerrain%2BBoots)",
+"isMain": true
+}
+],
+"price": 12999,
+"salePrice": 10999,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Terrain Adventure Boots Black",
+"metaDescription": "Axor Terrain adventure boots in black with PU armor plates and micro-adjustable buckles."
+},
+{
+"name": "Royal Enfield Kaza CE Riding Boots Brown",
+"slug": "royal-enfield-kaza-ce-riding-boots-brown",
+"brand": "Royal Enfield",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "CE certified leather riding boots designed for classic and touring motorcycle riders. Offers ankle protection, water resistance, and timeless styling.",
+"features": [
+"CE certified impact protection rating",
+"Full grain genuine leather upper",
+"Internal ankle protection disks",
+"Gear shift overlay pad on left boot",
+"Oil and water resistant rubber outsole"
+],
+"specifications": [
+{"key": "Material", "value": "Full Grain Leather"},
+{"key": "Protection", "value": "CE Certified Ankle Armor"},
+{"key": "Waterproof", "value": "Water-Resistant Treatment"},
+{"key": "Sole", "value": "Rubber Lug Sole"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x Pair of Royal Enfield Kaza Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Kaza+Boots+Brown](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BKaza%2BBoots%2BBrown)",
+"isMain": true
+}
+],
+"price": 10500,
+"salePrice": 8999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Royal Enfield Kaza CE Riding Boots Brown",
+"metaDescription": "Official Royal Enfield Kaza CE certified leather riding boots in brown. Classic touring footwear."
+},
+{
+"name": "Alpinestars Tech 3 Dirt Bike Boots Black",
+"slug": "alpinestars-tech-3-dirt-bike-boots-black",
+"brand": "Alpinestars",
+"category": "boots",
+"subcategory": "Adventure Boots",
+"description": "High-performance off-road motocross boots featuring advanced ankle support and durable synthetic upper construction. Engineered for dirt bike and enduro riders.",
+"features": [
+"Advanced ankle support biomechanical link",
+"Durable microfiber and synthetic upper",
+"Ergonomic TPU buckle closure system",
+"Steel shank reinforced lower sole unit",
+"Extended microfiber gaiter prevents water entry"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & TPU Shell"},
+{"key": "Protection", "value": "TPU Shin, Calf & Ankle Armor"},
+{"key": "Closure", "value": "3 Buckles with Memory System"},
+{"key": "Sole", "value": "Replaceable MX Rubber Sole"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Alpinestars Tech 3 Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+Tech+3+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BTech%2B3%2BBoots)",
+"isMain": true
+}
+],
+"price": 27999,
+"salePrice": 24499,
+"gstPercent": 18,
+"stock": 6,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Alpinestars Tech 3 Dirt Bike Boots Black",
+"metaDescription": "Alpinestars Tech 3 dirt bike motocross boots in black. Professional grade off-road protection."
+},
+{
+"name": "Scoyco MB10 Waterproof Touring Boots Black",
+"slug": "scoyco-mb10-waterproof-touring-boots-black",
+"brand": "Scoyco",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Full-height waterproof touring boots designed for cross-country motorcycle riders. Features internal waterproof membrane and hard shin impact plates.",
+"features": [
+"Full waterproof inner membrane lining",
+"Hard injection molded shin and ankle plates",
+"Gear shift reinforcement pad on forefoot",
+"Side zip entry with wide velcro storm flap",
+"Anti-slip high grip rubber outsole"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather & Textile"},
+{"key": "Protection", "value": "Shin & Ankle Armor Plates"},
+{"key": "Waterproof", "value": "Yes, Waterproof Lining"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Scoyco MB10 Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+MB10+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BMB10%2BBoots)",
+"isMain": true
+}
+],
+"price": 8999,
+"salePrice": 7599,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Scoyco MB10 Waterproof Touring Boots Black",
+"metaDescription": "Scoyco MB10 full-height waterproof touring boots in black. Built for long-distance motorcycle trips."
+},
+{
+"name": "Tarmac Urban Riding Shoes Brown",
+"slug": "tarmac-urban-riding-shoes-brown",
+"brand": "Tarmac",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Retro styled brown leather short riding shoes. Combines casual ankle sneaker comfort with concealed ankle reinforcement cups and reinforced toe boxes.",
+"features": [
+"Vintage distressed brown leather finish",
+"Concealed TPU ankle protection discs",
+"Reinforced toe box and heel counter",
+"Gear shift overlay pad on left shoe",
+"Anti-slip vulcanized rubber sole"
+],
+"specifications": [
+{"key": "Material", "value": "Distressed Leather"},
+{"key": "Protection", "value": "Concealed Ankle & Toe Armor"},
+{"key": "Style", "value": "Retro Riding Sneaker"},
+{"key": "Sole", "value": "Vulcanized Rubber"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Tarmac Urban Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Tarmac+Urban+Brown](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DTarmac%2BUrban%2BBrown)",
+"isMain": true
+}
+],
+"price": 4899,
+"salePrice": 3999,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Tarmac Urban Riding Shoes Brown",
+"metaDescription": "Tarmac Urban retro riding shoes in brown leather. Casual ankle protection for city riders."
+},
+{
+"name": "Cramster Flux Short Riding Boots Black",
+"slug": "cramster-flux-short-riding-boots-black",
+"brand": "Cramster",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Short ankle riding boots engineered for everyday riders seeking quick slip-on convenience and robust ankle protection. Built with durable microfiber and reinforced panels.",
+"features": [
+"Abrasion-resistant microfiber upper",
+"Rigid plastic ankle impact cups",
+"Reinforced toe box and heel structure",
+"Rubber gear shift pad on forefoot",
+"Dual pull loops for effortless wear"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather"},
+{"key": "Protection", "value": "Ankle Cups & Toe Guard"},
+{"key": "Height", "value": "Short Ankle Boot"},
+{"key": "Sole", "value": "Anti-Slip Rubber Sole"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Cramster Flux Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Cramster+Flux+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DCramster%2BFlux%2BBoots)",
+"isMain": true
+}
+],
+"price": 5299,
+"salePrice": 4499,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Cramster Flux Short Riding Boots Black",
+"metaDescription": "Cramster Flux short ankle riding boots in black. Practical protection for daily motorcycle riders."
+},
+{
+"name": "Rynox Trailblazer Touring Boots Brown",
+"slug": "rynox-trailblazer-touring-boots-brown",
+"brand": "Rynox",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Adventure touring boots finished in rugged brown leather. Waterproof, breathable, and equipped with molded shin guards and reinforced ankle impact cups.",
+"features": [
+"Waterproof and breathable internal membrane",
+"Injection molded TPU shin and ankle armor",
+"Oil and slip resistant heavy-duty rubber sole",
+"Accordion flex zones on instep and Achilles",
+"Dual buckle and velcro secure closure"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather & TPU"},
+{"key": "Protection", "value": "Shin, Ankle & Toe Armor"},
+{"key": "Waterproof", "value": "Yes, Waterproof Membrane"},
+{"key": "Sole", "value": "Anti-Slip Vulcanized Rubber"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Rynox Trailblazer Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Trailblazer+Brown](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BTrailblazer%2BBrown)",
+"isMain": true
+}
+],
+"price": 9499,
+"salePrice": 8199,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Trailblazer Touring Boots Brown",
+"metaDescription": "Rynox Trailblazer waterproof touring boots in brown leather. CE certified adventure protection."
+},
+{
+"name": "Solace Rider Riding Shoes Black Neon",
+"slug": "solace-rider-riding-shoes-black-neon",
+"brand": "Solace",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Sporty short riding shoes featuring high-visibility neon green accents over a black microfiber base. Fitted with ankle protection discs and reinforced toe boxes.",
+"features": [
+"Microfiber and breathable mesh upper",
+"TPU molded ankle protection discs",
+"Reinforced internal toe and heel counter",
+"High-visibility neon green graphic details",
+"Anti-slip rubber outsole tread"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Mesh"},
+{"key": "Protection", "value": "Ankle Discs & Toe Guard"},
+{"key": "Style", "value": "Sport Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Solace Rider Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Rider+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BRider%2BShoes)",
+"isMain": true
+}
+],
+"price": 5199,
+"salePrice": 4299,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Rider Riding Shoes Black Neon",
+"metaDescription": "Solace Rider short riding shoes in black and neon. Sporty ankle protection for street riders."
+},
+{
+"name": "Axor Apex Touring Boots All Black",
+"slug": "axor-apex-touring-boots-all-black",
+"brand": "Axor",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "All-black full-height touring boots engineered for long-distance highway riding. Built with waterproof membrane, shin armor plates, and reinforced shift pads.",
+"features": [
+"Waterproof internal membrane lining",
+"Rigid shin and ankle protection plates",
+"Gear shift overlay pad on forefoot",
+"Side zipper entry with velcro storm flap",
+"Oil and slip resistant rubber lug sole"
+],
+"specifications": [
+{"key": "Material", "value": "Synthetic Leather & Textile"},
+{"key": "Protection", "value": "Shin & Ankle Armor"},
+{"key": "Waterproof", "value": "Yes, Waterproof Lining"},
+{"key": "Sole", "value": "Lugged Rubber Outsole"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Axor Apex Touring Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Touring+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BTouring%2BBoots)",
+"isMain": true
+}
+],
+"price": 8499,
+"salePrice": 7199,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Touring Boots All Black",
+"metaDescription": "Axor Apex full-height waterproof touring boots in all black. Reliable distance riding footwear."
+},
+{
+"name": "Royal Enfield Roadbound Riding Shoes Black",
+"slug": "royal-enfield-roadbound-riding-shoes-black",
+"brand": "Royal Enfield",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Official Royal Enfield short riding shoes designed for everyday city commuting. Features understated branding, ankle protection, and comfortable walking soles.",
+"features": [
+"Durable leather and textile upper",
+"Concealed ankle protection discs",
+"Reinforced toe box and heel counter",
+"Gear shift pad overlay on left shoe",
+"Comfortable cushioned walking sole"
+],
+"specifications": [
+{"key": "Material", "value": "Leather & Textile"},
+{"key": "Protection", "value": "Ankle Discs & Toe Guard"},
+{"key": "Style", "value": "Commuter Riding Shoe"},
+{"key": "Sole", "value": "Cushioned Rubber Sole"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x Pair of Royal Enfield Roadbound Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Roadbound+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BRoadbound%2BShoes)",
+"isMain": true
+}
+],
+"price": 6950,
+"salePrice": 5999,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Royal Enfield Roadbound Riding Shoes Black",
+"metaDescription": "Official Royal Enfield Roadbound short riding shoes in black. Comfortable and protective for daily use."
+},
+{
+"name": "Alpinestars CR-X Drystar Riding Shoes Black",
+"slug": "alpinestars-cr-x-drystar-riding-shoes-black",
+"brand": "Alpinestars",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Advanced riding shoes offering running-shoe comfort combined with motorcycle riding protection. Features Drystar waterproof membrane and internal ankle discs.",
+"features": [
+"Drystar waterproof and breathable membrane",
+"Lightweight inner bootie construction",
+"TPU inner ankle discs for impact protection",
+"EVA midsole for running shoe walking comfort",
+"Oil resistant rubber compound outsole"
+],
+"specifications": [
+{"key": "Material", "value": "Mesh, TPU & Drystar Membrane"},
+{"key": "Protection", "value": "Internal TPU Ankle Discs"},
+{"key": "Style", "value": "Waterproof Riding Sneaker"},
+{"key": "Sole", "value": "EVA & Rubber Outsole"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Alpinestars CR-X Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+CRX+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BCRX%2BShoes)",
+"isMain": true
+}
+],
+"price": 17999,
+"salePrice": 15499,
+"gstPercent": 18,
+"stock": 10,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Alpinestars CR-X Drystar Riding Shoes Black",
+"metaDescription": "Alpinestars CR-X Drystar waterproof riding shoes in black. Superior walking comfort and protection."
+},
+{
+"name": "Scoyco MT0162 Riding Shoes Black Red",
+"slug": "scoyco-mt0162-riding-shoes-black-red",
+"brand": "Scoyco",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Popular sport riding shoes featuring black microfiber construction with striking red highlights. Built with ankle protection cups and reinforced shift pads.",
+"features": [
+"Microfiber synthetic leather upper",
+"Injection molded TPU ankle protection discs",
+"Wear-resistant gear shifting pad overlay",
+"Breathable mesh inner lining fabric",
+"Non-slip rubber outsole tread"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Mesh"},
+{"key": "Protection", "value": "Ankle Discs & Shift Pad"},
+{"key": "Style", "value": "Sport Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Scoyco MT0162 Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+MT0162+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BMT0162%2BRed)",
+"isMain": true
+}
+],
+"price": 5999,
+"salePrice": 4999,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Scoyco MT0162 Riding Shoes Black Red",
+"metaDescription": "Scoyco MT0162 sport riding shoes in black and red. Stylish ankle protection for daily riders."
+},
+{
+"name": "Tarmac Cruise Touring Boots Black",
+"slug": "tarmac-cruise-touring-boots-black",
+"brand": "Tarmac",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Full-height touring boots crafted from durable microfiber leather. Features waterproof membrane, shin armor plates, and comfortable inner padding for long-distance journeys.",
+"features": [
+"Waterproof internal membrane lining",
+"Rigid shin and ankle protection plates",
+"Gear shift pad reinforcement on forefoot",
+"Side zip entry with wide velcro storm flap",
+"Anti-slip high grip rubber outsole"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather"},
+{"key": "Protection", "value": "Shin & Ankle Armor Plates"},
+{"key": "Waterproof", "value": "Yes, Waterproof Lining"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Tarmac Cruise Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Tarmac+Cruise+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DTarmac%2BCruise%2BBoots)",
+"isMain": true
+}
+],
+"price": 7999,
+"salePrice": 6699,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Tarmac Cruise Touring Boots Black",
+"metaDescription": "Tarmac Cruise full-height waterproof touring boots in black. Reliable distance riding footwear."
+},
+{
+"name": "Cramster Terrain Adventure Boots Black",
+"slug": "cramster-terrain-adventure-boots-black",
+"brand": "Cramster",
+"category": "boots",
+"subcategory": "Adventure Boots",
+"description": "Rugged adventure touring boots built for off-road trails and enduro riding. Features durable synthetic leather, aluminum buckles, and steel toe reinforcement.",
+"features": [
+"Synthetic leather upper with PU armor plates",
+"Adjustable quick-lock aluminum buckles",
+"Steel shank reinforced anti-twist sole",
+"Internal water-resistant gaiter",
+"Heavy-duty lugged off-road rubber tread"
+],
+"specifications": [
+{"key": "Material", "value": "Synthetic Leather & PU"},
+{"key": "Protection", "value": "Shin Plate, Steel Shank & Ankle"},
+{"key": "Closure", "value": "Aluminum Buckles & Velcro"},
+{"key": "Sole", "value": "Off-Road Lugged Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Cramster Terrain Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Cramster+Terrain+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DCramster%2BTerrain%2BBoots)",
+"isMain": true
+}
+],
+"price": 10999,
+"salePrice": 9299,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Cramster Terrain Adventure Boots Black",
+"metaDescription": "Cramster Terrain adventure touring boots in black with aluminum buckles and steel shank."
+},
+{
+"name": "Rynox Stride Pro Riding Shoes All Black",
+"slug": "rynox-stride-pro-riding-shoes-all-black",
+"brand": "Rynox",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "All-black colorway of the upgraded Rynox Stride Pro short riding shoes. Offers CE certified ankle and heel protection, breathable mesh, and waterproof membrane lining.",
+"features": [
+"CE certified ankle and heel protection cups",
+"Waterproof and breathable internal liner",
+"Abrasion-resistant microfiber upper shell",
+"Anti-slip multi-density rubber sole",
+"Reflective heel insert for night safety"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Waterproof Liner"},
+{"key": "Protection", "value": "CE Certified Ankle & Heel"},
+{"key": "Style", "value": "Waterproof Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber Tread"},
+{"key": "Certification", "value": "CE Certified EN 13634"}
+],
+"whatsInBox": [
+"1x Pair of Rynox Stride Pro Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Stride+Pro+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BStride%2BPro%2BBlack)",
+"isMain": true
+}
+],
+"price": 6299,
+"salePrice": 5399,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Stride Pro Riding Shoes All Black",
+"metaDescription": "Rynox Stride Pro waterproof short riding shoes in all black with CE certification."
+},
+{
+"name": "Solace Scout Waterproof Touring Boots Black",
+"slug": "solace-scout-waterproof-touring-boots-black",
+"brand": "Solace",
+"category": "boots",
+"subcategory": "Touring Boots",
+"description": "Full-height waterproof touring boots designed for long-distance motorcycle riders. Features internal waterproof membrane, hard shin impact plates, and reinforced shift pads.",
+"features": [
+"Full waterproof inner membrane lining",
+"Hard injection molded shin and ankle plates",
+"Gear shift reinforcement pad on forefoot",
+"Side zip entry with wide velcro storm flap",
+"Anti-slip high grip rubber outsole"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber Leather & Textile"},
+{"key": "Protection", "value": "Shin & Ankle Armor Plates"},
+{"key": "Waterproof", "value": "Yes, Waterproof Lining"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Pair of Solace Scout Boots"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Scout+Boots](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BScout%2BBoots)",
+"isMain": true
+}
+],
+"price": 8799,
+"salePrice": 7399,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Scout Waterproof Touring Boots Black",
+"metaDescription": "Solace Scout full-height waterproof touring boots in black. Built for long-distance motorcycle trips."
+},
+{
+"name": "Axor Apex Short Riding Shoes All Black",
+"slug": "axor-apex-short-riding-shoes-all-black",
+"brand": "Axor",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "All-black colorway of the casual sneaker-style short riding shoes designed for city commuting. Built with reinforced ankle discs, toe box reinforcement, and high-grip rubber soles.",
+"features": [
+"Microfiber and mesh upper construction",
+"Molded TPU ankle disc protection cups",
+"Reinforced internal toe box and heel counter",
+"Oil and slip resistant multi-density rubber sole",
+"Traditional lace closure with hook-and-loop strap"
+],
+"specifications": [
+{"key": "Material", "value": "Microfiber & Mesh"},
+{"key": "Protection", "value": "Ankle Cups & Heel Counter"},
+{"key": "Style", "value": "Short Riding Sneaker"},
+{"key": "Sole", "value": "Anti-Slip Rubber"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Pair of Axor Apex Black Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Black+Shoes](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BBlack%2BShoes)",
+"isMain": true
+}
+],
+"price": 4999,
+"salePrice": 4199,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Short Riding Shoes All Black",
+"metaDescription": "Axor Apex short riding shoes in all black. Sneaker style ankle protection for daily commuters."
+},
+{
+"name": "Royal Enfield Yuba Riding Shoes Olive",
+"slug": "royal-enfield-yuba-riding-shoes-olive",
+"brand": "Royal Enfield",
+"category": "boots",
+"subcategory": "Riding Shoes",
+"description": "Tactical olive colorway of the Royal Enfield short riding shoes. Styled for casual wear while offering reliable ankle protection and walking comfort for city riders.",
+"features": [
+"Durable leather and textile upper",
+"Concealed ankle protection discs",
+"Reinforced toe box and heel counter",
+"Gear shift pad overlay on left shoe",
+"Comfortable cushioned walking sole"
+],
+"specifications": [
+{"key": "Material", "value": "Leather & Textile"},
+{"key": "Protection", "value": "Ankle Discs & Toe Guard"},
+{"key": "Style", "value": "Commuter Riding Shoe"},
+{"key": "Sole", "value": "Cushioned Rubber Sole"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x Pair of Royal Enfield Yuba Shoes"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Yuba+Shoes+Olive](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BYuba%2BShoes%2BOlive)",
+"isMain": true
+}
+],
+"price": 6950,
+"salePrice": 5999,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Royal Enfield Yuba Riding Shoes Olive",
+"metaDescription": "Official Royal Enfield Yuba short riding shoes in olive green. Casual style with ankle protection."
+}
+]

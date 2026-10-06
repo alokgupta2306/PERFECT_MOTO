@@ -1,0 +1,990 @@
+[
+{
+"name": "Rynox Stealth Evo V3 Riding Jacket All Black",
+"slug": "rynox-stealth-evo-v3-riding-jacket-all-black",
+"brand": "Rynox",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "All-black finish on our premium all-weather touring jacket featuring dual-detachable thermal and waterproof liners. Built with robust Cordura textile and CE Level 2 armor across all key impact zones.",
+"features": [
+"CE Level 2 certified shoulder, elbow and back armor",
+"Independent detachable thermal and rain liners",
+"Direct-vent zipper ventilation system on chest",
+"Heavy duty 600D Cordura textile outer shell",
+"Ergonomic touring fit with waist adjustments"
+],
+"specifications": [
+{"key": "Material", "value": "600D Cordura & Polyester"},
+{"key": "Armor", "value": "CE Level 2 Full Set"},
+{"key": "Weather", "value": "All-Weather 4-Season Touring"},
+{"key": "Pockets", "value": "4 Cargo Pockets, 2 Waterproof Inner"},
+{"key": "Certification", "value": "CE Certified EN 17092"}
+],
+"whatsInBox": [
+"1x Rynox Stealth Evo V3 Black Jacket",
+"1x Rain Liner",
+"1x Thermal Liner",
+"1x Full Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Stealth+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BStealth%2BBlack)",
+"isMain": true
+}
+],
+"price": 11500,
+"salePrice": 9999,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Stealth Evo V3 Riding Jacket All Black",
+"metaDescription": "Rynox Stealth Evo V3 all-weather touring jacket in all black with CE Level 2 armor and dual liners."
+},
+{
+"name": "Solace Airwave Sport Riding Jacket Black Red",
+"slug": "solace-airwave-sport-riding-jacket-black-red",
+"brand": "Solace",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Sporty mesh jacket combining high-airflow textile panels with striking red accents. Fitted with certified armor pads to ensure rider safety on hot summer days.",
+"features": [
+"High airflow mesh fabric on chest and back",
+"CE certified shoulder and elbow protectors",
+"Ergonomic sport fit with stretch panels",
+"Reflective strips for nighttime visibility",
+"Adjustable velcro arm and waist straps"
+],
+"specifications": [
+{"key": "Material", "value": "Polyester Mesh & Cordura"},
+{"key": "Armor", "value": "CE Certified Pads"},
+{"key": "Weather", "value": "Summer Mesh"},
+{"key": "Pockets", "value": "2 External Zip Pockets"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Solace Airwave Red Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Airwave+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BAirwave%2BRed)",
+"isMain": true
+}
+],
+"price": 6799,
+"salePrice": 5599,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Airwave Sport Riding Jacket Black Red",
+"metaDescription": "Solace Airwave sport riding jacket in black and red with mesh ventilation and CE armor."
+},
+{
+"name": "Axor Grid All-Weather Touring Jacket Desert Sand",
+"slug": "axor-grid-all-weather-touring-jacket-desert-sand",
+"brand": "Axor",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Desert sand adventure jacket built for long highway and off-road trips. Features waterproof sealing, thermal winter liner, and CE Level 2 protective armor.",
+"features": [
+"CE Level 2 certified shoulder and elbow armor",
+"Removable waterproof rain membrane and thermal liner",
+"Desert sand expedition adventure styling",
+"Multiple waterproof cargo storage pockets",
+"Zipped chest air vents for warm climate touring"
+],
+"specifications": [
+{"key": "Material", "value": "High Durability Cordura Fabric"},
+{"key": "Armor", "value": "CE Level 2 (Shoulder & Elbow)"},
+{"key": "Weather", "value": "All-Weather Four Season"},
+{"key": "Pockets", "value": "4 Front Cargo, 2 Inner"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Axor Grid Sand Jacket",
+"1x Rain Liner",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Grid+Sand](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BGrid%2BSand)",
+"isMain": true
+}
+],
+"price": 9499,
+"salePrice": 7999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Grid All-Weather Touring Jacket Desert Sand",
+"metaDescription": "Axor Grid all-weather adventure touring jacket in desert sand with CE Level 2 armor."
+},
+{
+"name": "Royal Enfield Streetwind V2 Mesh Jacket Grey",
+"slug": "royal-enfield-streetwind-v2-mesh-jacket-grey",
+"brand": "Royal Enfield",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Grey colorway of the lightweight mesh riding jacket designed by Royal Enfield for urban commuting in hot weather. Combines high-density mesh with CE level 1 shoulder and elbow protection.",
+"features": [
+"CE Level 1 approved shoulder and elbow protectors",
+"High-density polyester mesh for maximum ventilation",
+"Subtle Royal Enfield branding embroidery",
+"Adjustable waist tabs and sleeve straps",
+"Reflective tape on back for night safety"
+],
+"specifications": [
+{"key": "Material", "value": "Polyester Mesh & 600D Fabric"},
+{"key": "Armor", "value": "CE Level 1 Pads"},
+{"key": "Weather", "value": "Hot Weather Summer"},
+{"key": "Pockets", "value": "2 External Pockets"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x RE Streetwind Grey Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Streetwind+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BStreetwind%2BGrey)",
+"isMain": true
+}
+],
+"price": 4950,
+"salePrice": 4250,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Royal Enfield Streetwind V2 Mesh Jacket Grey",
+"metaDescription": "Official Royal Enfield Streetwind V2 mesh riding jacket in grey with CE level 1 armor."
+},
+{
+"name": "Alpinestars Andes V3 Drystar Jacket Black Dark Grey",
+"slug": "alpinestars-andes-v3-drystar-jacket-black-dark-grey",
+"brand": "Alpinestars",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Black and dark grey colorway of the Alpinestars Andes V3 touring jacket. 100% waterproof, highly breathable, and equipped with CE level 1 Nucleon Flex Plus armor and thermal liner.",
+"features": [
+"Fixed Drystar waterproof and breathable membrane",
+"Nucleon Flex Plus CE Level 1 shoulder and elbow armor",
+"Removable long sleeve thermal winter liner",
+"Direct ventilation chest and back exhaust ports",
+"Cargo front pockets and large rear utility pocket"
+],
+"specifications": [
+{"key": "Material", "value": "Advanced Poly-Fabric & Drystar"},
+{"key": "Armor", "value": "CE Level 1 Nucleon Flex Plus"},
+{"key": "Weather", "value": "All-Weather 4-Season Touring"},
+{"key": "Pockets", "value": "Cargo Pockets & Waterproof Inner"},
+{"key": "Certification", "value": "CE Category II prEN17092"}
+],
+"whatsInBox": [
+"1x Alpinestars Andes V3 Black Jacket",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+Andes+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BAndes%2BBlack)",
+"isMain": true
+}
+],
+"price": 27999,
+"salePrice": 24499,
+"gstPercent": 18,
+"stock": 6,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Alpinestars Andes V3 Drystar Jacket Black Dark Grey",
+"metaDescription": "Alpinestars Andes V3 Drystar waterproof touring jacket in black and dark grey."
+},
+{
+"name": "Scoyco JK32 All-Season Riding Jacket Black",
+"slug": "scoyco-jk32-all-season-riding-jacket-black",
+"brand": "Scoyco",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "All-black colorway of the multi-season touring jacket. Features waterproof membrane, thermal winter insert, and CE approved protective pads on shoulders and elbows.",
+"features": [
+"CE certified shoulder and elbow armor",
+"Removable waterproof and thermal winter liners",
+"Abrasion resistant 600D oxford textile outer",
+"Reflective high-visibility strips on back",
+"Adjustable arm and waist fastening straps"
+],
+"specifications": [
+{"key": "Material", "value": "600D Oxford Textile"},
+{"key": "Armor", "value": "CE Certified Pads"},
+{"key": "Weather", "value": "All Season Touring"},
+{"key": "Pockets", "value": "2 Front Pockets, 1 Inner"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Scoyco JK32 Black Jacket",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+JK32+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BJK32%2BBlack)",
+"isMain": true
+}
+],
+"price": 7499,
+"salePrice": 6199,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Scoyco JK32 All-Season Riding Jacket Black",
+"metaDescription": "Scoyco JK32 all-season touring riding jacket in all black with waterproof liner and CE armor."
+},
+{
+"name": "Tarmac Epic All-Weather Jacket Grey Red",
+"slug": "tarmac-epic-all-weather-jacket-grey-red",
+"brand": "Tarmac",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Grey and red colorway of the all-weather touring jacket built for cross-country riders. Features waterproof rain liner, thermal layer, and CE Level 1 protective armor.",
+"features": [
+"CE Level 1 shoulder and elbow protection",
+"Removable waterproof and thermal liners",
+"Abrasion-resistant 600D outer fabric",
+"Zipped intake and exhaust vents",
+"Reflective piping for night visibility"
+],
+"specifications": [
+{"key": "Material", "value": "600D Polyester Fabric"},
+{"key": "Armor", "value": "CE Level 1 Pads"},
+{"key": "Weather", "value": "All-Weather Touring"},
+{"key": "Pockets", "value": "2 External, 2 Internal"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Tarmac Epic Grey Jacket",
+"1x Rain Liner",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Tarmac+Epic+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DTarmac%2BEpic%2BGrey)",
+"isMain": true
+}
+],
+"price": 7499,
+"salePrice": 6199,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Tarmac Epic All-Weather Jacket Grey Red",
+"metaDescription": "Tarmac Epic all-weather touring jacket in grey and red with dual liners and CE armor."
+},
+{
+"name": "Cramster Turret Touring Jacket Olive",
+"slug": "cramster-turret-touring-jacket-olive",
+"brand": "Cramster",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Tactical olive colorway of the adventure touring jacket. Designed for long-distance highway cruising and trail exploration with robust textile construction and CE protective armor.",
+"features": [
+"CE certified shoulder and elbow armor",
+"Detachable waterproof rain membrane",
+"Tactical olive green expedition coloration",
+"Multiple cargo pockets for storage",
+"Adjustable sleeve and waist fitting"
+],
+"specifications": [
+{"key": "Material", "value": "Cordura Textile Fabric"},
+{"key": "Armor", "value": "CE Certified Inserts"},
+{"key": "Weather", "value": "All Season Touring"},
+{"key": "Pockets", "value": "4 Cargo Pockets"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Cramster Turret Olive Jacket",
+"1x Rain Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Cramster+Turret+Olive](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DCramster%2BTurret%2BOlive)",
+"isMain": true
+}
+],
+"price": 8999,
+"salePrice": 7499,
+"gstPercent": 18,
+"stock": 18,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Cramster Turret Touring Jacket Olive",
+"metaDescription": "Cramster Turret adventure touring jacket in olive with waterproof liner and CE armor."
+},
+{
+"name": "Rynox Tornado Pro V4 Riding Jacket Grey Orange",
+"slug": "rynox-tornado-pro-v4-riding-jacket-grey-orange",
+"brand": "Rynox",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Grey and orange colorway of the Tornado Pro V4. Engineered for hot-weather touring and commuting with heavy-duty mesh panels, CORDURA impact zones, and CE Level 2 armor.",
+"features": [
+"CE Level 2 certified shoulder and elbow armor",
+"CE Level 2 certified back protector included",
+"Heavy duty 3D mesh panels for maximum airflow",
+"Reversible detachable rain liner included",
+"YKK genuine zippers with pullers"
+],
+"specifications": [
+{"key": "Material", "value": "600D CORDURA & 3D Mesh"},
+{"key": "Armor", "value": "CE Level 2 (Shoulder, Elbow, Back)"},
+{"key": "Weather", "value": "Summer Mesh with Rain Liner"},
+{"key": "Pockets", "value": "2 Front, 1 Internal Inner"},
+{"key": "Certification", "value": "CE Certified EN 17092"}
+],
+"whatsInBox": [
+"1x Rynox Tornado Grey Orange Jacket",
+"1x Detachable Rain Liner",
+"1x Full Armor Set (5 pieces)"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Tornado+Grey+Orange](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BTornado%2BGrey%2BOrange)",
+"isMain": true
+}
+],
+"price": 8450,
+"salePrice": 7250,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rynox Tornado Pro V4 Riding Jacket Grey Orange",
+"metaDescription": "Rynox Tornado Pro V4 mesh riding jacket in grey and orange with CE Level 2 armor."
+},
+{
+"name": "Solace Rival Urban Riding Jacket All Black",
+"slug": "solace-rival-urban-riding-jacket-all-black",
+"brand": "Solace",
+"category": "jackets",
+"subcategory": "Sport Riding Jacket",
+"description": "All-black colorway of the Solace Rival. A versatile mid-season riding jacket offering abrasion-resistant textile fabric, breathable mesh panels, and certified armor.",
+"features": [
+"Abrasion-resistant 600D polyester outer shell",
+"CE Level 1 approved shoulder and elbow armor",
+"High density foam back protector pad",
+"Reflective piping for night ride safety",
+"Adjustable waist and cuff velcro tabs"
+],
+"specifications": [
+{"key": "Material", "value": "600D Polyester & Mesh"},
+{"key": "Armor", "value": "CE Level 1 (Shoulder, Elbow)"},
+{"key": "Weather", "value": "All Season Touring"},
+{"key": "Pockets", "value": "2 External, 1 Internal"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Solace Rival Black Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Rival+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BRival%2BBlack)",
+"isMain": true
+}
+],
+"price": 6499,
+"salePrice": 5299,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Rival Urban Riding Jacket All Black",
+"metaDescription": "Solace Rival urban riding jacket in all black. CE Level 1 certified protection for daily riders."
+},
+{
+"name": "Axor Apex Venom Riding Jacket Black Red",
+"slug": "axor-apex-venom-riding-jacket-black-red",
+"brand": "Axor",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Black and red colorway of the Axor Apex Venom mesh riding jacket. Designed for aggressive street riders with CE certified armor and removable thermal liner.",
+"features": [
+"Striking black and red graphic panels",
+"CE Level 2 certified shoulder and elbow protectors",
+"Detachable thermal inner winter liner",
+"Extensive mesh venting for tropical weather",
+"Connective zipper for riding trousers"
+],
+"specifications": [
+{"key": "Material", "value": "Heavy Duty Mesh & Cordura"},
+{"key": "Armor", "value": "CE Level 2 (Shoulder & Elbow)"},
+{"key": "Weather", "value": "All Season with Thermal Liner"},
+{"key": "Pockets", "value": "2 Front Pockets, 2 Inner"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Axor Apex Venom Red Jacket",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Venom+Red+Jacket](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BVenom%2BRed%2BJacket)",
+"isMain": true
+}
+],
+"price": 7999,
+"salePrice": 6499,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Venom Riding Jacket Black Red",
+"metaDescription": "Axor Apex Venom mesh riding jacket in black and red with CE Level 2 armor and thermal liner."
+},
+{
+"name": "Royal Enfield Khardung La V2 Riding Jacket Grey Black",
+"slug": "royal-enfield-khardung-la-v2-riding-jacket-grey-black",
+"brand": "Royal Enfield",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Grey and black colorway of the flagship Royal Enfield adventure touring jacket. Built for extreme mountain expeditions with D3O level 2 armour and waterproof membrane.",
+"features": [
+"D3O LP1 CE Level 2 shoulder and elbow armor",
+"Removable waterproof rain liner and thermal liner",
+"Direct vent chest and back zip openings",
+"Heavy duty abrasion resistant outer fabric",
+"Hydration bladder pocket compartment on back"
+],
+"specifications": [
+{"key": "Material", "value": "Cordura Textile & D3O Armor"},
+{"key": "Armor", "value": "D3O CE Level 2"},
+{"key": "Weather", "value": "All Season Extreme Touring"},
+{"key": "Pockets", "value": "Multiple Cargo & Waterproof Pockets"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x RE Khardung La Grey Jacket",
+"1x Waterproof Liner",
+"1x Thermal Liner",
+"1x D3O Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+KhardungLa+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BKhardungLa%2BGrey)",
+"isMain": true
+}
+],
+"price": 14500,
+"salePrice": 12999,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Royal Enfield Khardung La V2 Riding Jacket Grey Black",
+"metaDescription": "Official Royal Enfield Khardung La V2 all-weather touring jacket with D3O armor in grey."
+},
+{
+"name": "Alpinestars T-GP Plus R V3 Air Jacket All Black",
+"slug": "alpinestars-t-gp-plus-r-v3-air-jacket-all-black",
+"brand": "Alpinestars",
+"category": "jackets",
+"subcategory": "Sport Riding Jacket",
+"description": "All-black colorway of the sport riding jacket constructed from durable 600D poly-fabric with extensive mesh panels. Incorporates Nucleon Flex Plus armor and GP Lite shoulder shields.",
+"features": [
+"CE Level 1 Nucleon Flex Plus shoulder and elbow armor",
+"GP Lite shoulders with dynamic friction shield",
+"Extensive mesh paneling for superior cooling",
+"Volume adjusters on sleeves for tailored fit",
+"Waterproof internal pocket for documents"
+],
+"specifications": [
+{"key": "Material", "value": "600D Poly-Fabric & Mesh"},
+{"key": "Armor", "value": "CE Level 1 Nucleon Flex Plus"},
+{"key": "Weather", "value": "Summer Ventilated Sport"},
+{"key": "Pockets", "value": "2 Hand Pockets, 1 Waterproof Inner"},
+{"key": "Certification", "value": "CE Category II prEN17092"}
+],
+"whatsInBox": [
+"1x Alpinestars T-GP Plus Black Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+TGP+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BTGP%2BBlack)",
+"isMain": true
+}
+],
+"price": 18999,
+"salePrice": 16499,
+"gstPercent": 18,
+"stock": 12,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Alpinestars T-GP Plus R V3 Air Jacket All Black",
+"metaDescription": "Alpinestars T-GP Plus R V3 Air sport riding jacket in all black with CE armor."
+},
+{
+"name": "Scoyco JK37 Summer Mesh Riding Jacket Grey",
+"slug": "scoyco-jk37-summer-mesh-riding-jacket-grey",
+"brand": "Scoyco",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Grey colorway of the lightweight summer mesh riding jacket featuring CE approved protective pads on shoulders and elbows. Built for maximum airflow during tropical commuting.",
+"features": [
+"High-density mesh fabric for optimal ventilation",
+"CE certified removable shoulder and elbow protectors",
+"Reflective strips for enhanced night visibility",
+"Adjustable waist straps for custom fit",
+"Durable wear-resistant collar trim"
+],
+"specifications": [
+{"key": "Material", "value": "600D Polyester & Mesh Fabric"},
+{"key": "Armor", "value": "CE Certified Pads"},
+{"key": "Weather", "value": "Hot Weather Summer"},
+{"key": "Pockets", "value": "2 Side Zip Pockets"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Scoyco JK37 Grey Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+JK37+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BJK37%2BGrey)",
+"isMain": true
+}
+],
+"price": 5999,
+"salePrice": 4899,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Scoyco JK37 Summer Mesh Riding Jacket Grey",
+"metaDescription": "Scoyco JK37 summer mesh riding jacket in grey. Ventilated comfort with CE certified armor."
+},
+{
+"name": "Tarmac Drift Riding Jacket All Black",
+"slug": "tarmac-drift-riding-jacket-all-black",
+"brand": "Tarmac",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "All-black sporty mesh riding jacket. Includes CE level 1 armor pads and a waterproof rain liner for unexpected weather showers during street commutes.",
+"features": [
+"Abrasion resistant mesh and cordura fabric",
+"CE Level 1 shoulder and elbow armor",
+"Detachable waterproof rain coat liner",
+"Reflective branding for night riding",
+"Velcro sleeve adjusters and waist tabs"
+],
+"specifications": [
+{"key": "Material", "value": "Cordura & Mesh Fabric"},
+{"key": "Armor", "value": "CE Level 1 Pads"},
+{"key": "Weather", "value": "Summer Mesh with Rain Liner"},
+{"key": "Pockets", "value": "2 Front Pockets"},
+{"key": "Certification", "value": "CE Certified"}
+],
+"whatsInBox": [
+"1x Tarmac Drift Black Jacket",
+"1x Rain Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Tarmac+Drift+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DTarmac%2BDrift%2BBlack)",
+"isMain": true
+}
+],
+"price": 6299,
+"salePrice": 5199,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Tarmac Drift Riding Jacket All Black",
+"metaDescription": "Tarmac Drift mesh riding jacket in all black with CE armor and rain liner."
+},
+{
+"name": "Cramster Breezer V2 Mesh Jacket Grey",
+"slug": "cramster-breezer-v2-mesh-jacket-grey",
+"brand": "Cramster",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Grey colorway of the classic mesh riding jacket designed for Indian climate conditions. Features heavy airflow mesh panels, shock-absorbing armor pads, and durable outer stitching.",
+"features": [
+"Heavy duty airflow mesh construction",
+"CE certified shoulder and elbow armor",
+"Ergonomic fit with sleeve adjustments",
+"Reflective piping across back and chest",
+"Secure internal storage pockets"
+],
+"specifications": [
+{"key": "Material", "value": "Polyester Mesh & Cordura"},
+{"key": "Armor", "value": "CE Certified Inserts"},
+{"key": "Weather", "value": "Summer Mesh"},
+{"key": "Pockets", "value": "2 Exterior, 1 Interior"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Cramster Breezer Grey Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Cramster+Breezer+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DCramster%2BBreezer%2BGrey)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4499,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Cramster Breezer V2 Mesh Jacket Grey",
+"metaDescription": "Cramster Breezer V2 mesh riding jacket in grey. Ventilated protection for daily commuters."
+},
+{
+"name": "Rynox Stealth Evo V3 Riding Jacket Sand",
+"slug": "rynox-stealth-evo-v3-riding-jacket-sand",
+"brand": "Rynox",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Sand colorway of our premium all-weather touring jacket featuring dual-detachable thermal and waterproof liners. Built with robust Cordura textile and CE Level 2 armor.",
+"features": [
+"CE Level 2 certified shoulder, elbow and back armor",
+"Independent detachable thermal liner and rain liner",
+"Direct-vent zipper ventilation system on chest",
+"Heavy duty 600D Cordura textile outer shell",
+"Ergonomic touring fit with waist adjustments"
+],
+"specifications": [
+{"key": "Material", "value": "600D Cordura & Polyester"},
+{"key": "Armor", "value": "CE Level 2 Full Set"},
+{"key": "Weather", "value": "All-Weather 4-Season Touring"},
+{"key": "Pockets", "value": "4 Cargo Pockets, 2 Waterproof Inner"},
+{"key": "Certification", "value": "CE Certified EN 17092"}
+],
+"whatsInBox": [
+"1x Rynox Stealth Sand Jacket",
+"1x Rain Liner",
+"1x Thermal Liner",
+"1x Full Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rynox+Stealth+Sand](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRynox%2BStealth%2BSand)",
+"isMain": true
+}
+],
+"price": 11500,
+"salePrice": 9999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Rynox Stealth Evo V3 Riding Jacket Sand",
+"metaDescription": "Rynox Stealth Evo V3 all-weather touring jacket in desert sand with CE Level 2 armor."
+},
+{
+"name": "Solace Airwave Sport Riding Jacket Grey",
+"slug": "solace-airwave-sport-riding-jacket-grey",
+"brand": "Solace",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Grey colorway of the Solace Airwave sport mesh jacket combining high-airflow textile panels with certified armor pads for hot summer days.",
+"features": [
+"High airflow mesh fabric on chest and back",
+"CE certified shoulder and elbow protectors",
+"Ergonomic sport fit with stretch panels",
+"Reflective strips for nighttime visibility",
+"Adjustable velcro arm and waist straps"
+],
+"specifications": [
+{"key": "Material", "value": "Polyester Mesh & Cordura"},
+{"key": "Armor", "value": "CE Certified Pads"},
+{"key": "Weather", "value": "Summer Mesh"},
+{"key": "Pockets", "value": "2 External Zip Pockets"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Solace Airwave Grey Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Solace+Airwave+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSolace%2BAirwave%2BGrey)",
+"isMain": true
+}
+],
+"price": 6799,
+"salePrice": 5599,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Solace Airwave Sport Riding Jacket Grey",
+"metaDescription": "Solace Airwave sport riding jacket in grey with mesh ventilation and CE armor."
+},
+{
+"name": "Axor Grid All-Weather Touring Jacket Grey Black",
+"slug": "axor-grid-all-weather-touring-jacket-grey-black",
+"brand": "Axor",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Grey and black colorway of the Axor Grid adventure jacket. Built for long highway and off-road trips with waterproof sealing, thermal winter liner, and CE Level 2 protective armor.",
+"features": [
+"CE Level 2 certified shoulder and elbow armor",
+"Removable waterproof rain membrane and thermal liner",
+"Grey and black adventure touring styling",
+"Multiple waterproof cargo storage pockets",
+"Zipped chest air vents for warm climate touring"
+],
+"specifications": [
+{"key": "Material", "value": "High Durability Cordura Fabric"},
+{"key": "Armor", "value": "CE Level 2 (Shoulder & Elbow)"},
+{"key": "Weather", "value": "All-Weather Four Season"},
+{"key": "Pockets", "value": "4 Front Cargo, 2 Inner"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Axor Grid Grey Jacket",
+"1x Rain Liner",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Grid+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BGrid%2BGrey)",
+"isMain": true
+}
+],
+"price": 9499,
+"salePrice": 7999,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Grid All-Weather Touring Jacket Grey Black",
+"metaDescription": "Axor Grid all-weather adventure touring jacket in grey and black with CE Level 2 armor."
+},
+{
+"name": "Royal Enfield Streetwind V2 Mesh Jacket Olive",
+"slug": "royal-enfield-streetwind-v2-mesh-jacket-olive",
+"brand": "Royal Enfield",
+"category": "jackets",
+"subcategory": "Mesh Riding Jacket",
+"description": "Tactical olive colorway of the lightweight mesh riding jacket designed by Royal Enfield for urban commuting. Combines high-density mesh with CE level 1 armor protection.",
+"features": [
+"CE Level 1 approved shoulder and elbow protectors",
+"High-density polyester mesh for maximum ventilation",
+"Subtle Royal Enfield branding embroidery",
+"Adjustable waist tabs and sleeve straps",
+"Reflective tape on back for night safety"
+],
+"specifications": [
+{"key": "Material", "value": "Polyester Mesh & 600D Fabric"},
+{"key": "Armor", "value": "CE Level 1 Pads"},
+{"key": "Weather", "value": "Hot Weather Summer"},
+{"key": "Pockets", "value": "2 External Pockets"},
+{"key": "Brand", "value": "Official Royal Enfield"}
+],
+"whatsInBox": [
+"1x RE Streetwind Olive Jacket",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=RE+Streetwind+Olive](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRE%2BStreetwind%2BOlive)",
+"isMain": true
+}
+],
+"price": 4950,
+"salePrice": 4250,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Royal Enfield Streetwind V2 Mesh Jacket Olive",
+"metaDescription": "Official Royal Enfield Streetwind V2 mesh riding jacket in olive with CE level 1 armor."
+},
+{
+"name": "Alpinestars Andes V3 Drystar Jacket Light Grey",
+"slug": "alpinestars-andes-v3-drystar-jacket-light-grey",
+"brand": "Alpinestars",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Light grey colorway of the Andes V3 touring jacket. 100% waterproof, highly breathable, and equipped with CE level 1 Nucleon Flex Plus armor and removable thermal liner.",
+"features": [
+"Fixed Drystar waterproof and breathable membrane",
+"Nucleon Flex Plus CE Level 1 shoulder and elbow armor",
+"Removable long sleeve thermal winter liner",
+"Direct ventilation chest and back exhaust ports",
+"Cargo front pockets and large rear utility pocket"
+],
+"specifications": [
+{"key": "Material", "value": "Advanced Poly-Fabric & Drystar"},
+{"key": "Armor", "value": "CE Level 1 Nucleon Flex Plus"},
+{"key": "Weather", "value": "All-Weather 4-Season Touring"},
+{"key": "Pockets", "value": "Cargo Pockets & Waterproof Inner"},
+{"key": "Certification", "value": "CE Category II prEN17092"}
+],
+"whatsInBox": [
+"1x Alpinestars Andes Light Grey Jacket",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Alpinestars+Andes+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAlpinestars%2BAndes%2BGrey)",
+"isMain": true
+}
+],
+"price": 27999,
+"salePrice": 24499,
+"gstPercent": 18,
+"stock": 7,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Alpinestars Andes V3 Drystar Jacket Light Grey",
+"metaDescription": "Alpinestars Andes V3 Drystar waterproof touring jacket in light grey."
+},
+{
+"name": "Scoyco JK42 Touring Riding Jacket Grey Black",
+"slug": "scoyco-jk42-touring-riding-jacket-grey-black",
+"brand": "Scoyco",
+"category": "jackets",
+"subcategory": "All-Weather Touring Jacket",
+"description": "Grey and black colorway of the Scoyco JK42 touring riding jacket. Equipped with waterproof lining, removable thermal insert, and CE approved protective padding.",
+"features": [
+"CE certified shoulder and elbow armor pads",
+"Removable waterproof and thermal inner liners",
+"Durable 600D abrasion-resistant textile shell",
+"Reflective piping for enhanced night safety",
+"Adjustable sleeve width and waist straps"
+],
+"specifications": [
+{"key": "Material", "value": "600D Oxford Textile"},
+{"key": "Armor", "value": "CE Certified Pads"},
+{"key": "Weather", "value": "All Season Touring"},
+{"key": "Pockets", "value": "2 Front Cargo Pockets"},
+{"key": "Certification", "value": "CE Approved"}
+],
+"whatsInBox": [
+"1x Scoyco JK42 Grey Jacket",
+"1x Thermal Liner",
+"1x Armor Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Scoyco+JK42+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DScoyco%2BJK42%2BGrey)",
+"isMain": true
+}
+],
+"price": 7999,
+"salePrice": 6599,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Scoyco JK42 Touring Riding Jacket Grey Black",
+"metaDescription": "Scoyco JK42 touring riding jacket in grey and black with thermal liner and CE armor."
+}
+]

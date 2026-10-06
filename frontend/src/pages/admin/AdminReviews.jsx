@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MessageSquare, Check, X, Trash2, Star, ThumbsUp, Loader2, AlertCircle } from "lucide-react";
+import { MessageSquare, Check, X, Trash2, Star, Loader2, AlertCircle } from "lucide-react";
 import api from "../../utils/api";
 
 const AdminReviews = () => {
@@ -27,8 +27,9 @@ const AdminReviews = () => {
     setActioningId(id);
     try {
       await api.put(`/reviews/${id}/${action}`);
+      // Re-aligned to update state using the enum 'status' property
       setReviews(prev =>
-        prev.map(rev => (rev._id === id ? { ...rev, isApproved: action === "approve" } : rev))
+        prev.map(rev => (rev._id === id ? { ...rev, status: action === "approve" ? "approved" : "rejected" } : rev))
       );
     } catch (err) {
       alert(`Operation failed while attempting to ${action} review.`);
@@ -92,10 +93,13 @@ const AdminReviews = () => {
                       <Star key={i} size={11} fill={i < review.rating ? "currentColor" : "none"} className={i >= review.rating ? "text-muted-gray/30" : ""} />
                     ))}
                   </div>
+                  {/* Updated to check review.status === 'approved' */}
                   <span className={`text-[10px] font-heading font-extrabold uppercase tracking-widest px-2 py-0.5 rounded ${
-                    review.isApproved ? "bg-success-green/10 border border-success-green/20 text-success-green" : "bg-warning-amber/10 border border-warning-amber/20 text-warning-amber"
+                    review.status === "approved" 
+                      ? "bg-success-green/10 border border-success-green/20 text-success-green" 
+                      : "bg-warning-amber/10 border border-warning-amber/20 text-warning-amber"
                   }`}>
-                    {review.isApproved ? "Approved" : "Pending Sandbox"}
+                    {review.status === "approved" ? "Approved" : review.status || "Pending Sandbox"}
                   </span>
                 </div>
                 <h4 className="text-pure-white font-heading font-bold text-xs uppercase tracking-wide">
@@ -105,18 +109,19 @@ const AdminReviews = () => {
                 {review.images?.length > 0 && (
                   <div className="flex gap-2 pt-1">
                     {review.images.map((img, i) => (
-                      <img key={i} src={img.url} alt="Review attachment" className="h-14 w-14 object-cover rounded-md border border-border-dark" />
+                      <img key={i} src={img.url || img} alt="Review attachment" className="h-14 w-14 object-cover rounded-md border border-border-dark" />
                     ))}
                   </div>
                 )}
               </div>
 
               <div className="flex items-center gap-2 shrink-0 w-full md:w-auto border-t md:border-t-0 border-border-dark/40 pt-3 md:pt-0 justify-end">
-                {!review.isApproved ? (
+                {/* Updated button toggle based on status !== 'approved' */}
+                {review.status !== "approved" ? (
                   <button
                     disabled={actioningId === review._id}
                     onClick={() => handleStatusChange(review._id, "approve")}
-                    className="h-8 w-8 bg-success-green/10 hover:bg-success-green text-success-green hover:text-deep-black rounded-lg border border-success-green/20 flex items-center justify-center transition-all disabled:opacity-40"
+                    className="h-8 w-8 bg-success-green/10 hover:bg-success-green text-success-green hover:text-deep-black rounded-lg border border-success-green/20 flex items-center justify-center transition-all disabled:opacity-40 cursor-pointer"
                     title="Approve and Publish Content"
                   >
                     <Check size={14} />
@@ -125,7 +130,7 @@ const AdminReviews = () => {
                   <button
                     disabled={actioningId === review._id}
                     onClick={() => handleStatusChange(review._id, "reject")}
-                    className="h-8 w-8 bg-warning-amber/10 hover:bg-warning-amber text-warning-amber hover:text-deep-black rounded-lg border border-warning-amber/20 flex items-center justify-center transition-all disabled:opacity-40"
+                    className="h-8 w-8 bg-warning-amber/10 hover:bg-warning-amber text-warning-amber hover:text-deep-black rounded-lg border border-warning-amber/20 flex items-center justify-center transition-all disabled:opacity-40 cursor-pointer"
                     title="Reject and Unpublish Content"
                   >
                     <X size={14} />
@@ -133,7 +138,7 @@ const AdminReviews = () => {
                 )}
                 <button
                   onClick={() => handleDelete(review._id)}
-                  className="h-8 w-8 bg-deep-black hover:bg-error-red border border-border-dark hover:border-error-red/40 text-muted-gray hover:text-pure-white rounded-lg flex items-center justify-center transition-all"
+                  className="h-8 w-8 bg-deep-black hover:bg-error-red border border-border-dark hover:border-error-red/40 text-muted-gray hover:text-pure-white rounded-lg flex items-center justify-center transition-all cursor-pointer"
                   title="Purge Document Entry"
                 >
                   <Trash2 size={14} />

@@ -61,13 +61,15 @@ const CustomerPhotos = ({ productId }) => {
               key={photo._id || index} 
               className="break-inside-avoid bg-card-dark border border-border-dark rounded-xl overflow-hidden relative group aspect-auto shadow-md"
             >
-              <img
-                src={photo.url}
-                alt="Rider setup submission mapping"
-                className="w-full h-auto object-cover max-h-72 transition-transform duration-300 group-hover:scale-[1.03]"
-                loading="lazy"
-              />
-              
+              {photo.url && (
+                <img
+                  src={photo.url}
+                  alt="Rider setup submission mapping"
+                  className="w-full h-auto object-cover max-h-72 transition-transform duration-300 group-hover:scale-[1.03]"
+                  loading="lazy"
+                />
+              )}
+
               {/* Contextual Interaction Hover Overlay Card */}
               <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-deep-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex flex-col justify-end p-3 pointer-events-none">
                 <div className="space-y-1">
@@ -82,7 +84,7 @@ const CustomerPhotos = ({ productId }) => {
                       </div>
                     )}
                   </div>
-                  
+
                   {photo.reviewerCity && (
                     <div className="flex items-center gap-1 text-muted-gray text-[9px] font-medium font-sans">
                       <MapPin size={8} className="text-primary-gold" />

@@ -1,113 +1,106 @@
-import React, { useContext, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
-import { AuthContext } from "./context/AuthContext";
+import React, { useEffect, lazy, Suspense } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
 // ============================================================================
-// 🔄 AUTOMATED NAVIGATION AUTO-SCROLL CONTROLLER
+// AUTO-SCROLL CONTROLLER
 // ============================================================================
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-  
+
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "instant" // Forces immediate viewport reset across structural routing shifts
-    });
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, [pathname]);
 
   return null;
 };
 
 // ============================================================================
-// 📦 GLOBAL LAYOUT STRUCTURAL UTILITIES & SIDE WINDOWS
+// EAGER IMPORTS: only what every page needs immediately
 // ============================================================================
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import BottomNav from "./components/layout/BottomNav";
-import AdminSidebar from "./components/admin/AdminSidebar";
-import AdminHeader from "./components/admin/AdminHeader"; 
 import LiveActivity from "./components/common/LiveActivity";
-
-// ============================================================================
-// 🔒 SECURED ACCESS ROUTE SECURITY INTERCEPTORS
-// ============================================================================
 import AdminRoute from "./components/common/AdminRoute";
 import PrivateRoute from "./components/common/PrivateRoute";
 import PublicOnlyRoute from "./components/common/PublicOnlyRoute";
-
-// ============================================================================
-// 🛒 1. MAIN STOREFRONT GENERAL PAGE IMPORTS (FLAT PAGES)
-// ============================================================================
 import Home from "./pages/Home";
-import Shop from "./pages/Shop";
-import ProductDetailPage from "./pages/ProductDetail";
-import CartPage from "./pages/Cart";
-import CheckoutPage from "./pages/Checkout";
-import OrderConfirmationPage from "./pages/OrderConfirmation";
-import TrackOrderPage from "./pages/TrackOrder";
-import SearchPage from "./pages/SearchPage";
-import ForgotPasswordPage from "./pages/ForgotPassword";
-import FAQPage from "./pages/FAQPage";
-import CategoryPage from "./pages/CategoryPage";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound"; 
-import ServiceAppointment from "./pages/ServiceAppointment";
 
 // ============================================================================
-// 🔑 2. RIDER AUTHENTICATION SECURITY PATH IMPORTS
+// LAZY IMPORTS: loaded only when the route is visited
 // ============================================================================
-import LoginPage from "./pages/Login";
-import RegisterPage from "./pages/Register";
+// Admin layout pieces (customers never download these)
+const AdminSidebar = lazy(() => import("./components/admin/AdminSidebar"));
+const AdminHeader = lazy(() => import("./components/admin/AdminHeader"));
+
+// Storefront
+const Shop = lazy(() => import("./pages/Shop"));
+const ProductDetailPage = lazy(() => import("./pages/ProductDetail"));
+const CartPage = lazy(() => import("./pages/Cart"));
+const CheckoutPage = lazy(() => import("./pages/Checkout"));
+const OrderConfirmationPage = lazy(() => import("./pages/OrderConfirmation"));
+const TrackOrderPage = lazy(() => import("./pages/TrackOrder"));
+const SearchPage = lazy(() => import("./pages/SearchPage"));
+const ForgotPasswordPage = lazy(() => import("./pages/ForgotPassword"));
+const FAQPage = lazy(() => import("./pages/FAQPage"));
+const CategoryPage = lazy(() => import("./pages/CategoryPage"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const ServiceAppointment = lazy(() => import("./pages/ServiceAppointment"));
+
+// Auth
+const LoginPage = lazy(() => import("./pages/Login"));
+const RegisterPage = lazy(() => import("./pages/Register"));
+
+// Account
+const MyProfilePage = lazy(() => import("./pages/account/MyProfilePage"));
+const MyOrdersPage = lazy(() => import("./pages/account/MyOrdersPage"));
+const OrderDetailPage = lazy(() => import("./pages/account/OrderDetailPage"));
+const WishlistPage = lazy(() => import("./pages/account/WishlistPage"));
+const SavedAddressesPage = lazy(() => import("./pages/account/SavedAddressesPage"));
+const LoyaltyPointsPage = lazy(() => import("./pages/account/LoyaltyPointsPage"));
+
+// Admin
+const AdminLoginPage = lazy(() => import("./pages/admin/AdminLoginPage"));
+const AdminDashboard = lazy(() => import("./pages/admin/AdminDashboard"));
+const AdminProductsList = lazy(() => import("./pages/admin/AdminProductsList"));
+const AdminAddProduct = lazy(() => import("./pages/admin/AdminAddProduct"));
+const AdminEditProduct = lazy(() => import("./pages/admin/AdminEditProduct"));
+const AdminOrdersList = lazy(() => import("./pages/admin/AdminOrdersList"));
+const AdminOrderDetail = lazy(() => import("./pages/admin/AdminOrderDetail"));
+const AdminCustomers = lazy(() => import("./pages/admin/AdminCustomers"));
+const AdminNotifyMe = lazy(() => import("./pages/admin/AdminNotifyMe"));
+const AdminCoupons = lazy(() => import("./pages/admin/AdminCoupons"));
+const AdminBundles = lazy(() => import("./pages/admin/AdminBundles"));
+const AdminSettings = lazy(() => import("./pages/admin/AdminSettings"));
+const AdminServiceAppointments = lazy(() => import("./pages/admin/AdminServiceAppointments"));
+const AdminHomepageEditor = lazy(() => import("./pages/admin/AdminHomepageEditor"));
+const AdminReviews = lazy(() => import("./pages/admin/AdminReviews"));
+const AdminReports = lazy(() => import("./pages/admin/AdminReports"));
+const AdminMediaLibrary = lazy(() => import("./pages/admin/AdminMediaLibrary"));
+const AdminContentEditor = lazy(() => import("./pages/admin/AdminContentEditor"));
+const AdminReferrals = lazy(() => import("./pages/admin/AdminReferrals"));
+const AdminLoyalty = lazy(() => import("./pages/admin/AdminLoyalty"));
+const AdminCategories = lazy(() => import("./pages/admin/AdminCategories"));
+
+// Policies
+const PrivacyPolicyPage = lazy(() => import("./pages/policies/PrivacyPolicyPage"));
+const TermsConditionsPage = lazy(() => import("./pages/policies/TermsConditionsPage"));
+const ShippingPolicyPage = lazy(() => import("./pages/policies/ShippingPolicyPage"));
+const ReturnPolicyPage = lazy(() => import("./pages/policies/ReturnPolicyPage"));
 
 // ============================================================================
-// 👤 3. RIDER ACCOUNT PORTAL IMPORTS (src/pages/account/)
+// LOADING FALLBACK
 // ============================================================================
-import MyProfilePage from "./pages/account/MyProfilePage";
-import MyOrdersPage from "./pages/account/MyOrdersPage";
-import OrderDetailPage from "./pages/account/OrderDetailPage";
-import WishlistPage from "./pages/account/WishlistPage";
-import SavedAddressesPage from "./pages/account/SavedAddressesPage";
-import LoyaltyPointsPage from "./pages/account/LoyaltyPointsPage";
+const PageLoader = () => (
+  <div className="min-h-[60vh] flex items-center justify-center">
+    <div className="w-10 h-10 border-4 border-border-dark border-t-primary-gold rounded-full animate-spin" />
+  </div>
+);
 
 // ============================================================================
-// ⚙️ 4. ADMINISTRATIVE TERMINAL IMPORTS (src/pages/admin/)
-// ============================================================================
-import AdminLoginPage from "./pages/admin/AdminLoginPage";
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import AdminProductsList from "./pages/admin/AdminProductsList";
-import AdminAddProduct from "./pages/admin/AdminAddProduct";
-import AdminEditProduct from "./pages/admin/AdminEditProduct";
-import AdminOrdersList from "./pages/admin/AdminOrdersList";
-import AdminOrderDetail from "./pages/admin/AdminOrderDetail";
-import AdminCustomers from "./pages/admin/AdminCustomers";
-import AdminNotifyMe from "./pages/admin/AdminNotifyMe";
-import AdminCoupons from "./pages/admin/AdminCoupons";
-import AdminBundles from "./pages/admin/AdminBundles";
-import AdminSettings from "./pages/admin/AdminSettings";
-import AdminServiceAppointments from "./pages/admin/AdminServiceAppointments";
-
-// Sourced back-office custom control panel views
-import AdminHomepageEditor from "./pages/admin/AdminHomepageEditor";
-import AdminReviews from "./pages/admin/AdminReviews";
-import AdminReports from "./pages/admin/AdminReports";
-import AdminMediaLibrary from "./pages/admin/AdminMediaLibrary";
-import AdminContentEditor from "./pages/admin/AdminContentEditor";
-import AdminReferrals from "./pages/admin/AdminReferrals";
-import AdminLoyalty from "./pages/admin/AdminLoyalty";
-import AdminCategories from "./pages/admin/AdminCategories"; 
-
-// ============================================================================
-// 📜 5. COMPLIANCE LEGAL POLICY IMPORTS (src/pages/policies/)
-// ============================================================================
-import PrivacyPolicyPage from "./pages/policies/PrivacyPolicyPage";
-import TermsConditionsPage from "./pages/policies/TermsConditionsPage";
-import ShippingPolicyPage from "./pages/policies/ShippingPolicyPage";
-import ReturnPolicyPage from "./pages/policies/ReturnPolicyPage";
-
-// ============================================================================
-// 📐 DYNAMIC MASTER LAYOUT CONTROLLER LAYER
+// LAYOUT CONTROLLER
 // ============================================================================
 const LayoutWrapper = ({ children }) => {
   const location = useLocation();
@@ -117,9 +110,13 @@ const LayoutWrapper = ({ children }) => {
   if (isAdminPath && !isAdminLogin) {
     return (
       <div className="flex h-screen bg-deep-black overflow-hidden font-body text-xs text-muted-gray select-none">
-        <AdminSidebar />
+        <Suspense fallback={<div className="w-64 bg-card-dark" />}>
+          <AdminSidebar />
+        </Suspense>
         <div className="flex-1 flex flex-col overflow-hidden">
-          <AdminHeader />
+          <Suspense fallback={<div className="h-16 bg-card-dark" />}>
+            <AdminHeader />
+          </Suspense>
           <main className="flex-grow overflow-y-auto px-6 py-8 md:px-10 bg-deep-black">
             {children}
           </main>
@@ -129,7 +126,11 @@ const LayoutWrapper = ({ children }) => {
   }
 
   if (isAdminLogin || location.pathname === "/login" || location.pathname === "/register") {
-    return <main className="w-full min-h-screen flex items-center justify-center bg-deep-black">{children}</main>;
+    return (
+      <main className="w-full min-h-screen flex items-center justify-center bg-deep-black">
+        {children}
+      </main>
+    );
   }
 
   return (
@@ -144,83 +145,78 @@ const LayoutWrapper = ({ children }) => {
 };
 
 // ============================================================================
-// 🚀 CENTRAL APP INITIALIZATION ROOT TERMINAL
+// APP ROOT
 // ============================================================================
 function App() {
   return (
     <Router>
-      {/* 🔥 SCROLL INTERCEPTOR PLACED DIRECTLY UNDER ROUTER CONTEXT */}
       <ScrollToTop />
       <LayoutWrapper>
-        <Routes>
-          {/* 🛒 PUBLIC CUSTOMER ACCESSIBLE ROUTES */}
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/shop/:categorySlug" element={<CategoryPage />} />
-          
-          {/* Unified dynamic parameter routing tunnel using productSlug strictly */}
-          <Route path="/product/:productSlug" element={<ProductDetailPage />} />
-          
-          <Route path="/cart" element={<CartPage />} />
-          <Route path="/track" element={<TrackOrderPage />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/faq" element={<FAQPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/service" element={<ServiceAppointment />} />
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            {/* Public */}
+            <Route path="/" element={<Home />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/:categorySlug" element={<CategoryPage />} />
+            <Route path="/product/:productSlug" element={<ProductDetailPage />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/track" element={<TrackOrderPage />} />
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/faq" element={<FAQPage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/service" element={<ServiceAppointment />} />
 
-          {/* 🔑 VALIDATION ACCESS ENTRY GATEWAYS */}
-          <Route path="/login" element={<PublicOnlyRoute><LoginPage /></PublicOnlyRoute>} />
-          <Route path="/register" element={<PublicOnlyRoute><RegisterPage /></PublicOnlyRoute>} />
-          <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+            {/* Auth */}
+            <Route path="/login" element={<PublicOnlyRoute><LoginPage /></PublicOnlyRoute>} />
+            <Route path="/register" element={<PublicOnlyRoute><RegisterPage /></PublicOnlyRoute>} />
+            <Route path="/forgot-password" element={<ForgotPasswordPage />} />
 
-          {/* Secure Checkout Tunnel Handshake Steps */}
-          <Route path="/checkout" element={<PrivateRoute><CheckoutPage /></PrivateRoute>} />
-          <Route path="/order-confirmation" element={<PrivateRoute><OrderConfirmationPage /></PrivateRoute>} />
+            {/* Checkout */}
+            <Route path="/checkout" element={<PrivateRoute><CheckoutPage /></PrivateRoute>} />
+            <Route path="/order-confirmation" element={<PrivateRoute><OrderConfirmationPage /></PrivateRoute>} />
 
-          {/* 👤 AUTHENTICATED CUSTOMER PRIVATE WORKSPACE LOCKS */}
-          <Route path="/account/profile" element={<PrivateRoute><MyProfilePage /></PrivateRoute>} />
-          <Route path="/account/orders" element={<PrivateRoute><MyOrdersPage /></PrivateRoute>} />
-          <Route path="/account/orders/:id" element={<PrivateRoute><OrderDetailPage /></PrivateRoute>} />
-          <Route path="/account/wishlist" element={<PrivateRoute><WishlistPage /></PrivateRoute>} />
-          <Route path="/account/addresses" element={<PrivateRoute><SavedAddressesPage /></PrivateRoute>} />
-          <Route path="/account/points" element={<PrivateRoute><LoyaltyPointsPage /></PrivateRoute>} />
+            {/* Account */}
+            <Route path="/account/profile" element={<PrivateRoute><MyProfilePage /></PrivateRoute>} />
+            <Route path="/account/orders" element={<PrivateRoute><MyOrdersPage /></PrivateRoute>} />
+            <Route path="/account/orders/:id" element={<PrivateRoute><OrderDetailPage /></PrivateRoute>} />
+            <Route path="/account/wishlist" element={<PrivateRoute><WishlistPage /></PrivateRoute>} />
+            <Route path="/account/addresses" element={<PrivateRoute><SavedAddressesPage /></PrivateRoute>} />
+            <Route path="/account/points" element={<PrivateRoute><LoyaltyPointsPage /></PrivateRoute>} />
 
-          {/* ============================================================================
-              ⚙️ BACK-OFFICE ADMINISTRATIVE SECURE CHANNELS
-              ============================================================================ */}
-          <Route path="/admin/login" element={<AdminLoginPage />} />
-          <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
-          <Route path="/admin/products" element={<AdminRoute><AdminProductsList /></AdminRoute>} />
-          <Route path="/admin/products/add" element={<AdminRoute><AdminAddProduct /></AdminRoute>} />
-          <Route path="/admin/products/edit/:id" element={<AdminRoute><AdminEditProduct /></AdminRoute>} />
-          <Route path="/admin/orders" element={<AdminRoute><AdminOrdersList /></AdminRoute>} />
-          <Route path="/admin/orders/:id" element={<AdminRoute><AdminOrderDetail /></AdminRoute>} />
-          <Route path="/admin/customers" element={<AdminRoute><AdminCustomers /></AdminRoute>} />
-          <Route path="/admin/notify-me" element={<AdminRoute><AdminNotifyMe /></AdminRoute>} />
-          <Route path="/admin/coupons" element={<AdminRoute><AdminCoupons /></AdminRoute>} />
-          <Route path="/admin/bundles" element={<AdminRoute><AdminBundles /></AdminRoute>} />
-          <Route path="/admin/categories" element={<AdminRoute><AdminCategories /></AdminRoute>} />
-          <Route path="/admin/reviews" element={<AdminRoute><AdminReviews /></AdminRoute>} />
-          <Route path="/admin/loyalty" element={<AdminRoute><AdminLoyalty /></AdminRoute>} />
-          <Route path="/admin/referrals" element={<AdminRoute><AdminReferrals /></AdminRoute>} />
-          <Route path="/admin/reports" element={<AdminRoute><AdminReports /></AdminRoute>} />
-          <Route path="/admin/homepage" element={<AdminRoute><AdminHomepageEditor /></AdminRoute>} />
-          <Route path="/admin/media" element={<AdminRoute><AdminMediaLibrary /></AdminRoute>} />
-          <Route path="/admin/content" element={<AdminRoute><AdminContentEditor /></AdminRoute>} />
-          <Route path="/admin/settings" element={<AdminRoute><AdminSettings /></AdminRoute>} />
-          <Route path="/admin/service-appointments" element={<AdminRoute><AdminServiceAppointments /></AdminRoute>} />
+            {/* Admin */}
+            <Route path="/admin/login" element={<AdminLoginPage />} />
+            <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
+            <Route path="/admin/products" element={<AdminRoute><AdminProductsList /></AdminRoute>} />
+            <Route path="/admin/products/add" element={<AdminRoute><AdminAddProduct /></AdminRoute>} />
+            <Route path="/admin/products/edit/:id" element={<AdminRoute><AdminEditProduct /></AdminRoute>} />
+            <Route path="/admin/orders" element={<AdminRoute><AdminOrdersList /></AdminRoute>} />
+            <Route path="/admin/orders/:id" element={<AdminRoute><AdminOrderDetail /></AdminRoute>} />
+            <Route path="/admin/customers" element={<AdminRoute><AdminCustomers /></AdminRoute>} />
+            <Route path="/admin/notify-me" element={<AdminRoute><AdminNotifyMe /></AdminRoute>} />
+            <Route path="/admin/coupons" element={<AdminRoute><AdminCoupons /></AdminRoute>} />
+            <Route path="/admin/bundles" element={<AdminRoute><AdminBundles /></AdminRoute>} />
+            <Route path="/admin/categories" element={<AdminRoute><AdminCategories /></AdminRoute>} />
+            <Route path="/admin/reviews" element={<AdminRoute><AdminReviews /></AdminRoute>} />
+            <Route path="/admin/loyalty" element={<AdminRoute><AdminLoyalty /></AdminRoute>} />
+            <Route path="/admin/referrals" element={<AdminRoute><AdminReferrals /></AdminRoute>} />
+            <Route path="/admin/reports" element={<AdminRoute><AdminReports /></AdminRoute>} />
+            <Route path="/admin/homepage" element={<AdminRoute><AdminHomepageEditor /></AdminRoute>} />
+            <Route path="/admin/media" element={<AdminRoute><AdminMediaLibrary /></AdminRoute>} />
+            <Route path="/admin/content" element={<AdminRoute><AdminContentEditor /></AdminRoute>} />
+            <Route path="/admin/settings" element={<AdminRoute><AdminSettings /></AdminRoute>} />
+            <Route path="/admin/service-appointments" element={<AdminRoute><AdminServiceAppointments /></AdminRoute>} />
 
-          {/* 📜 COMPLIANCE LEGAL DATA OVERVIEWS */}
-          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-          <Route path="/terms-conditions" element={<TermsConditionsPage />} />
-          <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
-          <Route path="/return-refund-policy" element={<ReturnPolicyPage />} />
+            {/* Policies */}
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms-conditions" element={<TermsConditionsPage />} />
+            <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
+            <Route path="/return-refund-policy" element={<ReturnPolicyPage />} />
 
-
-          {/* Canvas screen redirect handling */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+            {/* 404 */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </LayoutWrapper>
     </Router>
   );

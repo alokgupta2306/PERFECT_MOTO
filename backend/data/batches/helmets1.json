@@ -1,0 +1,1287 @@
+[
+{
+"name": "Vega Crux DX Matt Black Full Face Helmet",
+"slug": "vega-crux-dx-matt-black-full-face-helmet",
+"brand": "Vega",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Constructed with a sturdy aerodynamic thermoplastic shell, this helmet offers reliable everyday protection for street commuters. The scratch-resistant visor ensures a clear view while riding through varying daylight conditions.",
+"features": [
+"ISI certified safety standard",
+"Aerodynamic outer shell design",
+"Scratch resistant optical visor",
+"Dynamic ventilation port system",
+"Quick release buckle strap"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Thermoplastic"},
+{"key": "Weight", "value": "1350 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor Type", "value": "Clear Anti-Scratch"},
+{"key": "Closure", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x Vega Crux DX Helmet",
+"1x Protective Storage Bag",
+"1x Owner Manual"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Crux+DX+Matt+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BCrux%2BDX%2BMatt%2BBlack)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 1999,
+"gstPercent": 18,
+"stock": 85,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Vega Crux DX Matt Black Full Face Helmet",
+"metaDescription": "Buy Vega Crux DX Matt Black Full Face Helmet with ISI certification and comfortable fit. Perfect for daily Indian riders."
+},
+{
+"name": "Steelbird Alpha Gloss Red Open Face Helmet",
+"slug": "steelbird-alpha-gloss-red-open-face-helmet",
+"brand": "Steelbird",
+"category": "helmets",
+"subcategory": "Open Face",
+"description": "An open-face helmet designed for urban commuters seeking high ventilation and effortless wearability. Features a vibrant glossy finish paired with a high-density EPS inner lining for enhanced shock absorption.",
+"features": [
+"Open face design for wide peripheral view",
+"High density EPS inner foam",
+"Durable high impact outer shell",
+"Hypoallergenic interior padding",
+"Easy chin strap fastener"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Shell"},
+{"key": "Weight", "value": "1100 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Lining", "value": "Removable Comfort Fabric"},
+{"key": "Strap", "value": "Quick Release Lock"}
+],
+"whatsInBox": [
+"1x Steelbird Alpha Helmet",
+"1x Cloth Storage Pouch"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Alpha+Gloss+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BAlpha%2BGloss%2BRed)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1499,
+"gstPercent": 18,
+"stock": 120,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Steelbird Alpha Gloss Red Open Face Helmet",
+"metaDescription": "Lightweight and stylish Steelbird Alpha open face helmet in gloss red finish. Ideal for city riding."
+},
+{
+"name": "Studds Ninja 3 Flip-Up Metallic Silver Helmet",
+"slug": "studds-ninja-3-flip-up-metallic-silver-helmet",
+"brand": "Studds",
+"category": "helmets",
+"subcategory": "Flip-Up",
+"description": "Offering the versatility of both full-face and open-face configurations, this modular helmet is built for touring convenience. The smooth one-touch chin bar opening mechanism allows easy communication on the go.",
+"features": [
+"Convenient flip-up modular mechanism",
+"Aerodynamic engineering shell",
+"Regulated multi-step ventilation",
+"UV resistant clear exterior visor",
+"Anti-allergic inner fabrics"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact Thermoplastic"},
+{"key": "Weight", "value": "1450 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Mechanism", "value": "Single Hand Flip-Up"},
+{"key": "Finish", "value": "Metallic Silver Gloss"}
+],
+"whatsInBox": [
+"1x Studds Ninja 3 Helmet",
+"1x Helmet Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Ninja+3+Silver](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BNinja%2B3%2BSilver)",
+"isMain": true
+}
+],
+"price": 2899,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 60,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Studds Ninja 3 Flip-Up Metallic Silver Helmet",
+"metaDescription": "Studds Ninja 3 modular flip-up helmet in metallic silver. Dual functionality for touring and city rides."
+},
+{
+"name": "Axor Apex Venomous Gloss Neon Yellow Helmet",
+"slug": "axor-apex-venomous-gloss-neon-yellow-helmet",
+"brand": "Axor",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Engineered for high-speed stability, the Axor Apex incorporates an aggressive spoiler and dual-visor system. The bright neon graphic elements ensure superior visibility during night rides and low-light conditions.",
+"features": [
+"ECE and ISI dual homologation safety",
+"Integrated inner sun visor drop-down",
+"Emergency quick release cheek pads",
+"Pinlock ready anti-fog visor setup",
+"Multiple air intake and exhaust vents"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Composite"},
+{"key": "Weight", "value": "1550 grams"},
+{"key": "Certification", "value": "ECE R-22.05 & ISI"},
+{"key": "Visor", "value": "Pinlock Ready Dual Visor"},
+{"key": "Buckle", "value": "Double D-Ring"}
+],
+"whatsInBox": [
+"1x Axor Apex Helmet",
+"1x Clear Visor Fitted",
+"1x Storage Bag",
+"1x Manual Guide"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Venomous+Yellow](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BVenomous%2BYellow)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4399,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Venomous Neon Yellow Full Face Helmet",
+"metaDescription": "Axor Apex Venomous helmet features dual certification, sun visor, and bold neon graphics for serious riders."
+},
+{
+"name": "SMK Titan Carbon Solid Gloss Black Helmet",
+"slug": "smk-titan-carbon-solid-gloss-black-helmet",
+"brand": "SMK",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Crafted from advanced carbon fiber composites, this premium helmet minimizes weight while maximizing crash protection. The plush interior padding provides a snug, fatigue-free fit on long-distance touring routes.",
+"features": [
+"Full carbon fiber outer shell structure",
+"Extra wide field of view window",
+"Breathable moisture-wicking liner",
+"Wind tunnel tested aerodynamics",
+"Breath guard and wind deflector included"
+],
+"specifications": [
+{"key": "Material", "value": "Carbon Fiber"},
+{"key": "Weight", "value": "1300 grams"},
+{"key": "Certification", "value": "ECE 22-05 Certified"},
+{"key": "Visor", "value": "Pinlock 70 Included"},
+{"key": "Strap", "value": "Micrometric Quick Release"}
+],
+"whatsInBox": [
+"1x SMK Titan Carbon Helmet",
+"1x Pinlock Anti-Fog Lens",
+"1x Premium Backpack Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Titan+Carbon+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BTitan%2BCarbon%2BBlack)",
+"isMain": true
+}
+],
+"price": 14999,
+"salePrice": 11999,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Titan Carbon Solid Gloss Black Helmet",
+"metaDescription": "Experience lightweight performance with the SMK Titan Carbon full face helmet. Premium protection for tourers."
+},
+{
+"name": "LS2 Storm Racer Matte Blue White Helmet",
+"slug": "ls2-storm-racer-matte-blue-white-helmet",
+"brand": "LS2",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "High-performance kinetic polymer alloy construction gives this helmet exceptional resilience and lightweight feel. Complete with an internal drop-down sun shield and top-tier ventilation ports for all-weather journeys.",
+"features": [
+"Kinetic Polymer Alloy shell tech",
+"Retractable internal sun shield",
+"Laser-cut hypoallergenic foam padding",
+"Quick-release retention strap system",
+"Top channeled port ventilation"
+],
+"specifications": [
+{"key": "Material", "value": "KPA Polymer Alloy"},
+{"key": "Weight", "value": "1400 grams"},
+{"key": "Certification", "value": "ECE 22.05 Certified"},
+{"key": "Visor", "value": "Anti-Scratch Polycarbonate"},
+{"key": "Lining", "value": "Washable Breathable Fabric"}
+],
+"whatsInBox": [
+"1x LS2 Storm Helmet",
+"1x Helmet Carrying Pouch",
+"1x Reflective Sticker Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Storm+Racer+Blue](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BStorm%2BRacer%2BBlue)",
+"isMain": true
+}
+],
+"price": 8999,
+"salePrice": 7499,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "LS2 Storm Racer Matte Blue White Helmet",
+"metaDescription": "LS2 Storm Racer helmet features KPA shell technology, drop-down sun shield, and striking blue graphics."
+},
+{
+"name": "MT Thunder 3 SV Trace Gloss Pearl White Helmet",
+"slug": "mt-thunder-3-sv-trace-gloss-pearl-white-helmet",
+"brand": "MT Helmets",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "A favorite among riders, the MT Thunder 3 SV combines safety, aerodynamics, and sleek aesthetics. The internal sun visor mechanism operates smoothly with a side lever for sudden light changes.",
+"features": [
+"Multiple density internal EPS liner",
+"Internal drop down sun visor",
+"Optically correct quick change visor",
+"Metallic micrometric closure buckle",
+"Optimized aerodynamic shell profile"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Injection Molded"},
+{"key": "Weight", "value": "1500 grams"},
+{"key": "Certification", "value": "ECE R-22.05 & ISI"},
+{"key": "Visor", "value": "Max Vision Pinlock Ready"},
+{"key": "Closure", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x MT Thunder 3 SV Helmet",
+"1x Helmet Dust Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Thunder+3+SV+White](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BThunder%2B3%2BSV%2BWhite)",
+"isMain": true
+}
+],
+"price": 6499,
+"salePrice": 5299,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "MT Thunder 3 SV Trace Gloss Pearl White Helmet",
+"metaDescription": "MT Thunder 3 SV helmet offers dual certification, internal sun visor, and brilliant pearl white finish."
+},
+{
+"name": "Vega Off-Road Wanderer Dull Black D/V Helmet",
+"slug": "vega-off-road-wanderer-dull-black-dv-helmet",
+"brand": "Vega",
+"category": "helmets",
+"subcategory": "Off-Road",
+"description": "Built specifically for dirt trails and adventure touring, this off-road helmet features an extended peak and aggressive chin guard. The dual-visor configuration makes it exceptionally versatile for highway transitions.",
+"features": [
+"Extended peak visor for sun protection",
+"Dual visor system with inner sun shield",
+"Aggressive mud-deflecting chin vent",
+"Removable and washable inner padding",
+"Scratch resistant outer shield"
+],
+"specifications": [
+{"key": "Material", "value": "ABS High Impact Shell"},
+{"key": "Weight", "value": "1500 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Design", "value": "Motocross Peak Style"},
+{"key": "Strap", "value": "D-Ring / Micrometric Option"}
+],
+"whatsInBox": [
+"1x Vega Off-Road Wanderer Helmet",
+"1x Storage Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+OffRoad+Wanderer+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BOffRoad%2BWanderer%2BBlack)",
+"isMain": true
+}
+],
+"price": 3199,
+"salePrice": 2599,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Off-Road Wanderer Dull Black D/V Helmet",
+"metaDescription": "Vega Off-Road Wanderer dual visor helmet in dull black. Perfect for adventure riding and dirt tracks."
+},
+{
+"name": "Steelbird Air SBA-1 Ceramic Grey Helmet",
+"slug": "steelbird-air-sba-1-ceramic-grey-helmet",
+"brand": "Steelbird",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "A lightweight full-face helmet featuring striking ceramic grey coloration and high-impact shell construction. Designed with advanced air intake channels to keep the rider cool during hot city commutes.",
+"features": [
+"Advanced multipoint air ventilation",
+"High impact engineering thermoplastic",
+"Polycarbonate anti-scratch coated visor",
+"Neck protector for added comfort",
+"Quick release buckle mechanism"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Thermoplastic"},
+{"key": "Weight", "value": "1250 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Finish", "value": "Matte Ceramic Grey"},
+{"key": "Interior", "value": "Breathable Fabric"}
+],
+"whatsInBox": [
+"1x Steelbird Air SBA-1 Helmet",
+"1x Carry Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Air+SBA1+Grey](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BAir%2BSBA1%2BGrey)",
+"isMain": true
+}
+],
+"price": 2299,
+"salePrice": 1799,
+"gstPercent": 18,
+"stock": 95,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Steelbird Air SBA-1 Ceramic Grey Helmet",
+"metaDescription": "Steelbird Air SBA-1 full face helmet in ceramic grey. Lightweight and comfortable for everyday use."
+},
+{
+"name": "Studds Urban Open Face Matt Charcoal Helmet",
+"slug": "studds-urban-open-face-matt-charcoal-helmet",
+"brand": "Studds",
+"category": "helmets",
+"subcategory": "Open Face",
+"description": "Sleek and understated, the Studds Urban open-face helmet provides effortless slip-on convenience and wide visibility. Finished in sophisticated matt charcoal with subtle branding.",
+"features": [
+"Open face urban commuter design",
+"Hypoallergenic breathable inner liner",
+"Dynamic upper air intake vents",
+"Durable scratch resistant clear visor",
+"Secure quick release chin strap"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact Polymer"},
+{"key": "Weight", "value": "1050 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Color", "value": "Matt Charcoal"},
+{"key": "Visor", "value": "Clear Polycarbonate"}
+],
+"whatsInBox": [
+"1x Studds Urban Helmet",
+"1x Dust Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Urban+Charcoal](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BUrban%2BCharcoal)",
+"isMain": true
+}
+],
+"price": 1699,
+"salePrice": 1299,
+"gstPercent": 18,
+"stock": 110,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Studds Urban Open Face Matt Charcoal Helmet",
+"metaDescription": "Studds Urban open face helmet in matt charcoal. Light, secure, and reliable for daily city transits."
+},
+{
+"name": "Axor Ghost Matt Black Modular Helmet",
+"slug": "axor-ghost-matt-black-modular-helmet",
+"brand": "Axor",
+"category": "helmets",
+"subcategory": "Modular",
+"description": "The Axor Ghost modular helmet offers dual homologation P/J rating, allowing it to be ridden legally with the chin bar open or closed. Features an aggressive aesthetic and internal sun visor.",
+"features": [
+"Dual P/J homologation for open and closed riding",
+"Internal retractable dark sun visor",
+"Pinlock anti-fog insert compatible",
+"Superior ventilation with exhaust ports",
+"Removable washable inner cheek pads"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Polycarbonate Blend"},
+{"key": "Weight", "value": "1600 grams"},
+{"key": "Certification", "value": "ECE R-22.05 & ISI"},
+{"key": "Type", "value": "Modular Flip-Up"},
+{"key": "Closure", "value": "Micro-Metric Buckle"}
+],
+"whatsInBox": [
+"1x Axor Ghost Modular Helmet",
+"1x Helmet Bag",
+"1x Manual"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Ghost+Modular+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BGhost%2BModular%2BBlack)",
+"isMain": true
+}
+],
+"price": 5999,
+"salePrice": 4799,
+"gstPercent": 18,
+"stock": 0,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Ghost Matt Black Modular Helmet",
+"metaDescription": "Axor Ghost modular helmet in matt black with dual homologation and sun visor. Premium touring gear."
+},
+{
+"name": "SMK Gullwing Jet Open Face Gloss White Helmet",
+"slug": "smk-gullwing-jet-open-face-gloss-white-helmet",
+"brand": "SMK",
+"category": "helmets",
+"subcategory": "Open Face",
+"description": "An open-face touring helmet designed with an extended visor and internal sun shield for ultimate urban comfort. Its aerodynamic thermoplastic shell ensures lightweight protection.",
+"features": [
+"Extended main visor for wind protection",
+"Drop down internal tinted sun visor",
+"Breathable anti-bacterial lining",
+"Upper air ventilation slots",
+"Quick release retention system"
+],
+"specifications": [
+{"key": "Material", "value": "EIRT Thermoplastic"},
+{"key": "Weight", "value": "1250 grams"},
+{"key": "Certification", "value": "ECE 22-05 Certified"},
+{"key": "Finish", "value": "Gloss White"},
+{"key": "Strap", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x SMK Gullwing Jet Helmet",
+"1x Fabric Storage Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Gullwing+Jet+White](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BGullwing%2BJet%2BWhite)",
+"isMain": true
+}
+],
+"price": 4299,
+"salePrice": 3499,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Gullwing Jet Open Face Gloss White Helmet",
+"metaDescription": "SMK Gullwing Jet open face helmet with internal sun visor in gloss white. Perfect urban touring helmet."
+},
+{
+"name": "LS2 Pioneer MX436 Solid Matt Titanium Helmet",
+"slug": "ls2-pioneer-mx436-solid-matt-titanium-helmet",
+"brand": "LS2",
+"category": "helmets",
+"subcategory": "Off-Road",
+"description": "High-end adventure helmet built from Kinetic Polymer Alloy with an integrated sun visor and wide peak. Designed for dual-sport riders who transition seamlessly between highway and off-road tracks.",
+"features": [
+"KPA lightweight shell construction",
+"Drop-down internal sun shield",
+"Adjustable and removable peak visor",
+"Emergency release cheek pad system",
+"Multi-port dynamic flow-through ventilation"
+],
+"specifications": [
+{"key": "Material", "value": "Kinetic Polymer Alloy"},
+{"key": "Weight", "value": "1380 grams"},
+{"key": "Certification", "value": "ECE 22.05 Certified"},
+{"key": "Visor", "value": "Anti-Scratch & UV Resistant"},
+{"key": "Closure", "value": "Steel Quick Release Buckle"}
+],
+"whatsInBox": [
+"1x LS2 Pioneer MX436 Helmet",
+"1x Helmet Storage Bag",
+"1x Peak Adjustment Tool"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Pioneer+Matt+Titanium](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BPioneer%2BMatt%2BTitanium)",
+"isMain": true
+}
+],
+"price": 9999,
+"salePrice": 7999,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "LS2 Pioneer MX436 Solid Matt Titanium Helmet",
+"metaDescription": "LS2 Pioneer MX436 adventure helmet in matt titanium. Built for dual-sport and off-road riding."
+},
+{
+"name": "MT Atom SV Transcend Flip-Up Matt Black Red Helmet",
+"slug": "mt-atom-sv-transcend-flip-up-matt-black-red-helmet",
+"brand": "MT Helmets",
+"category": "helmets",
+"subcategory": "Flip-Up",
+"description": "A premium modular helmet featuring striking red graphics on a matt black background. Equipped with a drop-down sun visor and robust locking mechanism for touring safety.",
+"features": [
+"P/J certified modular flip-up design",
+"Integrated retractable sun visor",
+"Optically correct anti-scratch visor",
+"High impact absorption inner shell",
+"Micrometric metal buckle locking"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact Polycarbonate"},
+{"key": "Weight", "value": "1650 grams"},
+{"key": "Certification", "value": "ECE 22.05 & ISI Certified"},
+{"key": "Visor", "value": "Pinlock Max Vision Ready"},
+{"key": "Lining", "value": "Fire Retardant Fabric"}
+],
+"whatsInBox": [
+"1x MT Atom SV Helmet",
+"1x Protective Helmet Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Atom+SV+Black+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BAtom%2BSV%2BBlack%2BRed)",
+"isMain": true
+}
+],
+"price": 8499,
+"salePrice": 6999,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "MT Atom SV Transcend Flip-Up Matt Black Red Helmet",
+"metaDescription": "MT Atom SV modular flip-up helmet in matt black and red. Safe, comfortable, and feature-packed."
+},
+{
+"name": "Vega Bolt DX Sports Red Full Face Helmet",
+"slug": "vega-bolt-dx-sports-red-full-face-helmet",
+"brand": "Vega",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Sporty graphics combined with a rugged ABS thermoplastic shell make the Vega Bolt DX a popular choice for riders. Features a scratch-resistant visor and active air vents for comfortable airflow.",
+"features": [
+"Striking sports red graphic decals",
+"ABS aerodynamic shell structure",
+"Scratch-free treated clear visor",
+"Multipoint ventilation intake channels",
+"Quick release chin strap buckle"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Thermoplastic"},
+{"key": "Weight", "value": "1350 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor", "value": "Hard Coated Optical Polycarbonate"},
+{"key": "Interior", "value": "Odour Resistant Padding"}
+],
+"whatsInBox": [
+"1x Vega Bolt DX Helmet",
+"1x Cloth Storage Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Bolt+DX+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BBolt%2BDX%2BRed)",
+"isMain": true
+}
+],
+"price": 2699,
+"salePrice": 2199,
+"gstPercent": 18,
+"stock": 70,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Vega Bolt DX Sports Red Full Face Helmet",
+"metaDescription": "Vega Bolt DX full face helmet with sports red graphics and ISI certification. Reliable daily protection."
+},
+{
+"name": "Steelbird Igniter Full Face Gloss Black Helmet",
+"slug": "steelbird-igniter-full-face-gloss-black-helmet",
+"brand": "Steelbird",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "A classic gloss black full-face helmet engineered for everyday city commuting. Features high-density EPS padding and a robust outer shell to ensure uncompromised rider safety.",
+"features": [
+"Gloss black finish with sleek contours",
+"High density EPS inner absorption layer",
+"Polycarbonate anti-scratch visor",
+"Chin air ventilation port",
+"Reliable quick-release buckle"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact ABS"},
+{"key": "Weight", "value": "1200 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Finish", "value": "Gloss Black"},
+{"key": "Lining", "value": "Soft Comfort Fabric"}
+],
+"whatsInBox": [
+"1x Steelbird Igniter Helmet",
+"1x Carry Pouch"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Igniter+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BIgniter%2BBlack)",
+"isMain": true
+}
+],
+"price": 1999,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 85,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Steelbird Igniter Full Face Gloss Black Helmet",
+"metaDescription": "Steelbird Igniter full face helmet in gloss black. Affordable safety and clean aesthetics for commuters."
+},
+{
+"name": "Studds Thunder D/V Matt Olive Green Helmet",
+"slug": "studds-thunder-dv-matt-olive-green-helmet",
+"brand": "Studds",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Finished in rugged matt olive green, the Studds Thunder dual-visor helmet is designed for riders who value a tactical aesthetic. Features an easy-to-operate inner sun shield for daytime glare reduction.",
+"features": [
+"Dual visor system with inner sun shield",
+"Tactical matt olive green finish",
+"Aerodynamic shell with effective venting",
+"Hypoallergenic removable inner padding",
+"Quick release chin strap lock"
+],
+"specifications": [
+{"key": "Material", "value": "Thermoplastic Polymer"},
+{"key": "Weight", "value": "1450 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor", "value": "Clear Outer + Tinted Inner"},
+{"key": "Color", "value": "Matt Olive Green"}
+],
+"whatsInBox": [
+"1x Studds Thunder D/V Helmet",
+"1x Helmet Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Thunder+Olive+Green](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BThunder%2BOlive%2BGreen)",
+"isMain": true
+}
+],
+"price": 2799,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Studds Thunder D/V Matt Olive Green Helmet",
+"metaDescription": "Studds Thunder dual visor helmet in matt olive green. Tactical style with reliable everyday protection."
+},
+{
+"name": "Axor Street Punk Gloss White Red Helmet",
+"slug": "axor-street-punk-gloss-white-red-helmet",
+"brand": "Axor",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Urban street fighter styling meets high-end safety specifications in the Axor Street Punk. Includes dynamic graphics, aerodynamic spoiler, and a pinlock-ready visor configuration.",
+"features": [
+"Aggressive street fighter graphics",
+"Aerodynamic rear spoiler stability",
+"Pinlock ready scratch resistant visor",
+"Emergency release cheek padding",
+"Multiple channeled air vents"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Shell"},
+{"key": "Weight", "value": "1500 grams"},
+{"key": "Certification", "value": "ECE R-22.05 & ISI"},
+{"key": "Visor", "value": "Clear Anti-Scratch"},
+{"key": "Buckle", "value": "Double D-Ring"}
+],
+"whatsInBox": [
+"1x Axor Street Punk Helmet",
+"1x Storage Pouch",
+"1x Manual"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Street+Punk+White+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BStreet%2BPunk%2BWhite%2BRed)",
+"isMain": true
+}
+],
+"price": 4999,
+"salePrice": 3999,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Street Punk Gloss White Red Helmet",
+"metaDescription": "Axor Street Punk full face helmet with gloss white and red graphics. ECE and ISI certified safety."
+},
+{
+"name": "SMK Glide Hi-Way Matt Black Yellow Helmet",
+"slug": "smk-glide-hi-way-matt-black-yellow-helmet",
+"brand": "SMK",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Designed for touring enthusiasts, the SMK Glide offers exceptional comfort, wide vision, and high-visibility yellow graphics over a matt black shell. Features an integrated sun visor.",
+"features": [
+"EIRT thermoplastic energy management shell",
+"Retractable sun visor for bright sunlight",
+"Pinlock ready visor to prevent fogging",
+"Breathable hypo-allergenic lining",
+"Wind deflector to reduce turbulence"
+],
+"specifications": [
+{"key": "Material", "value": "Energy Impact Resistant Thermoplastic"},
+{"key": "Weight", "value": "1450 grams"},
+{"key": "Certification", "value": "ECE 22-05 Certified"},
+{"key": "Visor", "value": "Quick Release UV Resistant"},
+{"key": "Strap", "value": "Micrometric Quick Release"}
+],
+"whatsInBox": [
+"1x SMK Glide Helmet",
+"1x Helmet Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Glide+Black+Yellow](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BGlide%2BBlack%2BYellow)",
+"isMain": true
+}
+],
+"price": 5299,
+"salePrice": 4299,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Glide Hi-Way Matt Black Yellow Helmet",
+"metaDescription": "SMK Glide Hi-Way touring helmet in matt black and yellow with sun visor and ECE certification."
+},
+{
+"name": "LS2 Rapid Deadbolt Gloss Black Orange Helmet",
+"slug": "ls2-rapid-deadbolt-gloss-black-orange-helmet",
+"brand": "LS2",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "The LS2 Rapid streamlines basic protection into a high-performance shell with striking orange accents. Engineered with high-pressure thermoplastic technology for optimal safety.",
+"features": [
+"High Pressure Thermoplastic Technology shell",
+"Multi-density EPS shock absorbing liner",
+"Quick release chin strap system",
+"Top air intake and rear exhaust vents",
+"Removable washable comfort lining"
+],
+"specifications": [
+{"key": "Material", "value": "HPTT Composite"},
+{"key": "Weight", "value": "1350 grams"},
+{"key": "Certification", "value": "ECE 22.05 & ISI Certified"},
+{"key": "Visor", "value": "Pinlock Max Vision Ready"},
+{"key": "Closure", "value": "Quick Release Buckle"}
+],
+"whatsInBox": [
+"1x LS2 Rapid Helmet",
+"1x Storage Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Rapid+Black+Orange](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BRapid%2BBlack%2BOrange)",
+"isMain": true
+}
+],
+"price": 5999,
+"salePrice": 4899,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "LS2 Rapid Deadbolt Gloss Black Orange Helmet",
+"metaDescription": "LS2 Rapid Deadbolt full face helmet in gloss black and orange. Certified safety with modern graphics."
+},
+{
+"name": "MT Blade 2 SV Beta Gloss Blue Helmet",
+"slug": "mt-blade-2-sv-beta-gloss-blue-helmet",
+"brand": "MT Helmets",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "A top-tier sport-touring helmet offering superior aerodynamics, drop-down sun visor, and vibrant gloss blue graphics. Built with high-impact thermoplastic for uncompromised highway safety.",
+"features": [
+"Sport-touring aerodynamic profile",
+"Internal drop down sun visor",
+"Pinlock anti-fog visor compatibility",
+"Removable fire-retardant interior liner",
+"Micrometric metal fastening buckle"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Injection Shell"},
+{"key": "Weight", "value": "1550 grams"},
+{"key": "Certification", "value": "ECE 22.05 & ISI Certified"},
+{"key": "Visor", "value": "Optically Correct 2.2mm"},
+{"key": "Color", "value": "Gloss Blue"}
+],
+"whatsInBox": [
+"1x MT Blade 2 SV Helmet",
+"1x Protective Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Blade+2+SV+Gloss+Blue](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BBlade%2B2%2BSV%2BGloss%2BBlue)",
+"isMain": true
+}
+],
+"price": 7299,
+"salePrice": 5999,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "MT Blade 2 SV Beta Gloss Blue Helmet",
+"metaDescription": "MT Blade 2 SV sport touring helmet in gloss blue with internal sun visor and dual certification."
+},
+{
+"name": "Vega Crux DX Gunmetal Open Face Helmet",
+"slug": "vega-crux-dx-gunmetal-open-face-helmet",
+"brand": "Vega",
+"category": "helmets",
+"subcategory": "Open Face",
+"description": "An open-face variant of the popular Crux series, finished in sophisticated gunmetal grey. Provides lightweight comfort and wide peripheral visibility for daily city riding.",
+"features": [
+"Open face commuter design",
+"Sophisticated gunmetal grey finish",
+"Scratch-resistant clear optical visor",
+"High density EPS inner cushioning",
+"Quick release chin strap lock"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Thermoplastic"},
+{"key": "Weight", "value": "1050 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor Type", "value": "Clear Half Visor"},
+{"key": "Strap", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x Vega Crux Open Face Helmet",
+"1x Cloth Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Crux+Gunmetal+Open](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BCrux%2BGunmetal%2BOpen)",
+"isMain": true
+}
+],
+"price": 1799,
+"salePrice": 1399,
+"gstPercent": 18,
+"stock": 100,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Crux DX Gunmetal Open Face Helmet",
+"metaDescription": "Vega Crux DX open face helmet in gunmetal grey. Light, durable, and practical for city commutes."
+},
+{
+"name": "Steelbird Adonis D/V Matt Black Green Helmet",
+"slug": "steelbird-adonis-dv-matt-black-green-helmet",
+"brand": "Steelbird",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Steelbird Adonis dual-visor helmet featuring a bold matt black and green color scheme. Built with high-impact ABS material and an inner sun shield for daytime riding ease.",
+"features": [
+"Dual visor system with dark sun shield",
+"Matt black and neon green graphics",
+"High impact ABS outer shell",
+"Advanced air ventilation channels",
+"Neck protection cushion padding"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact ABS"},
+{"key": "Weight", "value": "1400 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor", "value": "Clear + Internal Sun Visor"},
+{"key": "Strap", "value": "Quick Release Lock"}
+],
+"whatsInBox": [
+"1x Steelbird Adonis Helmet",
+"1x Carry Pouch"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Adonis+Black+Green](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BAdonis%2BBlack%2BGreen)",
+"isMain": true
+}
+],
+"price": 2599,
+"salePrice": 2099,
+"gstPercent": 18,
+"stock": 65,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Steelbird Adonis D/V Matt Black Green Helmet",
+"metaDescription": "Steelbird Adonis dual visor helmet in matt black and green. Safe, stylish, and comfortable."
+},
+{
+"name": "Studds Marshall Open Face Black Silver Helmet",
+"slug": "studds-marshall-open-face-black-silver-helmet",
+"brand": "Studds",
+"category": "helmets",
+"subcategory": "Open Face",
+"description": "A classic open-face helmet from Studds featuring timeless black and silver styling. Engineered for maximum comfort and breathability during everyday city trips.",
+"features": [
+"Classic open face profile",
+"Black and silver graphic accents",
+"Hypoallergenic inner comfort liner",
+"Scratch resistant clear visor",
+"Secure chin strap mechanism"
+],
+"specifications": [
+{"key": "Material", "value": "Thermoplastic Shell"},
+{"key": "Weight", "value": "1000 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Visor", "value": "Clear Polycarbonate"},
+{"key": "Closure", "value": "Quick Release Fastener"}
+],
+"whatsInBox": [
+"1x Studds Marshall Helmet",
+"1x Dust Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Marshall+Black+Silver](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BMarshall%2BBlack%2BSilver)",
+"isMain": true
+}
+],
+"price": 1599,
+"salePrice": 1249,
+"gstPercent": 18,
+"stock": 140,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Studds Marshall Open Face Black Silver Helmet",
+"metaDescription": "Studds Marshall open face helmet in black and silver. Lightweight and reliable for daily commuters."
+},
+{
+"name": "Axor Apex Hunter Matt Military Green Helmet",
+"slug": "axor-apex-hunter-matt-military-green-helmet",
+"brand": "Axor",
+"category": "helmets",
+"subcategory": "Full Race",
+"description": "Military-inspired matt green finish combined with track-tested aerodynamics. Features a dual-visor setup, emergency cheek pad release, and pinlock-ready visor for serious touring riders.",
+"features": [
+"Matt military green tactical finish",
+"ECE and ISI dual homologated safety",
+"Retractable dark smoke sun visor",
+"Emergency quick release cheek pads",
+"Aerodynamic rear spoiler stability"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Composite"},
+{"key": "Weight", "value": "1550 grams"},
+{"key": "Certification", "value": "ECE R-22.05 & ISI"},
+{"key": "Visor", "value": "Pinlock Ready + Sun Visor"},
+{"key": "Strap", "value": "Double D-Ring"}
+],
+"whatsInBox": [
+"1x Axor Apex Hunter Helmet",
+"1x Storage Bag",
+"1x Manual"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Military+Green](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BMilitary%2BGreen)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4499,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Hunter Matt Military Green Helmet",
+"metaDescription": "Axor Apex Hunter helmet in matt military green with dual visor and double D-ring closure."
+},
+{
+"name": "SMK Twister Hacker Gloss Black Red Helmet",
+"slug": "smk-twister-hacker-gloss-black-red-helmet",
+"brand": "SMK",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Dynamic hacker-style graphics in red and black adorn this wind-tunnel tested touring helmet. Includes a built-in sun visor and plush breathable interior padding.",
+"features": [
+"EIRT aerodynamic thermoplastic shell",
+"Internal drop-down tinted sun visor",
+"Pinlock anti-fog lens compatible",
+"Breathable hypoallergenic inner fabric",
+"Multipoint channeled ventilation"
+],
+"specifications": [
+{"key": "Material", "value": "EIRT Thermoplastic"},
+{"key": "Weight", "value": "1450 grams"},
+{"key": "Certification", "value": "ECE 22-05 Certified"},
+{"key": "Visor", "value": "Quick Release UV Protected"},
+{"key": "Closure", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x SMK Twister Helmet",
+"1x Storage Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Twister+Black+Red](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BTwister%2BBlack%2BRed)",
+"isMain": true
+}
+],
+"price": 4899,
+"salePrice": 3999,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Twister Hacker Gloss Black Red Helmet",
+"metaDescription": "SMK Twister Hacker full face helmet in gloss black and red with internal sun visor and ECE rating."
+},
+{
+"name": "LS2 FF352 Rookie Solid Gloss Black Helmet",
+"slug": "ls2-ff352-rookie-solid-gloss-black-helmet",
+"brand": "LS2",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "An entry-level full-face helmet that doesn't compromise on safety. Constructed from high-pressure thermoplastic resin with a comfortable, removable interior liner.",
+"features": [
+"High Pressure Thermoplastic resin shell",
+"ECE certified reliable impact protection",
+"Scratch resistant clear polycarbonate visor",
+"Removable washable comfort lining",
+"Quick release chin strap system"
+],
+"specifications": [
+{"key": "Material", "value": "HPTT Resin"},
+{"key": "Weight", "value": "1300 grams"},
+{"key": "Certification", "value": "ECE 22.05 Certified"},
+{"key": "Finish", "value": "Gloss Black"},
+{"key": "Closure", "value": "Quick Release Buckle"}
+],
+"whatsInBox": [
+"1x LS2 Rookie Helmet",
+"1x Cloth Dust Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Rookie+Gloss+Black](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BRookie%2BGloss%2BBlack)",
+"isMain": true
+}
+],
+"price": 4599,
+"salePrice": 3699,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "LS2 FF352 Rookie Solid Gloss Black Helmet",
+"metaDescription": "LS2 FF352 Rookie full face helmet in gloss black. Lightweight, ECE certified, and budget-friendly."
+},
+{
+"name": "MT Stinger Swastik Gloss Black Yellow Helmet",
+"slug": "mt-stinger-swastik-gloss-black-yellow-helmet",
+"brand": "MT Helmets",
+"category": "helmets",
+"subcategory": "Full Face",
+"description": "Compact racing design with vibrant yellow graphic accents on gloss black. The MT Stinger is built with high-impact thermoplastic and offers exceptional high-speed stability.",
+"features": [
+"Compact racing shell geometry",
+"High impact resistance polymer",
+"Optically correct quick release visor",
+"Removable washable interior liner",
+"Micrometric metal buckle fastener"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Shell"},
+{"key": "Weight", "value": "1400 grams"},
+{"key": "Certification", "value": "ECE 22.05 & ISI Certified"},
+{"key": "Visor", "value": "Anti-Scratch Clear 2.2mm"},
+{"key": "Color", "value": "Gloss Black & Yellow"}
+],
+"whatsInBox": [
+"1x MT Stinger Helmet",
+"1x Protective Carry Bag"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Stinger+Black+Yellow](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BStinger%2BBlack%2BYellow)",
+"isMain": true
+}
+],
+"price": 5499,
+"salePrice": 4499,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "MT Stinger Swastik Gloss Black Yellow Helmet",
+"metaDescription": "MT Stinger full face helmet in gloss black and yellow with dual certification and compact racing design."
+},
+{
+"name": "Vega Off-Road Moto Dull Sports Blue Helmet",
+"slug": "vega-off-road-moto-dull-sports-blue-helmet",
+"brand": "Vega",
+"category": "helmets",
+"subcategory": "Off-Road",
+"description": "Designed for off-road enthusiasts who demand rugged build quality and distinct sports blue styling. Features an aerodynamic peak and optimized mouth vent for maximum airflow.",
+"features": [
+"Extended dirt-track peak visor",
+"Dull sports blue graphic finish",
+"High impact ABS shell structure",
+"Removable washable comfort padding",
+"Secure quick release chin strap"
+],
+"specifications": [
+{"key": "Material", "value": "ABS Thermoplastic"},
+{"key": "Weight", "value": "1480 grams"},
+{"key": "Certification", "value": "ISI Certified"},
+{"key": "Design", "value": "Motocross Off-Road"},
+{"key": "Closure", "value": "Micrometric Buckle"}
+],
+"whatsInBox": [
+"1x Vega Off-Road Moto Helmet",
+"1x Storage Pouch"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+OffRoad+Moto+Blue](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BOffRoad%2BMoto%2BBlue)",
+"isMain": true
+}
+],
+"price": 2999,
+"salePrice": 2399,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Off-Road Moto Dull Sports Blue Helmet",
+"metaDescription": "Vega Off-Road Moto helmet in dull sports blue. Rugged motocross styling for trail and street riders."
+}
+]

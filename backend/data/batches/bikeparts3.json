@@ -1,0 +1,990 @@
+[
+{
+"name": "Bosch Platinum Spark Plug for Bajaj Pulsar NS200",
+"slug": "bosch-platinum-spark-plug-for-bajaj-pulsar-ns200",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Spark Plugs",
+"description": "Engineered with a fine-wire platinum center electrode to deliver stronger spark energy, enhanced fuel combustion, and extended service intervals for Bajaj Pulsar NS200.",
+"features": [
+"Fine-wire platinum center electrode for focused spark energy",
+"Improves cold morning engine starting and throttle response",
+"Extended service lifespan compared to standard copper plugs",
+"Resists carbon fouling under heavy city stop-and-go traffic",
+"Designed specifically for Bajaj Pulsar NS200"
+],
+"specifications": [
+{"key": "Electrode Material", "value": "Platinum Center Electrode"},
+{"key": "Compatibility", "value": "Bajaj Pulsar NS200"},
+{"key": "Thread Size", "value": "Standard OEM Spec"},
+{"key": "Lifespan", "value": "Extended Mileage"},
+{"key": "Gap", "value": "Factory Pre-Gapped"}
+],
+"whatsInBox": [
+"1x Bosch Platinum Spark Plug"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Spark+Plug+NS200](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BSpark%2BPlug%2BNS200)",
+"isMain": true
+}
+],
+"price": 349,
+"salePrice": 289,
+"gstPercent": 18,
+"stock": 100,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Pulsar NS200", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Bosch Platinum Spark Plug for Bajaj Pulsar NS200",
+"metaDescription": "Bosch fine-wire platinum spark plug for improved combustion in Bajaj Pulsar NS200."
+},
+{
+"name": "Zana Heavy Duty Fork Oil Seal Kit for Royal Enfield Himalayan",
+"slug": "zana-heavy-duty-fork-oil-seal-kit-for-royal-enfield-himalayan",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Fork Oil Seals",
+"description": "High-durability rubber fork oil seals and dust wipers designed to withstand heavy compression and harsh dust exposure on adventure touring rides.",
+"features": [
+"Dual-lip design effectively retains fork oil and scrapes off mud",
+"High-grade Nitrile rubber compound resists thermal hardening",
+"Includes matching dust wiper seals to protect inner tubes",
+"Exact OEM dimensions for seamless fork leg insertion",
+"Designed specifically for Royal Enfield Himalayan"
+],
+"specifications": [
+{"key": "Material", "value": "Nitrile Butadiene Rubber (NBR)"},
+{"key": "Compatibility", "value": "Royal Enfield Himalayan"},
+{"key": "Contents", "value": "2 Oil Seals & 2 Dust Wipers"},
+{"key": "Performance", "value": "High Pressure & Dust Resistant"}
+],
+"whatsInBox": [
+"2x Fork Oil Seals",
+"2x Dust Wiper Seals"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Fork+Seals+Himalayan](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BFork%2BSeals%2BHimalayan)",
+"isMain": true
+}
+],
+"price": 899,
+"salePrice": 749,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Himalayan", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Fork Oil Seal Kit for Royal Enfield Himalayan",
+"metaDescription": "Heavy-duty Nitrile rubber fork oil seal and dust wiper kit for Royal Enfield Himalayan."
+},
+{
+"name": "Autokraft LED Headlight Assembly for Yamaha MT-15 V2",
+"slug": "autokraft-led-headlight-assembly-for-yamaha-mt-15-v2",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Headlight Assemblies",
+"description": "High-intensity LED projector headlight assembly designed as a direct replacement for Yamaha MT-15 V2. Delivers crisp, bright white illumination for night highway touring.",
+"features": [
+"High-output multi-projector LED array optics",
+"Shatter-resistant polycarbonate lens housing",
+"Integrated daytime running light (DRL) accent",
+"Plug-and-play wiring harness connector",
+"Designed specifically for Yamaha MT-15 V2"
+],
+"specifications": [
+{"key": "Light Source", "value": "High-Intensity LED Chips"},
+{"key": "Housing", "value": "ABS Plastic & Polycarbonate Lens"},
+{"key": "Compatibility", "value": "Yamaha MT-15 V2"},
+{"key": "Color Temp", "value": "6000K Pure White"},
+{"key": "Voltage", "value": "12V DC"}
+],
+"whatsInBox": [
+"1x Complete LED Headlight Assembly"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+LED+Headlight+MT15](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BLED%2BHeadlight%2BMT15)",
+"isMain": true
+}
+],
+"price": 3499,
+"salePrice": 2999,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Yamaha", "model": "MT-15", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft LED Headlight Assembly for Yamaha MT-15 V2",
+"metaDescription": "High-intensity LED projector replacement headlight assembly for Yamaha MT-15 V2."
+},
+{
+"name": "Givi Sequential LED Turn Signal Indicators Pair",
+"slug": "givi-sequential-led-turn-signal-indicators-pair",
+"brand": "Givi",
+"category": "bike-parts",
+"subcategory": "Indicators",
+"description": "Sleek amber flowing sequential LED turn signal indicators designed to add modern safety visibility and custom aesthetic styling to motorcycles.",
+"features": [
+"Flowing sequential amber LED illumination pattern",
+"Weather-sealed waterproof housing construction",
+"Flexible rubber stem base absorbs vibration and minor impacts",
+"Universal 10mm threaded mounting bolt",
+"Compatible with standard 12V flasher relays"
+],
+"specifications": [
+{"key": "Light Type", "value": "Sequential Amber LEDs"},
+{"key": "Material", "value": "ABS Plastic & Rubber Stem"},
+{"key": "Compatibility", "value": "Universal 12V Motorcycles"},
+{"key": "Waterproof", "value": "IP67 Weatherproof"},
+{"key": "Thread Size", "value": "10mm Bolt Mount"}
+],
+"whatsInBox": [
+"2x Sequential LED Indicators"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Givi+Sequential+Indicators](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DGivi%2BSequential%2BIndicators)",
+"isMain": true
+}
+],
+"price": 899,
+"salePrice": 699,
+"gstPercent": 18,
+"stock": 60,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Givi Sequential LED Turn Signal Indicators Pair",
+"metaDescription": "Pair of amber flowing sequential LED turn signal indicators with rubber stems."
+},
+{
+"name": "Zana Rear Mudguard Hugger Extension for KTM Duke 390",
+"slug": "zana-rear-mudguard-hugger-extension-for-ktm-duke-390",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Mudguards",
+"description": "Extended rear tyre hugger mudguard designed for KTM Duke 390. Prevents mud, slush, and road grime from splashing onto the rear shock absorber and under-seat electronics.",
+"features": [
+"Injection-molded high impact ABS plastic construction",
+"Extended profile catches mud splash effectively",
+"Protects rear monoshock linkage from grit wear",
+"Direct bolt-on fitment utilizing factory swingarm mounts",
+"Designed specifically for KTM Duke 390"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact ABS Plastic"},
+{"key": "Compatibility", "value": "KTM Duke 390"},
+{"key": "Finish", "value": "Textured Black Matte"},
+{"key": "Installation", "value": "Direct Swingarm Mount"}
+],
+"whatsInBox": [
+"1x Rear Mudguard Hugger",
+"1x Fastener Mounting Hardware Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Mudguard+Duke390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BMudguard%2BDuke390)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1199,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 390", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Rear Mudguard Hugger Extension for KTM Duke 390",
+"metaDescription": "Extended rear tyre hugger mudguard for KTM Duke 390 monoshock protection."
+},
+{
+"name": "Autokraft Anti-Slip Cushioned Seat Cover for Royal Enfield Classic 350",
+"slug": "autokraft-anti-slip-cushioned-seat-cover-for-royal-enfield-classic-350",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Seat Covers",
+"description": "Ergonomic mesh cushioned seat cover engineered for Royal Enfield Classic 350. Provides superior airflow, reduces heat buildup, and prevents bottoming out on long tours.",
+"features": [
+"3D honeycomb mesh fabric promotes cool air circulation",
+"Anti-slip backing prevents shifting while riding",
+"Water-repellent surface dries quickly after rain",
+"Elasticized drawstring hem for snug custom fit",
+"Designed specifically for Royal Enfield Classic 350"
+],
+"specifications": [
+{"key": "Material", "value": "3D Spacer Honeycomb Mesh"},
+{"key": "Compatibility", "value": "Royal Enfield Classic 350"},
+{"key": "Fixing", "value": "Elastic Drawstring Cord"},
+{"key": "Benefits", "value": "Heat Reduction & Breathability"}
+],
+"whatsInBox": [
+"1x Rider Seat Cover",
+"1x Pillion Seat Cover"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Seat+Cover+Classic350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BSeat%2BCover%2BClassic350)",
+"isMain": true
+}
+],
+"price": 999,
+"salePrice": 799,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Classic 350", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Autokraft Anti-Slip Cushioned Seat Cover for Royal Enfield Classic 350",
+"metaDescription": "Breathable 3D mesh cushioned seat cover for Royal Enfield Classic 350."
+},
+{
+"name": "Zana Heavy Duty Pillion Grab Rail for Bajaj Dominar 400",
+"slug": "zana-heavy-duty-pillion-grab-rail-for-bajaj-dominar-400",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Grab Rails",
+"description": "Sturdy aluminum pillion grab rail designed for Bajaj Dominar 400. Offers secure handholds for passengers and integrated tie-down points for strapping luggage tail bags.",
+"features": [
+"High-grade cast aluminum alloy construction",
+"Textured black powder coated finish",
+"Ergonomically contoured grip for pillion passenger",
+"Integrated slots for luggage strap anchoring",
+"Designed specifically for Bajaj Dominar 400"
+],
+"specifications": [
+{"key": "Material", "value": "Cast Aluminum Alloy"},
+{"key": "Compatibility", "value": "Bajaj Dominar 400"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Mounting", "value": "Direct Stock Replacement"}
+],
+"whatsInBox": [
+"1x Left Grab Rail",
+"1x Right Grab Rail",
+"1x Fastener Bolt Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Grab+Rail+Dominar400](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGrab%2BRail%2BDominar400)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 1999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Dominar 400", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Pillion Grab Rail for Bajaj Dominar 400",
+"metaDescription": "Heavy-duty cast aluminum pillion grab rail and luggage mount for Bajaj Dominar 400."
+},
+{
+"name": "Autokraft Heavy Solid Bar-End Weights Black Pair",
+"slug": "autokraft-heavy-solid-bar-end-weights-black-pair",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Bar-End Weights",
+"description": "Heavyweight solid stainless steel bar-end weights designed to dampen high-frequency handlebar vibrations during sustained highway cruising.",
+"features": [
+"Solid machined stainless steel weighted construction",
+"Reduces handlebar vibration and hand fatigue",
+"Durable matte black powder coated exterior",
+"Universal expansion collar fits most hollow handlebars",
+"Includes high-tensile mounting anchor screws"
+],
+"specifications": [
+{"key": "Material", "value": "Solid Stainless Steel"},
+{"key": "Weight", "value": "350 grams each side"},
+{"key": "Compatibility", "value": "Universal Hollow Handlebars"},
+{"key": "Finish", "value": "Matte Black Powder Coat"}
+],
+"whatsInBox": [
+"2x Bar-End Weights",
+"2x Expansion Bolts"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Bar+End+Weights](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BBar%2BEnd%2BWeights)",
+"isMain": true
+}
+],
+"price": 899,
+"salePrice": 699,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Autokraft Heavy Solid Bar-End Weights Black Pair",
+"metaDescription": "Pair of heavyweight solid stainless steel bar-end weights to reduce handlebar vibration."
+},
+{
+"name": "Zana Touring Windscreen Visor for Royal Enfield Himalayan",
+"slug": "zana-touring-windscreen-visor-for-royal-enfield-himalayan",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Windscreens",
+"description": "Taller optical-grade polycarbonate touring windscreen designed for Royal Enfield Himalayan. Deflects wind turbulence over the rider's helmet for fatigue-free long-distance cruising.",
+"features": [
+"4mm thick optical grade polycarbonate material",
+"Taller touring profile reduces helmet wind buffeting",
+"Clear optical transparency with scratch-resistant coating",
+"Direct bolt-on installation using factory mounting holes",
+"Designed specifically for Royal Enfield Himalayan"
+],
+"specifications": [
+{"key": "Material", "value": "4mm Optical Polycarbonate"},
+{"key": "Height", "value": "+100mm taller than stock"},
+{"key": "Compatibility", "value": "Royal Enfield Himalayan"},
+{"key": "Tint", "value": "Crystal Clear Transparent"},
+{"key": "UV Protection", "value": "99% UV Block"}
+],
+"whatsInBox": [
+"1x Touring Windscreen Visor",
+"1x Rubber Vibration Gasket Strip"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Windscreen+Himalayan](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BWindscreen%2BHimalayan)",
+"isMain": true
+}
+],
+"price": 2799,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Himalayan", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Zana Touring Windscreen Visor for Royal Enfield Himalayan",
+"metaDescription": "Taller 4mm optical polycarbonate touring windscreen for Royal Enfield Himalayan."
+},
+{
+"name": "Hashtag Racing Aluminum Sump Guard for KTM Duke 250",
+"slug": "hashtag-racing-aluminum-sump-guard-for-ktm-duke-250",
+"brand": "Hashtag Racing",
+"category": "bike-parts",
+"subcategory": "Sump Guards",
+"description": "Protective aluminum sump guard skid plate for KTM Duke 250 street motorcycles. Shields engine oil pan from speed breaker impacts and flying stones.",
+"features": [
+"3mm thick aircraft-grade aluminum alloy plate",
+"Precision laser cut with stamped ventilation slots",
+"Protects vulnerable oil drain plug and crankcase",
+"Direct bolt-on installation using stock mounting points",
+"Designed specifically for KTM Duke 250"
+],
+"specifications": [
+{"key": "Material", "value": "3mm Aluminum Alloy"},
+{"key": "Protection", "value": "Engine Oil Pan & Sump"},
+{"key": "Compatibility", "value": "KTM Duke 250"},
+{"key": "Finish", "value": "Brushed Silver Anodized"},
+{"key": "Weight", "value": "1.2 kg"}
+],
+"whatsInBox": [
+"1x Aluminum Sump Guard Plate",
+"1x Mounting Fastener Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Hashtag+Sump+Guard+Duke250](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DHashtag%2BSump%2BGuard%2BDuke250)",
+"isMain": true
+}
+],
+"price": 3499,
+"salePrice": 2999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 250", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Hashtag Racing Aluminum Sump Guard for KTM Duke 250",
+"metaDescription": "3mm aluminum engine sump guard skid plate for KTM Duke 250."
+},
+{
+"name": "Bosch Platinum Spark Plug for Honda CB350",
+"slug": "bosch-platinum-spark-plug-for-honda-cb350",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Spark Plugs",
+"description": "Fine-wire platinum center electrode spark plug engineered to deliver reliable ignition performance and smooth idle for Honda CB350 motorcycles.",
+"features": [
+"Platinum center electrode for focused spark energy",
+"Reliable cold starting and smooth throttle response",
+"Resists carbon fouling in stop-and-go city traffic",
+"Extended service interval longevity",
+"Designed specifically for Honda CB350"
+],
+"specifications": [
+{"key": "Electrode", "value": "Platinum Center Tip"},
+{"key": "Compatibility", "value": "Honda CB350"},
+{"key": "Thread", "value": "OEM Standard Specification"},
+{"key": "Lifespan", "value": "Long Life Service"}
+],
+"whatsInBox": [
+"1x Bosch Platinum Spark Plug"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Spark+Plug+CB350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BSpark%2BPlug%2BCB350)",
+"isMain": true
+}
+],
+"price": 379,
+"salePrice": 299,
+"gstPercent": 18,
+"stock": 80,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "CB350", "yearFrom": 2021, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Platinum Spark Plug for Honda CB350",
+"metaDescription": "Bosch platinum center electrode spark plug for Honda CB350."
+},
+{
+"name": "Zana Heavy Duty Fork Oil Seal Kit for KTM Adventure 390",
+"slug": "zana-heavy-duty-fork-oil-seal-kit-for-ktm-adventure-390",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Fork Oil Seals",
+"description": "Reinforced rubber fork oil seal and dust wiper kit designed for WP suspension forks on KTM Adventure 390. Prevents oil leaks under extreme off-road compression.",
+"features": [
+"Dual-lip nitrile rubber seal construction",
+"Withstands high hydraulic fork pressures during trail jumps",
+"Includes matching dust wipers to keep dirt out",
+"Exact OEM dimensions for WP inverted forks",
+"Designed specifically for KTM Adventure 390"
+],
+"specifications": [
+{"key": "Material", "value": "Reinforced Nitrile Rubber"},
+{"key": "Compatibility", "value": "KTM Adventure 390"},
+{"key": "Suspension Type", "value": "Inverted WP Forks"},
+{"key": "Contents", "value": "2 Oil Seals & 2 Dust Wipers"}
+],
+"whatsInBox": [
+"2x Fork Oil Seals",
+"2x Dust Wipers"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Fork+Seals+ADV390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BFork%2BSeals%2BADV390)",
+"isMain": true
+}
+],
+"price": 1099,
+"salePrice": 899,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Adventure 390", "yearFrom": 2020, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Fork Oil Seal Kit for KTM Adventure 390",
+"metaDescription": "Reinforced Nitrile rubber fork oil seal and dust wiper kit for KTM Adventure 390."
+},
+{
+"name": "Autokraft LED Tail Lamp Assembly for TVS Apache RTR 160 4V",
+"slug": "autokraft-led-tail-lamp-assembly-for-tvs-apache-rtr-160-4v",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Tail lamps",
+"description": "Integrated LED tail lamp assembly featuring bright running and braking illumination for TVS Apache RTR 160 4V. Direct plug-and-play replacement.",
+"features": [
+"High-brightness LED cluster for brake and tail light",
+"Shatter-resistant tinted red polycarbonate lens",
+"Weather-sealed waterproof housing enclosure",
+"Plug-and-play stock wiring harness connector",
+"Designed specifically for TVS Apache RTR 160 4V"
+],
+"specifications": [
+{"key": "Light Source", "value": "SMD LED Cluster"},
+{"key": "Lens", "value": "Tinted Red Polycarbonate"},
+{"key": "Compatibility", "value": "Apache RTR 160 4V"},
+{"key": "Voltage", "value": "12V DC Plug & Play"}
+],
+"whatsInBox": [
+"1x LED Tail Lamp Assembly"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+LED+Tail+Lamp+Apache](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BLED%2BTail%2BLamp%2BApache)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1499,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "TVS", "model": "Apache RTR 160 4V", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft LED Tail Lamp Assembly for TVS Apache RTR 160 4V",
+"metaDescription": "Integrated LED replacement tail lamp assembly for TVS Apache RTR 160 4V."
+},
+{
+"name": "Zana Front Mudguard Extension Beak for Suzuki V-Strom SX",
+"slug": "zana-front-mudguard-extension-beak-for-suzuki-v-strom-sx",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Mudguards",
+"description": "Adventure style front mudguard extension beak designed for Suzuki V-Strom SX. Protects engine headers and lower fairings from mud and stone pellet impacts.",
+"features": [
+"High impact ABS plastic construction",
+"Adventure styling enhances dual-sport stance",
+"Prevents mud and stone chips hitting exhaust headers",
+"Direct bolt-on installation onto factory front fender",
+"Designed specifically for Suzuki V-Strom SX"
+],
+"specifications": [
+{"key": "Material", "value": "High Impact ABS Plastic"},
+{"key": "Compatibility", "value": "Suzuki V-Strom SX"},
+{"key": "Finish", "value": "Textured Matte Black"},
+{"key": "Mounting", "value": "Direct Fender Bolt-On"}
+],
+"whatsInBox": [
+"1x Front Mudguard Extension Beak",
+"1x Hardware Fastener Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Fender+Beak+VStrom](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BFender%2BBeak%2BVStrom)",
+"isMain": true
+}
+],
+"price": 1299,
+"salePrice": 999,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Suzuki", "model": "V-Strom SX", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Front Mudguard Extension Beak for Suzuki V-Strom SX",
+"metaDescription": "Adventure style front fender mudguard extension beak for Suzuki V-Strom SX."
+},
+{
+"name": "Autokraft Anti-Slip Cushioned Seat Cover for Bajaj Dominar 400",
+"slug": "autokraft-anti-slip-cushioned-seat-cover-for-bajaj-dominar-400",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Seat Covers",
+"description": "Breathable 3D honeycomb mesh seat cover designed for Bajaj Dominar 400 tourers. Reduces seat temperature during hot summer rides and adds cushioning comfort.",
+"features": [
+"3D spacer mesh promotes cooling airflow",
+"Anti-slip backing prevents rider sliding under braking",
+"Water-repellent structure drains moisture instantly",
+"Elasticated hem ensures secure snug fit",
+"Designed specifically for Bajaj Dominar 400"
+],
+"specifications": [
+{"key": "Material", "value": "3D Honeycomb Spacer Mesh"},
+{"key": "Compatibility", "value": "Bajaj Dominar 400"},
+{"key": "Fixing", "value": "Elastic Drawstring Cord"},
+{"key": "Benefits", "value": "Heat Dissipation & Comfort"}
+],
+"whatsInBox": [
+"1x Split Seat Cover Set (Rider & Pillion)"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Seat+Cover+Dominar](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BSeat%2BCover%2BDominar)",
+"isMain": true
+}
+],
+"price": 1099,
+"salePrice": 899,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Dominar 400", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft Anti-Slip Cushioned Seat Cover for Bajaj Dominar 400",
+"metaDescription": "Breathable 3D honeycomb mesh cushioned seat cover for Bajaj Dominar 400."
+},
+{
+"name": "Zana Touring Windscreen Visor for Suzuki V-Strom SX",
+"slug": "zana-touring-windscreen-visor-for-suzuki-v-strom-sx",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Windscreens",
+"description": "Taller optical-grade polycarbonate touring windscreen for Suzuki V-Strom SX. Minimizes helmet buffeting and wind fatigue on long highway stretches.",
+"features": [
+"4mm thick optical grade polycarbonate material",
+"Taller touring height diverts airflow over helmet",
+"Crystal clear transparency with anti-scratch coating",
+"Direct bolt-on replacement using factory mounts",
+"Designed specifically for Suzuki V-Strom SX"
+],
+"specifications": [
+{"key": "Material", "value": "4mm Optical Polycarbonate"},
+{"key": "Compatibility", "value": "Suzuki V-Strom SX"},
+{"key": "Height", "value": "+120mm taller than stock"},
+{"key": "Tint", "value": "Transparent Clear"}
+],
+"whatsInBox": [
+"1x Touring Windscreen Visor",
+"1x Anti-Vibration Washer Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Windscreen+VStrom](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BWindscreen%2BVStrom)",
+"isMain": true
+}
+],
+"price": 2899,
+"salePrice": 2399,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Suzuki", "model": "V-Strom SX", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Touring Windscreen Visor for Suzuki V-Strom SX",
+"metaDescription": "Taller 4mm optical polycarbonate touring windscreen for Suzuki V-Strom SX."
+},
+{
+"name": "Hashtag Racing Aluminum Sump Guard for Yamaha R15 V4",
+"slug": "hashtag-racing-aluminum-sump-guard-for-yamaha-r15-v4",
+"brand": "Hashtag Racing",
+"category": "bike-parts",
+"subcategory": "Sump Guards",
+"description": "Protective aluminum sump guard skid plate for Yamaha R15 V4 track and street use. Shields lower engine casing and oil pan from speed breakers.",
+"features": [
+"3mm thick aircraft-grade aluminum alloy plate",
+"Precision laser cut with cooling ventilation slots",
+"Protects vulnerable oil drain plug and crankcase",
+"Direct bolt-on installation using stock mounting points",
+"Designed specifically for Yamaha R15 V4"
+],
+"specifications": [
+{"key": "Material", "value": "3mm Aluminum Alloy"},
+{"key": "Protection", "value": "Engine Oil Pan & Sump"},
+{"key": "Compatibility", "value": "Yamaha R15 V4"},
+{"key": "Finish", "value": "Brushed Silver Anodized"},
+{"key": "Weight", "value": "1.1 kg"}
+],
+"whatsInBox": [
+"1x Aluminum Sump Guard Plate",
+"1x Fastener Hardware Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Hashtag+Sump+Guard+R15V4](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DHashtag%2BSump%2BGuard%2BR15V4)",
+"isMain": true
+}
+],
+"price": 3299,
+"salePrice": 2799,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Yamaha", "model": "R15 V4", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Hashtag Racing Aluminum Sump Guard for Yamaha R15 V4",
+"metaDescription": "3mm aluminum engine sump guard skid plate for Yamaha R15 V4."
+},
+{
+"name": "Bosch Platinum Spark Plug for KTM Duke 390",
+"slug": "bosch-platinum-spark-plug-for-ktm-duke-390",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Spark Plugs",
+"description": "Fine-wire platinum center electrode spark plug engineered to deliver high spark energy and optimal ignition performance for KTM Duke 390 high-rev engines.",
+"features": [
+"Fine-wire platinum center electrode tip",
+"Optimized spark energy for high compression engines",
+"Resists fouling under aggressive riding conditions",
+"Extended service longevity compared to standard copper",
+"Designed specifically for KTM Duke 390"
+],
+"specifications": [
+{"key": "Electrode", "value": "Platinum Center Tip"},
+{"key": "Compatibility", "value": "KTM Duke 390"},
+{"key": "Thread", "value": "OEM Standard Spec"},
+{"key": "Performance", "value": "High Spark Energy"}
+],
+"whatsInBox": [
+"1x Bosch Platinum Spark Plug"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Spark+Plug+Duke390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BSpark%2BPlug%2BDuke390)",
+"isMain": true
+}
+],
+"price": 399,
+"salePrice": 329,
+"gstPercent": 18,
+"stock": 70,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 390", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Platinum Spark Plug for KTM Duke 390",
+"metaDescription": "Bosch platinum center electrode spark plug for KTM Duke 390."
+},
+{
+"name": "Zana Heavy Duty Fork Oil Seal Kit for Honda CB350",
+"slug": "zana-heavy-duty-fork-oil-seal-kit-for-honda-cb350",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Fork Oil Seals",
+"description": "Heavy-duty rubber fork oil seal and dust wiper replacement kit for Honda CB350 cruiser motorcycles. Prevents front fork oil leakage and premature seal wear.",
+"features": [
+"Dual-lip nitrile rubber sealing profile",
+"High thermal and frictional resistance",
+"Includes matching dust wiper seals",
+"Exact OEM dimensions for conventional front forks",
+"Designed specifically for Honda CB350"
+],
+"specifications": [
+{"key": "Material", "value": "Nitrile Rubber (NBR)"},
+{"key": "Compatibility", "value": "Honda CB350"},
+{"key": "Fork Type", "value": "Conventional Telescopic Forks"},
+{"key": "Contents", "value": "2 Oil Seals & 2 Dust Wipers"}
+],
+"whatsInBox": [
+"2x Fork Oil Seals",
+"2x Dust Wipers"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Fork+Seals+CB350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BFork%2BSeals%2BCB350)",
+"isMain": true
+}
+],
+"price": 849,
+"salePrice": 699,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "CB350", "yearFrom": 2021, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Fork Oil Seal Kit for Honda CB350",
+"metaDescription": "Nitrile rubber fork oil seal and dust wiper kit for Honda CB350."
+},
+{
+"name": "Autokraft CNC Aluminum Handlebar Crossbar Pad Royal Enfield Hunter 350",
+"slug": "autokraft-cnc-aluminum-handlebar-crossbar-pad-royal-enfield-hunter-350",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Handlebars",
+"description": "Custom telescopic aluminum handlebar crossbar kit with protective high-density foam pad designed specifically for Royal Enfield Hunter 350 handlebar setup.",
+"features": [
+"Billet aluminum adjustable length crossbar",
+"High-density protective foam pad with logo",
+"Reduces handlebar vibration and flex",
+"Anodized black weather-resistant finish",
+"Designed specifically for Royal Enfield Hunter 350"
+],
+"specifications": [
+{"key": "Material", "value": "Billet Aluminum & Foam"},
+{"key": "Compatibility", "value": "Royal Enfield Hunter 350"},
+{"key": "Finish", "value": "Anodized Black"},
+{"key": "Weight", "value": "480 grams"}
+],
+"whatsInBox": [
+"1x Aluminum Crossbar",
+"2x Handlebar Clamps",
+"1x Foam Pad"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Crossbar+Hunter350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BCrossbar%2BHunter350)",
+"isMain": true
+}
+],
+"price": 1399,
+"salePrice": 1099,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Hunter 350", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Aluminum Handlebar Crossbar Pad Royal Enfield Hunter 350",
+"metaDescription": "Telescopic aluminum handlebar crossbar with protective foam pad for Royal Enfield Hunter 350."
+},
+{
+"name": "Zana Heavy Duty Pillion Grab Rail for Royal Enfield Classic 350",
+"slug": "zana-heavy-duty-pillion-grab-rail-for-royal-enfield-classic-350",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Grab Rails",
+"description": "Sturdy tubular steel pillion grab rail designed for Royal Enfield Classic 350. Provides secure passenger handholds and luggage tie-down anchor points.",
+"features": [
+"High-tensile steel tube construction",
+"Textured black powder coated anti-rust finish",
+"Ergonomic pillion passenger gripping handle",
+"Integrated strap slots for tail bag mounting",
+"Designed specifically for Royal Enfield Classic 350"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Compatibility", "value": "Royal Enfield Classic 350"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Mounting", "value": "Direct Stock Replacement"}
+],
+"whatsInBox": [
+"1x Pillion Grab Rail Assembly",
+"1x Hardware Bolt Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Grab+Rail+Classic350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGrab%2BRail%2BClassic350)",
+"isMain": true
+}
+],
+"price": 2299,
+"salePrice": 1899,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Classic 350", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Pillion Grab Rail for Royal Enfield Classic 350",
+"metaDescription": "Tubular steel pillion grab rail and luggage mount for Royal Enfield Classic 350."
+},
+{
+"name": "Autokraft CNC Adjustable Clutch and Brake Levers for Bajaj Dominar 400",
+"slug": "autokraft-cnc-adjustable-clutch-and-brake-levers-for-bajaj-dominar-400",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Clutch and Brake Levers",
+"description": "Billet CNC machined aluminum adjustable levers designed for Bajaj Dominar 400. Features 6-position reach adjustment and foldable pivot design.",
+"features": [
+"Aerospace grade 6061-T6 billet aluminum CNC machined",
+"6-position reach adjustment for customized lever distance",
+"Foldable pivot hinge prevents snapping during drops",
+"Anodized black and silver color finish",
+"Designed specifically for Bajaj Dominar 400"
+],
+"specifications": [
+{"key": "Material", "value": "Billet CNC Aluminum 6061-T6"},
+{"key": "Adjustment", "value": "6-Position Reach Adjust"},
+{"key": "Compatibility", "value": "Bajaj Dominar 400"},
+{"key": "Finish", "value": "Anodized Black"},
+{"key": "Type", "value": "Foldable Shorty Levers"}
+],
+"whatsInBox": [
+"1x Adjustable Brake Lever",
+"1x Adjustable Clutch Lever"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Levers+Dominar400](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BLevers%2BDominar400)",
+"isMain": true
+}
+],
+"price": 2699,
+"salePrice": 2199,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Dominar 400", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Adjustable Clutch and Brake Levers for Bajaj Dominar 400",
+"metaDescription": "CNC aluminum adjustable foldable clutch and brake levers for Bajaj Dominar 400."
+}
+]

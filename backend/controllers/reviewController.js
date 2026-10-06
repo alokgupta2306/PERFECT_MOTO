@@ -147,7 +147,6 @@ exports.getCustomerPhotos = async (req, res, next) => {
     // Looks up approved logs that contain at least one valid index media asset attachment link
     const reviewsWithImages = await Review.find({
       status: 'approved',
-      'images.0': { $exists: true }
     })
       .populate('user', 'name')
       .populate('product', 'name')

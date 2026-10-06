@@ -1,0 +1,1251 @@
+[
+{
+"name": "Vega Crux Clear Replacement Visor",
+"slug": "vega-crux-clear-replacement-visor",
+"brand": "Vega",
+"category": "visors",
+"subcategory": "Clear Visor",
+"description": "Optical grade replacement clear visor designed specifically for Vega Crux helmets. Features anti-scratch hard coating to ensure distortion-free night visibility and crystal clear protection.",
+"features": [
+"Optically correct distortion-free vision",
+"Hard-coated anti-scratch exterior treatment",
+"Easy tool-less installation mechanism",
+"UV resistant optical polycarbonate material",
+"Ideal for night and low-light riding"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Clear Transparent"},
+{"key": "Coating", "value": "Anti-Scratch Hard Coat"},
+{"key": "Compatibility", "value": "Vega Crux Helmets"},
+{"key": "UV Protection", "value": "99% UV Block"}
+],
+"whatsInBox": [
+"1x Vega Crux Clear Visor",
+"1x Installation Guide"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Crux+Clear+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BCrux%2BClear%2BVisor)",
+"isMain": true
+}
+],
+"price": 499,
+"salePrice": 399,
+"gstPercent": 18,
+"stock": 120,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Vega Crux Clear Replacement Visor",
+"metaDescription": "Replacement clear visor for Vega Crux helmets with anti-scratch coating and UV protection."
+},
+{
+"name": "Axor Apex Dark Smoke Sun Visor",
+"slug": "axor-apex-dark-smoke-sun-visor",
+"brand": "Axor",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke tinted visor for Axor Apex helmets, offering exceptional glare reduction during bright daylight riding. Precision molded for seamless fit and wide peripheral vision.",
+"features": [
+"Dark smoke tint for harsh sunlight glare reduction",
+"Pinlock anti-fog insert pin compatibility",
+"Hard-coated scratch resistant exterior",
+"Quick release ratchet mounting system",
+"Optically correct injection molded polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Dark Smoke Tinted"},
+{"key": "Pinlock", "value": "Pinlock Ready Pins Fitted"},
+{"key": "Compatibility", "value": "Axor Apex Helmets"},
+{"key": "Certification", "value": "ECE Approved Component"}
+],
+"whatsInBox": [
+"1x Axor Apex Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Apex+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BApex%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 1299,
+"salePrice": 1099,
+"gstPercent": 18,
+"stock": 65,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Axor Apex Dark Smoke Sun Visor",
+"metaDescription": "Axor Apex dark smoke tinted replacement visor with pinlock readiness and anti-scratch coating."
+},
+{
+"name": "MT Thunder 3 SV Gold Iridium Mirror Visor",
+"slug": "mt-thunder-3-sv-gold-iridium-mirror-visor",
+"brand": "MT Helmets",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Stunning gold iridium coated mirror visor for MT Thunder 3 SV helmets. Enhances aesthetic appeal while effectively filtering harsh sunlight and reducing eye strain.",
+"features": [
+"Reflective gold iridium mirror coating",
+"High glare reduction for bright daylight touring",
+"Anti-scratch treated optical surface",
+"Pinlock max vision pin compatibility",
+"Quick change mechanism friendly"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Gold Iridium Mirror Finish"},
+{"key": "Pinlock", "value": "Pinlock Max Vision Ready"},
+{"key": "Compatibility", "value": "MT Thunder 3 SV Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x MT Thunder 3 Gold Iridium Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Gold+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BGold%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "MT Thunder 3 SV Gold Iridium Mirror Visor",
+"metaDescription": "Gold iridium mirror replacement visor for MT Thunder 3 SV helmets. Superior glare reduction."
+},
+{
+"name": "Steelbird Air Anti-Fog Clear Replacement Visor",
+"slug": "steelbird-air-anti-fog-clear-replacement-visor",
+"brand": "Steelbird",
+"category": "visors",
+"subcategory": "Anti-Fog Visor",
+"description": "Clear replacement visor treated with advanced anti-fog properties for Steelbird Air series helmets. Prevents condensation buildup during cold morning or monsoon rides.",
+"features": [
+"Integrated anti-fog treatment coating",
+"Crystal clear optical transparency",
+"Hard-coated scratch resistant surface",
+"Precise fitment for Steelbird Air models",
+"Durable high impact polycarbonate build"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Treatment", "value": "Anti-Fog Coated Clear"},
+{"key": "Compatibility", "value": "Steelbird Air Helmets"},
+{"key": "Thickness", "value": "2.0 mm"},
+{"key": "Weather", "value": "All Weather Fog Resistant"}
+],
+"whatsInBox": [
+"1x Steelbird Air Anti-Fog Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+AntiFog+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BAntiFog%2BVisor)",
+"isMain": true
+}
+],
+"price": 799,
+"salePrice": 649,
+"gstPercent": 18,
+"stock": 80,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Steelbird Air Anti-Fog Clear Replacement Visor",
+"metaDescription": "Steelbird Air clear replacement visor with anti-fog coating for clear vision in cold and wet weather."
+},
+{
+"name": "Studds Ninja 3 Smoked Replacement Visor",
+"slug": "studds-ninja-3-smoked-replacement-visor",
+"brand": "Studds",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Light smoked tinted replacement visor for Studds Ninja 3 modular helmets. Provides comfortable shade and glare reduction during bright afternoon rides.",
+"features": [
+"Light smoked tint for daytime comfort",
+"Scratch resistant hard-coated exterior",
+"Exact OEM fit for Studds Ninja 3",
+"Easy side ratchet mounting installation",
+"Durable optical grade polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Light Smoke Tint"},
+{"key": "Compatibility", "value": "Studds Ninja 3 Helmets"},
+{"key": "Coating", "value": "Anti-Scratch"},
+{"key": "UV Block", "value": "Standard UV Protection"}
+],
+"whatsInBox": [
+"1x Studds Ninja 3 Smoked Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Ninja+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BNinja%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 699,
+"salePrice": 549,
+"gstPercent": 18,
+"stock": 90,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Studds Ninja 3 Smoked Replacement Visor",
+"metaDescription": "Replacement light smoked visor for Studds Ninja 3 helmets. Reduces daylight glare effectively."
+},
+{
+"name": "LS2 Storm Rainbow Iridium Mirror Visor",
+"slug": "ls2-storm-rainbow-iridium-mirror-visor",
+"brand": "LS2",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Vibrant rainbow iridium mirror visor for LS2 Storm helmets. Delivers a striking multi-color appearance combined with superior glare filtering in bright sunlight.",
+"features": [
+"Multi-color rainbow iridium mirror finish",
+"Exceptional glare reduction in intense sunlight",
+"Pinlock Max Vision anti-fog insert ready",
+"Hard-coated anti-scratch polycarbonate shell",
+"Quick-release mechanism compatibility"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Composite"},
+{"key": "Coating", "value": "Rainbow Iridium Mirror"},
+{"key": "Pinlock", "value": "Pinlock Max Vision Ready"},
+{"key": "Compatibility", "value": "LS2 Storm Helmets"},
+{"key": "Certification", "value": "ECE Approved"}
+],
+"whatsInBox": [
+"1x LS2 Storm Rainbow Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Rainbow+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BRainbow%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 2199,
+"salePrice": 1849,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "LS2 Storm Rainbow Iridium Mirror Visor",
+"metaDescription": "LS2 Storm rainbow iridium mirror visor with pinlock readiness and stunning multi-color finish."
+},
+{
+"name": "SMK Titan Silver Iridium Visor",
+"slug": "smk-titan-silver-iridium-visor",
+"brand": "SMK",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Silver iridium coated replacement visor engineered for SMK Titan carbon helmets. Offers a sleek metallic chrome look while minimizing eye fatigue under bright sunlight.",
+"features": [
+"Silver mirror iridium coating finish",
+"Optimized solar glare rejection",
+"Pinlock 70 anti-fog lens compatible",
+"Hard-coated scratch resistant surface",
+"Precision tool-less mounting mechanism"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Silver Iridium Mirror"},
+{"key": "Pinlock", "value": "Pinlock 70 Ready"},
+{"key": "Compatibility", "value": "SMK Titan Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x SMK Titan Silver Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Silver+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BSilver%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1999,
+"salePrice": 1699,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Titan Silver Iridium Visor",
+"metaDescription": "Silver iridium mirror replacement visor for SMK Titan helmets. Sleek chrome aesthetic and glare defense."
+},
+{
+"name": "Vega Bolt Clear Anti-Scratch Replacement Visor",
+"slug": "vega-bolt-clear-anti-scratch-replacement-visor",
+"brand": "Vega",
+"category": "visors",
+"subcategory": "Clear Visor",
+"description": "Original equipment standard clear replacement visor for Vega Bolt helmets. Hard-coated for scratch resistance and molded for precise optical clarity.",
+"features": [
+"OEM standard clear optical clarity",
+"Hard-coated scratch resistant exterior",
+"Quick release side clip fasteners",
+"UV resistant polycarbonate material",
+"Perfect for night and cloudy weather"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Crystal Clear"},
+{"key": "Compatibility", "value": "Vega Bolt Helmets"},
+{"key": "Coating", "value": "Anti-Scratch Hard Coat"},
+{"key": "Thickness", "value": "2.2 mm"}
+],
+"whatsInBox": [
+"1x Vega Bolt Clear Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Bolt+Clear+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BBolt%2BClear%2BVisor)",
+"isMain": true
+}
+],
+"price": 549,
+"salePrice": 449,
+"gstPercent": 18,
+"stock": 110,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Vega Bolt Clear Anti-Scratch Replacement Visor",
+"metaDescription": "Vega Bolt clear replacement visor with anti-scratch coating and crystal clear optics."
+},
+{
+"name": "Axor Apex Blue Iridium Mirror Visor",
+"slug": "axor-apex-blue-iridium-mirror-visor",
+"brand": "Axor",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Deep blue iridium mirror visor for Axor Apex helmets. Combines striking cobalt blue aesthetics with high-performance solar filtration and pinlock anti-fog readiness.",
+"features": [
+"Cobalt blue iridium mirror finish",
+"Reduces high-intensity glare on bright days",
+"Pinlock anti-fog insert ready",
+"Hard-coated scratch resistant polycarbonate",
+"Seamless OEM fit and ratchet action"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Blue Iridium Mirror"},
+{"key": "Pinlock", "value": "Pinlock Ready Pins"},
+{"key": "Compatibility", "value": "Axor Apex Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x Axor Apex Blue Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Blue+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BBlue%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1799,
+"salePrice": 1499,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Apex Blue Iridium Mirror Visor",
+"metaDescription": "Blue iridium mirror replacement visor for Axor Apex helmets with pinlock readiness."
+},
+{
+"name": "MT Thunder 3 SV Dark Smoke Visor",
+"slug": "mt-thunder-3-sv-dark-smoke-visor",
+"brand": "MT Helmets",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke tinted visor for MT Thunder 3 SV helmets. Provides maximum shade and comfort during blazing daytime highway rides.",
+"features": [
+"Dark smoke tint for intense daylight shade",
+"Pinlock max vision anti-fog pin compatibility",
+"Scratch resistant hard optical coating",
+"Quick release side mechanism",
+"High impact resistant polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Dark Smoke Tint"},
+{"key": "Pinlock", "value": "Max Vision Ready"},
+{"key": "Compatibility", "value": "MT Thunder 3 SV Helmets"},
+{"key": "Thickness", "value": "2.2 mm"}
+],
+"whatsInBox": [
+"1x MT Thunder 3 Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Dark+Smoke+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BDark%2BSmoke%2BVisor)",
+"isMain": true
+}
+],
+"price": 1399,
+"salePrice": 1199,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "MT Thunder 3 SV Dark Smoke Visor",
+"metaDescription": "MT Thunder 3 SV dark smoke tinted replacement visor for daytime touring comfort."
+},
+{
+"name": "LS2 Storm Clear Replacement Visor with Pinlock Pins",
+"slug": "ls2-storm-clear-replacement-visor-with-pinlock-pins",
+"brand": "LS2",
+"category": "visors",
+"subcategory": "Clear Visor",
+"description": "OEM clear replacement visor for LS2 Storm helmets equipped with pre-installed pinlock pins. Offers exceptional optical clarity and fog-free upgrade potential.",
+"features": [
+"Crystal clear optical grade polycarbonate",
+"Pre-fitted pinlock insert mounting pins",
+"Anti-scratch surface hardening treatment",
+"Tool-less quick release mechanism",
+"99% UV radiation blocking"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Clear Transparent"},
+{"key": "Pinlock", "value": "Includes Pinlock Pins"},
+{"key": "Compatibility", "value": "LS2 Storm Helmets"},
+{"key": "Certification", "value": "ECE Component Approved"}
+],
+"whatsInBox": [
+"1x LS2 Storm Clear Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Storm+Clear+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BStorm%2BClear%2BVisor)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1249,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "LS2 Storm Clear Replacement Visor with Pinlock Pins",
+"metaDescription": "LS2 Storm clear replacement visor with pinlock pins and anti-scratch coating."
+},
+{
+"name": "Studds Marshall Clear Half Visor",
+"slug": "studds-marshall-clear-half-visor",
+"brand": "Studds",
+"category": "visors",
+"subcategory": "Clear Visor",
+"description": "Standard clear half-visor designed for Studds Marshall open-face helmets. Provides wind deflection and clear vision while maintaining open-face airflow.",
+"features": [
+"Clear optical half-visor profile",
+"Scratch resistant hard outer coating",
+"Secure side screw mounting brackets",
+"Durable lightweight polycarbonate",
+"Ideal for city commuting"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Type", "value": "Open Face Half Visor"},
+{"key": "Tint", "value": "Clear Transparent"},
+{"key": "Compatibility", "value": "Studds Marshall Open Face"},
+{"key": "Mounting", "value": "Side Screw Attach"}
+],
+"whatsInBox": [
+"1x Studds Marshall Half Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Marshall+Half+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BMarshall%2BHalf%2BVisor)",
+"isMain": true
+}
+],
+"price": 399,
+"salePrice": 299,
+"gstPercent": 18,
+"stock": 130,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Studds Marshall Clear Half Visor",
+"metaDescription": "Studds Marshall clear half visor for open-face helmets with scratch-resistant coating."
+},
+{
+"name": "SMK Glide Dark Smoke Sun Visor",
+"slug": "smk-glide-dark-smoke-sun-visor",
+"brand": "SMK",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke replacement visor for SMK Glide and Twister helmets. Cuts down harsh sun glare and enhances riding comfort on sunny days.",
+"features": [
+"Dark smoke tint for superior glare reduction",
+"Pinlock anti-fog insert ready",
+"Anti-scratch UV protective coating",
+"Quick release ratchet mechanism",
+"Injection molded optical polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Dark Smoke"},
+{"key": "Pinlock", "value": "Pinlock Ready"},
+{"key": "Compatibility", "value": "SMK Glide & Twister"},
+{"key": "UV Protection", "value": "99% UV Block"}
+],
+"whatsInBox": [
+"1x SMK Glide Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Glide+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BGlide%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1299,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Glide Dark Smoke Sun Visor",
+"metaDescription": "SMK Glide dark smoke replacement visor with pinlock readiness and anti-scratch coating."
+},
+{
+"name": "Axor Apex Red Iridium Mirror Visor",
+"slug": "axor-apex-red-iridium-mirror-visor",
+"brand": "Axor",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Fiery red iridium mirror visor for Axor Apex helmets. Provides bold styling and exceptional glare reduction during bright daylight riding conditions.",
+"features": [
+"Crimson red iridium mirror coating",
+"High glare filtration for sunny tours",
+"Pinlock anti-fog insert pin compatibility",
+"Hard-coated anti-scratch exterior surface",
+"Exact OEM fit and quick release action"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Red Iridium Mirror Finish"},
+{"key": "Pinlock", "value": "Pinlock Ready Pins"},
+{"key": "Compatibility", "value": "Axor Apex Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x Axor Apex Red Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Red+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BRed%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1799,
+"salePrice": 1499,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Apex Red Iridium Mirror Visor",
+"metaDescription": "Red iridium mirror replacement visor for Axor Apex helmets with pinlock compatibility."
+},
+{
+"name": "Vega Crux Smoke Tinted Replacement Visor",
+"slug": "vega-crux-smoke-tinted-replacement-visor",
+"brand": "Vega",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Smoke tinted replacement visor for Vega Crux helmets. Delivers shade and reduces eye strain during daytime commuting.",
+"features": [
+"Smoke tint for daytime glare reduction",
+"Anti-scratch hardened outer surface",
+"Easy tool-less replacement installation",
+"Durable lightweight polycarbonate",
+"OEM precision fitment"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Light Smoke"},
+{"key": "Coating", "value": "Anti-Scratch Coat"},
+{"key": "Compatibility", "value": "Vega Crux Helmets"},
+{"key": "UV Protection", "value": "Standard UV Block"}
+],
+"whatsInBox": [
+"1x Vega Crux Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Crux+Smoke+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BCrux%2BSmoke%2BVisor)",
+"isMain": true
+}
+],
+"price": 599,
+"salePrice": 479,
+"gstPercent": 18,
+"stock": 95,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Crux Smoke Tinted Replacement Visor",
+"metaDescription": "Smoke tinted replacement visor for Vega Crux helmets with anti-scratch coating."
+},
+{
+"name": "MT Thunder 3 SV Silver Iridium Mirror Visor",
+"slug": "mt-thunder-3-sv-silver-iridium-mirror-visor",
+"brand": "MT Helmets",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Silver iridium mirror coating on an optical grade polycarbonate visor for MT Thunder 3 SV helmets. Provides sleek chrome aesthetics and superior glare protection.",
+"features": [
+"Silver mirror iridium reflective coating",
+"Superior solar glare rejection",
+"Pinlock max vision anti-fog pin ready",
+"Anti-scratch hardened exterior",
+"Quick change mechanism friendly"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Silver Iridium Mirror"},
+{"key": "Pinlock", "value": "Max Vision Ready"},
+{"key": "Compatibility", "value": "MT Thunder 3 SV Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x MT Silver Iridium Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Silver+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BSilver%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "MT Thunder 3 SV Silver Iridium Mirror Visor",
+"metaDescription": "Silver iridium mirror visor for MT Thunder 3 SV helmets with pinlock readiness."
+},
+{
+"name": "Steelbird Igniter Smoked Replacement Visor",
+"slug": "steelbird-igniter-smoked-replacement-visor",
+"brand": "Steelbird",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Smoke tinted replacement visor for Steelbird Igniter full-face helmets. Offers comfortable daylight shading and scratch resistance.",
+"features": [
+"Smoke tint for bright daytime riding",
+"Hard-coated anti-scratch exterior",
+"Precise OEM fit for Steelbird Igniter",
+"Durable high impact polycarbonate",
+"Easy side clip mounting"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Smoke Tinted"},
+{"key": "Compatibility", "value": "Steelbird Igniter Helmets"},
+{"key": "Coating", "value": "Anti-Scratch Coat"},
+{"key": "Thickness", "value": "2.0 mm"}
+],
+"whatsInBox": [
+"1x Steelbird Igniter Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 699,
+"salePrice": 549,
+"gstPercent": 18,
+"stock": 70,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Steelbird Igniter Smoked Replacement Visor",
+"metaDescription": "Steelbird Igniter smoke tinted replacement visor with anti-scratch coating."
+},
+{
+"name": "LS2 Rapid Dark Smoke Replacement Visor",
+"slug": "ls2-rapid-dark-smoke-replacement-visor",
+"brand": "LS2",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke tinted visor for LS2 Rapid helmets. Engineered to cut glare and provide optimum visual comfort during bright daytime highway tours.",
+"features": [
+"Dark smoke tint for harsh daylight glare reduction",
+"Pinlock max vision pin compatibility",
+"Anti-scratch surface hardening treatment",
+"Quick release ratchet mounting system",
+"Optical grade polycarbonate build"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Resin"},
+{"key": "Tint", "value": "Dark Smoke Tint"},
+{"key": "Pinlock", "value": "Max Vision Ready"},
+{"key": "Compatibility", "value": "LS2 Rapid Helmets"},
+{"key": "UV Protection", "value": "99% UV Block"}
+],
+"whatsInBox": [
+"1x LS2 Rapid Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Rapid+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BRapid%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 1399,
+"salePrice": 1199,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "LS2 Rapid Dark Smoke Replacement Visor",
+"metaDescription": "LS2 Rapid dark smoke tinted replacement visor with pinlock readiness and anti-scratch coating."
+},
+{
+"name": "Studds Ninja 3 Clear Anti-Scratch Visor",
+"slug": "studds-ninja-3-clear-anti-scratch-visor",
+"brand": "Studds",
+"category": "visors",
+"subcategory": "Clear Visor",
+"description": "OEM clear replacement visor for Studds Ninja 3 modular helmets. Hard-coated for scratch resistance and optimized for clear night and all-weather visibility.",
+"features": [
+"Crystal clear optical grade polycarbonate",
+"Hard-coated anti-scratch exterior surface",
+"Seamless fit for Studds Ninja 3 modular shell",
+"Easy flip-up mechanism compatibility",
+"UV resistant optical protection"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Crystal Clear"},
+{"key": "Compatibility", "value": "Studds Ninja 3 Helmets"},
+{"key": "Coating", "value": "Anti-Scratch Hard Coat"},
+{"key": "Thickness", "value": "2.0 mm"}
+],
+"whatsInBox": [
+"1x Studds Ninja 3 Clear Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Ninja+Clear+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BNinja%2BClear%2BVisor)",
+"isMain": true
+}
+],
+"price": 699,
+"salePrice": 549,
+"gstPercent": 18,
+"stock": 85,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Studds Ninja 3 Clear Anti-Scratch Visor",
+"metaDescription": "Studds Ninja 3 clear replacement visor with anti-scratch coating and OEM fitment."
+},
+{
+"name": "SMK Titan Pinlock Anti-Fog Clear Insert Visor",
+"slug": "smk-titan-pinlock-anti-fog-clear-insert-visor",
+"brand": "SMK",
+"category": "visors",
+"subcategory": "Anti-Fog Visor",
+"description": "Clear replacement visor bundled with a genuine Pinlock 70 anti-fog lens for SMK Titan carbon helmets. Guarantees 100% fog-free vision in freezing and wet weather.",
+"features": [
+"Genuine Pinlock 70 anti-fog insert included",
+"Crystal clear optical grade polycarbonate visor",
+"Anti-scratch hardened exterior coating",
+"Wide angle peripheral vision window",
+"Exact OEM fit for SMK Titan helmets"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Anti-Fog", "value": "Includes Pinlock 70 Lens"},
+{"key": "Tint", "value": "Clear Transparent"},
+{"key": "Compatibility", "value": "SMK Titan Helmets"},
+{"key": "Weather", "value": "All Weather Fog-Free"}
+],
+"whatsInBox": [
+"1x SMK Titan Clear Visor",
+"1x Pinlock 70 Anti-Fog Lens"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Pinlock+Clear+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BPinlock%2BClear%2BVisor)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 2099,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "SMK Titan Pinlock Anti-Fog Clear Insert Visor",
+"metaDescription": "SMK Titan clear replacement visor with genuine Pinlock 70 anti-fog lens included."
+},
+{
+"name": "Axor Apex Rainbow Iridium Mirror Visor",
+"slug": "axor-apex-rainbow-iridium-mirror-visor",
+"brand": "Axor",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Multi-colored rainbow iridium mirror visor for Axor Apex helmets. Features striking chromatic reflections and superior solar glare reduction for daytime touring.",
+"features": [
+"Multi-color rainbow iridium mirror finish",
+"High glare reduction in bright sunlight",
+"Pinlock anti-fog insert pin readiness",
+"Hard-coated anti-scratch polycarbonate shell",
+"Quick release ratchet mechanism compatibility"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Rainbow Iridium Mirror"},
+{"key": "Pinlock", "value": "Pinlock Ready Pins"},
+{"key": "Compatibility", "value": "Axor Apex Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x Axor Apex Rainbow Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Axor+Rainbow+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAxor%2BRainbow%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Axor Apex Rainbow Iridium Mirror Visor",
+"metaDescription": "Rainbow iridium mirror replacement visor for Axor Apex helmets with pinlock readiness."
+},
+{
+"name": "MT Thunder 3 SV Blue Iridium Mirror Visor",
+"slug": "mt-thunder-3-sv-blue-iridium-mirror-visor",
+"brand": "MT Helmets",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Cobalt blue iridium mirror visor designed for MT Thunder 3 SV helmets. Delivers vibrant blue aesthetic appeal and exceptional daylight glare filtration.",
+"features": [
+"Cobalt blue iridium mirror reflective coating",
+"High glare reduction for bright daylight",
+"Pinlock max vision anti-fog pin ready",
+"Anti-scratch hardened exterior coating",
+"Quick change mechanism friendly"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Blue Iridium Mirror"},
+{"key": "Pinlock", "value": "Max Vision Ready"},
+{"key": "Compatibility", "value": "MT Thunder 3 SV Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x MT Blue Iridium Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=MT+Blue+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DMT%2BBlue%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "MT Thunder 3 SV Blue Iridium Mirror Visor",
+"metaDescription": "Blue iridium mirror visor for MT Thunder 3 SV helmets with pinlock readiness."
+},
+{
+"name": "LS2 Storm Dark Smoke Sun Visor",
+"slug": "ls2-storm-dark-smoke-sun-visor",
+"brand": "LS2",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke replacement visor for LS2 Storm helmets. Offers deep shade and glare reduction for comfortable daytime touring and highway rides.",
+"features": [
+"Dark smoke tint for harsh daylight glare reduction",
+"Pinlock Max Vision anti-fog insert ready",
+"Hard-coated anti-scratch exterior surface",
+"Quick-release mechanism compatibility",
+"Optical grade polycarbonate shell"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate Resin"},
+{"key": "Tint", "value": "Dark Smoke Tint"},
+{"key": "Pinlock", "value": "Pinlock Max Vision Ready"},
+{"key": "Compatibility", "value": "LS2 Storm Helmets"},
+{"key": "UV Protection", "value": "99% UV Block"}
+],
+"whatsInBox": [
+"1x LS2 Storm Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Storm+Smoked+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BStorm%2BSmoked%2BVisor)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1249,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "LS2 Storm Dark Smoke Sun Visor",
+"metaDescription": "LS2 Storm dark smoke replacement visor with pinlock readiness and anti-scratch coating."
+},
+{
+"name": "Vega Bolt Smoke Tinted Replacement Visor",
+"slug": "vega-bolt-smoke-tinted-replacement-visor",
+"brand": "Vega",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Smoke tinted replacement visor for Vega Bolt full-face helmets. Provides comfortable shade and reduces sunlight glare during daytime commutes.",
+"features": [
+"Smoke tint for daytime glare reduction",
+"Anti-scratch hardened outer surface",
+"Quick release side clip fasteners",
+"Durable lightweight polycarbonate",
+"OEM precision fitment"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Light Smoke"},
+{"key": "Coating", "value": "Anti-Scratch Coat"},
+{"key": "Compatibility", "value": "Vega Bolt Helmets"},
+{"key": "UV Protection", "value": "Standard UV Block"}
+],
+"whatsInBox": [
+"1x Vega Bolt Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Bolt+Smoke+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BBolt%2BSmoke%2BVisor)",
+"isMain": true
+}
+],
+"price": 599,
+"salePrice": 479,
+"gstPercent": 18,
+"stock": 80,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Bolt Smoke Tinted Replacement Visor",
+"metaDescription": "Smoke tinted replacement visor for Vega Bolt helmets with anti-scratch coating."
+},
+{
+"name": "Steelbird Air Smoked Replacement Visor",
+"slug": "steelbird-air-smoked-replacement-visor",
+"brand": "Steelbird",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Smoke tinted replacement visor for Steelbird Air series helmets. Reduces sunlight glare and enhances daytime riding visual comfort.",
+"features": [
+"Smoke tint for daytime glare reduction",
+"Hard-coated anti-scratch exterior",
+"Precise fitment for Steelbird Air models",
+"Durable high impact polycarbonate",
+"Easy side clip mounting"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Smoke Tinted"},
+{"key": "Compatibility", "value": "Steelbird Air Helmets"},
+{"key": "Coating", "value": "Anti-Scratch Coat"},
+{"key": "Thickness", "value": "2.0 mm"}
+],
+"whatsInBox": [
+"1x Steelbird Air Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Steelbird+Air+Smoke+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSteelbird%2BAir%2BSmoke%2BVisor)",
+"isMain": true
+}
+],
+"price": 749,
+"salePrice": 599,
+"gstPercent": 18,
+"stock": 75,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Steelbird Air Smoked Replacement Visor",
+"metaDescription": "Steelbird Air smoke tinted replacement visor with anti-scratch coating."
+},
+{
+"name": "SMK Glide Gold Iridium Mirror Visor",
+"slug": "smk-glide-gold-iridium-mirror-visor",
+"brand": "SMK",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Gold iridium mirror coated replacement visor for SMK Glide and Twister helmets. Adds striking gold aesthetics and superior solar glare filtration.",
+"features": [
+"Gold mirror iridium reflective coating",
+"Superior solar glare rejection",
+"Pinlock anti-fog insert ready",
+"Anti-scratch hardened exterior",
+"Quick release ratchet mechanism"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Gold Iridium Mirror"},
+{"key": "Pinlock", "value": "Pinlock Ready"},
+{"key": "Compatibility", "value": "SMK Glide & Twister"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x SMK Glide Gold Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=SMK+Gold+Iridium+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DSMK%2BGold%2BIridium%2BVisor)",
+"isMain": true
+}
+],
+"price": 1999,
+"salePrice": 1699,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "SMK Glide Gold Iridium Mirror Visor",
+"metaDescription": "Gold iridium mirror replacement visor for SMK Glide and Twister helmets."
+},
+{
+"name": "LS2 Rapid Silver Iridium Mirror Visor",
+"slug": "ls2-rapid-silver-iridium-mirror-visor",
+"brand": "LS2",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Silver iridium mirror visor for LS2 Rapid helmets. Combines sleek chrome mirror styling with high-performance glare reduction and pinlock readiness.",
+"features": [
+"Silver mirror iridium reflective coating",
+"High glare reduction for bright daylight",
+"Pinlock max vision anti-fog pin ready",
+"Anti-scratch hardened exterior coating",
+"Quick release ratchet mechanism compatibility"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Silver Iridium Mirror"},
+{"key": "Pinlock", "value": "Max Vision Ready"},
+{"key": "Compatibility", "value": "LS2 Rapid Helmets"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x LS2 Rapid Silver Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=LS2+Rapid+Silver+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DLS2%2BRapid%2BSilver%2BVisor)",
+"isMain": true
+}
+],
+"price": 1899,
+"salePrice": 1599,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "LS2 Rapid Silver Iridium Mirror Visor",
+"metaDescription": "Silver iridium mirror visor for LS2 Rapid helmets with pinlock readiness."
+},
+{
+"name": "Studds Ninja 3 Dark Smoke Replacement Visor",
+"slug": "studds-ninja-3-dark-smoke-replacement-visor",
+"brand": "Studds",
+"category": "visors",
+"subcategory": "Smoked Visor",
+"description": "Dark smoke tinted replacement visor for Studds Ninja 3 modular helmets. Provides maximum shade and glare reduction during bright daytime tours.",
+"features": [
+"Dark smoke tint for intense daylight shade",
+"Scratch resistant hard optical coating",
+"Exact OEM fit for Studds Ninja 3",
+"Easy side ratchet mounting installation",
+"Durable optical grade polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Polycarbonate"},
+{"key": "Tint", "value": "Dark Smoke Tint"},
+{"key": "Compatibility", "value": "Studds Ninja 3 Helmets"},
+{"key": "Coating", "value": "Anti-Scratch"},
+{"key": "UV Block", "value": "99% UV Protection"}
+],
+"whatsInBox": [
+"1x Studds Ninja 3 Dark Smoke Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Studds+Dark+Smoke+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DStudds%2BDark%2BSmoke%2BVisor)",
+"isMain": true
+}
+],
+"price": 799,
+"salePrice": 649,
+"gstPercent": 18,
+"stock": 55,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Studds Ninja 3 Dark Smoke Replacement Visor",
+"metaDescription": "Dark smoke tinted replacement visor for Studds Ninja 3 modular helmets."
+},
+{
+"name": "Vega Bolt Gold Iridium Mirror Visor",
+"slug": "vega-bolt-gold-iridium-mirror-visor",
+"brand": "Vega",
+"category": "visors",
+"subcategory": "Iridium Visor",
+"description": "Gold iridium mirror visor for Vega Bolt helmets. Delivers brilliant golden reflections paired with effective daytime solar glare filtration.",
+"features": [
+"Gold mirror iridium reflective coating",
+"Effective solar glare reduction",
+"Anti-scratch hardened outer surface",
+"Quick release side clip fasteners",
+"Durable lightweight polycarbonate"
+],
+"specifications": [
+{"key": "Material", "value": "Optical Polycarbonate"},
+{"key": "Coating", "value": "Gold Iridium Mirror"},
+{"key": "Compatibility", "value": "Vega Bolt Helmets"},
+{"key": "Coating", "value": "Anti-Scratch Hard Coat"},
+{"key": "UV Protection", "value": "100% UV Protection"}
+],
+"whatsInBox": [
+"1x Vega Bolt Gold Visor"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Vega+Bolt+Gold+Visor](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DVega%2BBolt%2BGold%2BVisor)",
+"isMain": true
+}
+],
+"price": 1499,
+"salePrice": 1249,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Vega Bolt Gold Iridium Mirror Visor",
+"metaDescription": "Gold iridium mirror replacement visor for Vega Bolt helmets with anti-scratch coating."
+}
+]

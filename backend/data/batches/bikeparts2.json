@@ -1,0 +1,1111 @@
+[
+{
+"name": "Zana Heavy Duty Crash Guard with Sliders for Honda CB350",
+"slug": "zana-heavy-duty-crash-guard-for-honda-cb350",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Crash Guards",
+"description": "Custom fabricated tubular steel crash guard built for the Honda CB350. Protects critical engine casing and paintwork during accidental drops while featuring replaceable Delrin impact slider pucks.",
+"features": [
+"High tensile steel tube chassis protection",
+"Corrosion-resistant black powder coat finish",
+"Replaceable industrial Delrin slider pucks",
+"Direct bolt-on fitment without modifications",
+"Designed specifically for Honda CB350"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Protection", "value": "Engine Casing & Tank"},
+{"key": "Compatibility", "value": "Honda CB350"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Weight", "value": "4.0 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Crash Bars",
+"2x Delrin Sliders",
+"1x Hardware Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Guard+Honda+CB350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGuard%2BHonda%2BCB350)",
+"isMain": true
+}
+],
+"price": 3899,
+"salePrice": 3299,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "CB350", "yearFrom": 2021, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Crash Guard for Honda CB350",
+"metaDescription": "Sturdy steel crash guard with Delrin sliders for Honda CB350 motorcycle."
+},
+{
+"name": "Rolon Brass Chain and Sprocket Kit for Bajaj Pulsar NS200",
+"slug": "rolon-brass-chain-and-sprocket-kit-for-bajaj-pulsar-ns200",
+"brand": "Rolon",
+"category": "bike-parts",
+"subcategory": "Chain Kits",
+"description": "High-performance O-ring chain and hardened steel sprocket kit for Bajaj Pulsar NS200. Finished in corrosion-resistant gold brass coating for enhanced visual appeal and durability.",
+"features": [
+"Precision machined high-carbon steel sprockets",
+"Heavy-duty O-ring sealed chain links",
+"Corrosion-resistant gold brass finish",
+"Optimized tooth profile for smooth power transfer",
+"Designed specifically for Bajaj Pulsar NS200"
+],
+"specifications": [
+{"key": "Chain Type", "value": "Heavy Duty O-Ring Seal"},
+{"key": "Material", "value": "High Carbon Hardened Steel"},
+{"key": "Compatibility", "value": "Bajaj Pulsar NS200"},
+{"key": "Color", "value": "Gold Brass"},
+{"key": "Lifespan", "value": "Extended Wear Resistance"}
+],
+"whatsInBox": [
+"1x Front Drive Sprocket",
+"1x Rear Driven Sprocket",
+"1x O-Ring Drive Chain",
+"1x Master Link"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rolon+Chain+Kit+NS200](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRolon%2BChain%2BKit%2BNS200)",
+"isMain": true
+}
+],
+"price": 3999,
+"salePrice": 3399,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Pulsar NS200", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rolon Brass Chain and Sprocket Kit for Bajaj Pulsar NS200",
+"metaDescription": "Rolon heavy-duty O-ring gold brass chain and sprocket kit for Bajaj Pulsar NS200."
+},
+{
+"name": "Bosch Sintered Rear Brake Pads for KTM Duke 390",
+"slug": "bosch-sintered-rear-brake-pads-for-ktm-duke-390",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Brake Pads",
+"description": "High-friction sintered metallic rear brake pads engineered for KTM Duke 390. Provides immediate pedal feedback and excellent stopping power under high-load touring.",
+"features": [
+"Sintered metallic friction compound for heat tolerance",
+"Exceptional rear wheel bite and modulation",
+"Low rotor wear characteristics",
+"Consistent wet and dry braking capability",
+"Designed specifically for KTM Duke 390"
+],
+"specifications": [
+{"key": "Compound", "value": "Sintered Metallic"},
+{"key": "Position", "value": "Rear Wheel"},
+{"key": "Compatibility", "value": "KTM Duke 390"},
+{"key": "Certification", "value": "ISO Quality Standard"},
+{"key": "Lifespan", "value": "Extended Durability"}
+],
+"whatsInBox": [
+"1x Set of Rear Brake Pads"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Rear+Pads+Duke390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BRear%2BPads%2BDuke390)",
+"isMain": true
+}
+],
+"price": 1299,
+"salePrice": 1049,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 390", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Sintered Rear Brake Pads for KTM Duke 390",
+"metaDescription": "Bosch sintered metallic rear brake pads for KTM Duke 390."
+},
+{
+"name": "Zana Heavy Duty Saddle Stays for Suzuki V-Strom SX",
+"slug": "zana-heavy-duty-saddle-stays-for-suzuki-v-strom-sx",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Saddle Stays",
+"description": "Robust stainless steel saddlebag support stays designed for Suzuki V-Strom SX. Keeps soft saddlebags securely positioned away from the exhaust and rear wheel.",
+"features": [
+"Heavy-duty stainless steel tubular build",
+"Textured black anti-corrosion powder coating",
+"Prevents saddlebag contact with exhaust muffler",
+"Rigid mounting points utilizing factory chassis mounts",
+"Designed specifically for Suzuki V-Strom SX"
+],
+"specifications": [
+{"key": "Material", "value": "Stainless Steel Tubing"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Compatibility", "value": "Suzuki V-Strom SX"},
+{"key": "Mounting", "value": "Direct Bolt-On"},
+{"key": "Weight", "value": "2.9 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Saddle Stays",
+"1x Hardware Fastener Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Stays+VStrom+SX](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BStays%2BVStrom%2BSX)",
+"isMain": true
+}
+],
+"price": 3499,
+"salePrice": 2999,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Suzuki", "model": "V-Strom SX", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Saddle Stays for Suzuki V-Strom SX",
+"metaDescription": "Stainless steel saddlebag support stays for Suzuki V-Strom SX adventure tourers."
+},
+{
+"name": "Autokraft CNC Adjustable Clutch and Brake Levers for Yamaha R15 V4",
+"slug": "autokraft-cnc-adjustable-clutch-and-brake-levers-for-yamaha-r15-v4",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Clutch and Brake Levers",
+"description": "Billet CNC machined aluminum adjustable levers designed for Yamaha R15 V4. Features 6-position reach adjustment and foldable pivot design to prevent snapping in a crash.",
+"features": [
+"Aerospace grade 6061-T6 billet aluminum CNC machined",
+"6-position reach adjustment for customized lever distance",
+"Foldable pivot hinge prevents snapping during drops",
+"Anodized color finish with laser etched branding",
+"Designed specifically for Yamaha R15 V4"
+],
+"specifications": [
+{"key": "Material", "value": "Billet CNC Aluminum 6061-T6"},
+{"key": "Adjustment", "value": "6-Position Reach Adjust"},
+{"key": "Compatibility", "value": "Yamaha R15 V4"},
+{"key": "Finish", "value": "Anodized Black"},
+{"key": "Type", "value": "Foldable Shorty Levers"}
+],
+"whatsInBox": [
+"1x Adjustable Brake Lever",
+"1x Adjustable Clutch Lever"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Levers+R15V4](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BLevers%2BR15V4)",
+"isMain": true
+}
+],
+"price": 2499,
+"salePrice": 1999,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Yamaha", "model": "R15 V4", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Adjustable Clutch and Brake Levers for Yamaha R15 V4",
+"metaDescription": "CNC aluminum adjustable foldable clutch and brake levers for Yamaha R15 V4."
+},
+{
+"name": "Hashtag Racing Aluminum Engine Bash Plate for Royal Enfield Hunter 350",
+"slug": "hashtag-racing-aluminum-engine-bash-plate-for-royal-enfield-hunter-350",
+"brand": "Hashtag Racing",
+"category": "bike-parts",
+"subcategory": "Engine Guards",
+"description": "4mm thick aircraft-grade aluminum bash plate designed to protect the lower engine casing and exhaust headers of Royal Enfield Hunter 350 from speed breakers and stones.",
+"features": [
+"4mm thick solid aluminum alloy construction",
+"Ventilated design prevents engine heat trap",
+"Protects vulnerable oil pan and exhaust headers",
+"Direct bolt-on installation using factory mounts",
+"Designed specifically for Royal Enfield Hunter 350"
+],
+"specifications": [
+{"key": "Material", "value": "4mm Aluminum Alloy"},
+{"key": "Protection", "value": "Engine Oil Pan & Headers"},
+{"key": "Compatibility", "value": "Royal Enfield Hunter 350"},
+{"key": "Finish", "value": "Brushed Silver Anodized"},
+{"key": "Weight", "value": "1.6 kg"}
+],
+"whatsInBox": [
+"1x Aluminum Bash Plate",
+"1x Mounting Bracket Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Hashtag+Bash+Plate+Hunter350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DHashtag%2BBash%2BPlate%2BHunter350)",
+"isMain": true
+}
+],
+"price": 3899,
+"salePrice": 3299,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Hunter 350", "yearFrom": 2022, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Hashtag Racing Aluminum Engine Bash Plate for Royal Enfield Hunter 350",
+"metaDescription": "4mm aluminum engine skid plate for Royal Enfield Hunter 350."
+},
+{
+"name": "Bosch High-Flow Performance Air Filter for TVS Apache RTR 200 4V",
+"slug": "bosch-high-flow-performance-air-filter-for-tvs-apache-rtr-200-4v",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Air Filters",
+"description": "Washable high-flow air filter engineered to improve intake airflow and throttle response for TVS Apache RTR 200 4V while maintaining superior dust filtration.",
+"features": [
+"High-flow multi-layer cotton gauze media",
+"Washable and reusable lifetime filter element",
+"Improves throttle response and induction sound",
+"Direct OEM replacement drop-in fitment",
+"Designed specifically for TVS Apache RTR 200 4V"
+],
+"specifications": [
+{"key": "Material", "value": "Cotton Gauze & Polyurethane Frame"},
+{"key": "Type", "value": "Washable High-Flow Air Filter"},
+{"key": "Compatibility", "value": "Apache RTR 200 4V"},
+{"key": "Maintenance", "value": "Cleanable & Reusable"},
+{"key": "Filtration", "value": "Multi-Stage Particulate Trap"}
+],
+"whatsInBox": [
+"1x High-Flow Performance Air Filter"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Air+Filter+Apache200](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BAir%2BFilter%2BApache200)",
+"isMain": true
+}
+],
+"price": 1199,
+"salePrice": 999,
+"gstPercent": 18,
+"stock": 45,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "TVS", "model": "Apache RTR 200 4V", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch High-Flow Performance Air Filter for TVS Apache RTR 200 4V",
+"metaDescription": "Washable high-flow performance air filter for TVS Apache RTR 200 4V."
+},
+{
+"name": "Zana Heavy Duty Crash Guard for Hero XPulse 200",
+"slug": "zana-heavy-duty-crash-guard-for-hero-xpulse-200",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Crash Guards",
+"description": "Rugged tubular steel crash guard built for Hero XPulse 200 adventure bikes. Shields engine casings and upper body plastics during off-road trail tumbles.",
+"features": [
+"High-tensile steel tube construction",
+"Textured black anti-rust powder coating",
+"Designed to accommodate aftermarket bash plates",
+"Direct bolt-on fitment utilizing factory chassis mounts",
+"Designed specifically for Hero XPulse 200"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Protection", "value": "Engine Casing & Side Fairings"},
+{"key": "Compatibility", "value": "Hero XPulse 200"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Weight", "value": "3.5 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Crash Guard Bars",
+"1x Mounting Fastener Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Guard+XPulse200](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGuard%2BXPulse200)",
+"isMain": true
+}
+],
+"price": 3499,
+"salePrice": 2999,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Hero", "model": "XPulse 200", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Crash Guard for Hero XPulse 200",
+"metaDescription": "Sturdy steel crash guard for Hero XPulse 200 adventure motorcycles."
+},
+{
+"name": "Autokraft Wide CNC Aluminum Off-Road Footpegs for Royal Enfield Himalayan",
+"slug": "autokraft-wide-cnc-aluminum-off-road-footpegs-for-royal-enfield-himalayan",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Footpegs",
+"description": "Wide platform CNC machined aluminum footpegs designed to provide superior boot traction and stability during standing off-road riding on Royal Enfield Himalayan.",
+"features": [
+"Extra-wide platform distributes standing rider weight",
+"Aggressive removable stainless steel tooth cleats",
+"Billet aluminum CNC machined body",
+"Self-cleaning mud clearance channels",
+"Designed specifically for Royal Enfield Himalayan"
+],
+"specifications": [
+{"key": "Material", "value": "Billet Aluminum & Steel Teeth"},
+{"key": "Platform", "value": "Extra Wide Off-Road"},
+{"key": "Compatibility", "value": "Royal Enfield Himalayan"},
+{"key": "Finish", "value": "Anodized Black Body"},
+{"key": "Grip", "value": "Removable Cleat Teeth"}
+],
+"whatsInBox": [
+"1x Left Footpeg",
+"1x Right Footpeg",
+"1x Spare Cleat Set"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Footpegs+Himalayan](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BFootpegs%2BHimalayan)",
+"isMain": true
+}
+],
+"price": 2799,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Himalayan", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft Wide CNC Aluminum Off-Road Footpegs for Royal Enfield Himalayan",
+"metaDescription": "Wide platform CNC aluminum off-road footpegs for Royal Enfield Himalayan."
+},
+{
+"name": "Rolon O-Ring Chain Kit for Bajaj Pulsar 220F",
+"slug": "rolon-o-ring-chain-kit-for-bajaj-pulsar-220f",
+"brand": "Rolon",
+"category": "bike-parts",
+"subcategory": "Chain Kits",
+"description": "Heavy-duty O-ring sealed chain and sprocket replacement kit for Bajaj Pulsar 220F. Ensures smooth power delivery and extended service mileage.",
+"features": [
+"High-carbon steel precision machined sprockets",
+"O-ring sealed chain links retain lubrication",
+"OEM stock gearing ratio specification",
+"Corrosion-resistant metal alloy finish",
+"Designed specifically for Bajaj Pulsar 220F"
+],
+"specifications": [
+{"key": "Chain Type", "value": "O-Ring Sealed Drive Chain"},
+{"key": "Material", "value": "Hardened Alloy Steel"},
+{"key": "Compatibility", "value": "Bajaj Pulsar 220F"},
+{"key": "Pitch", "value": "OEM Standard Pitch"},
+{"key": "Lifespan", "value": "Extended Durability"}
+],
+"whatsInBox": [
+"1x Front Sprocket",
+"1x Rear Sprocket",
+"1x O-Ring Chain",
+"1x Master Link"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rolon+Chain+Kit+Pulsar220](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRolon%2BChain%2BKit%2BPulsar220)",
+"isMain": true
+}
+],
+"price": 2999,
+"salePrice": 2499,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Pulsar 220F", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Rolon O-Ring Chain Kit for Bajaj Pulsar 220F",
+"metaDescription": "Rolon O-ring drive chain and sprocket kit for Bajaj Pulsar 220F."
+},
+{
+"name": "Bosch Sintered Front Brake Pads for Suzuki Gixxer 250",
+"slug": "bosch-sintered-front-brake-pads-for-suzuki-gixxer-250",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Brake Pads",
+"description": "High-friction sintered metallic front brake pads formulated for Suzuki Gixxer 250. Delivers strong stopping bite and reliable high-speed brake modulation.",
+"features": [
+"Sintered metallic compound for high heat tolerance",
+"Strong initial bite and progressive feedback",
+"Low rotor wear characteristics",
+"Consistent performance in wet and dry conditions",
+"Designed specifically for Suzuki Gixxer 250"
+],
+"specifications": [
+{"key": "Compound", "value": "Sintered Metallic"},
+{"key": "Position", "value": "Front Wheel"},
+{"key": "Compatibility", "value": "Suzuki Gixxer 250"},
+{"key": "Certification", "value": "ISO Quality Standard"},
+{"key": "Lifespan", "value": "Extended Durability"}
+],
+"whatsInBox": [
+"1x Set of Front Brake Pads"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Pads+Gixxer250](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BPads%2BGixxer250)",
+"isMain": true
+}
+],
+"price": 1299,
+"salePrice": 1099,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Suzuki", "model": "Gixxer 250", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Sintered Front Brake Pads for Suzuki Gixxer 250",
+"metaDescription": "Bosch sintered metallic front brake pads for Suzuki Gixxer 250."
+},
+{
+"name": "Zana Heavy Duty Crash Guard for Honda CB350RS",
+"slug": "zana-heavy-duty-crash-guard-for-honda-cb350rs-v2",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Crash Guards",
+"description": "Ergonomic tubular steel engine guard set for Honda CB350RS. Provides full coverage against drop damages while keeping the motorcycle's retro styling intact.",
+"features": [
+"High tensile steel tubular construction",
+"Matte black anti-corrosion powder coating",
+"Integrated Delrin slider pucks for slide impact absorption",
+"Direct bolt-on frame mounting",
+"Designed specifically for Honda CB350RS"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Protection", "value": "Engine Casing & Frame"},
+{"key": "Compatibility", "value": "Honda CB350RS"},
+{"key": "Finish", "value": "Matte Black Powder Coat"},
+{"key": "Weight", "value": "4.2 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Crash Bars",
+"2x Slider Pucks",
+"1x Hardware Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Guard+CB350RS+Alt](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGuard%2BCB350RS%2BAlt)",
+"isMain": true
+}
+],
+"price": 3899,
+"salePrice": 3299,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "CB350RS", "yearFrom": 2021, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Crash Guard for Honda CB350RS",
+"metaDescription": "Sturdy steel crash guard with sliders for Honda CB350RS."
+},
+{
+"name": "Hashtag Racing Aluminum Engine Bash Plate for KTM Duke 390",
+"slug": "hashtag-racing-aluminum-engine-bash-plate-for-ktm-duke-390",
+"brand": "Hashtag Racing",
+"category": "bike-parts",
+"subcategory": "Engine Guards",
+"description": "4mm thick aluminum engine skid plate engineered for KTM Duke 390 street and track protection. Shields oil filter and lower engine casing from debris.",
+"features": [
+"4mm aircraft-grade aluminum alloy plate",
+"Vented airflow design prevents heat buildup",
+"Protects oil filter and lower engine cases",
+"Direct bolt-on installation using factory mounts",
+"Designed specifically for KTM Duke 390"
+],
+"specifications": [
+{"key": "Material", "value": "4mm Aluminum Alloy"},
+{"key": "Protection", "value": "Lower Engine & Oil Filter"},
+{"key": "Compatibility", "value": "KTM Duke 390"},
+{"key": "Finish", "value": "Brushed Silver Anodized"},
+{"key": "Weight", "value": "1.7 kg"}
+],
+"whatsInBox": [
+"1x Aluminum Bash Plate",
+"1x Mounting Hardware Kit"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Hashtag+Bash+Plate+Duke390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DHashtag%2BBash%2BPlate%2BDuke390)",
+"isMain": true
+}
+],
+"price": 4299,
+"salePrice": 3699,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 390", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Hashtag Racing Aluminum Engine Bash Plate for KTM Duke 390",
+"metaDescription": "4mm aluminum engine bash plate skid guard for KTM Duke 390."
+},
+{
+"name": "Autokraft CNC Aluminum Handlebar Risers 22mm",
+"slug": "autokraft-cnc-aluminum-handlebar-risers-22mm",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Handlebars",
+"description": "Billet CNC machined aluminum handlebar risers designed for standard 22mm handlebars. Elevates handlebar height by 25mm for relaxed touring ergonomics.",
+"features": [
+"Aerospace grade 6061-T6 billet aluminum",
+"Elevates handlebar height by 25 millimeters",
+"Anodized black corrosion-resistant finish",
+"Includes high-tensile mounting bolt hardware",
+"Universal fit for 22mm standard handlebars"
+],
+"specifications": [
+{"key": "Material", "value": "Billet Aluminum 6061-T6"},
+{"key": "Lift Height", "value": "25 Millimeters"},
+{"key": "Handlebar Clamp", "value": "22 mm Standard Bar"},
+{"key": "Finish", "value": "Matte Black Anodized"},
+{"key": "Compatibility", "value": "Universal 22mm Handlebars"}
+],
+"whatsInBox": [
+"2x Handlebar Riser Blocks",
+"4x High Tensile Bolts"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Risers+22mm](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BRisers%2B22mm)",
+"isMain": true
+}
+],
+"price": 1799,
+"salePrice": 1399,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Aluminum Handlebar Risers 22mm",
+"metaDescription": "CNC machined aluminum handlebar risers for standard 22mm motorcycle handlebars."
+},
+{
+"name": "Rolon O-Ring Chain Kit for Yamaha FZ-S V3",
+"slug": "rolon-o-ring-chain-kit-for-yamaha-fz-s-v3",
+"brand": "Rolon",
+"category": "bike-parts",
+"subcategory": "Chain Kits",
+"description": "OEM specification O-ring chain and high-carbon steel sprocket replacement kit for Yamaha FZ-S V3. Built for longevity and smooth commuter power delivery.",
+"features": [
+"High-carbon steel heat-treated sprockets",
+"O-ring sealed chain links retain internal grease",
+"Exact stock gearing ratio specification",
+"Corrosion-resistant metal alloy plating",
+"Designed specifically for Yamaha FZ-S V3"
+],
+"specifications": [
+{"key": "Chain Type", "value": "O-Ring Sealed Drive Chain"},
+{"key": "Material", "value": "Hardened Alloy Steel"},
+{"key": "Compatibility", "value": "Yamaha FZ-S V3"},
+{"key": "Pitch", "value": "OEM Standard"},
+{"key": "Lifespan", "value": "Extended Commuter Durability"}
+],
+"whatsInBox": [
+"1x Front Sprocket",
+"1x Rear Sprocket",
+"1x O-Ring Chain",
+"1x Master Link"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rolon+Chain+Kit+FZS+V3](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRolon%2BChain%2BKit%2BFZS%2BV3)",
+"isMain": true
+}
+],
+"price": 2699,
+"salePrice": 2299,
+"gstPercent": 18,
+"stock": 35,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Yamaha", "model": "FZ-S V3", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Rolon O-Ring Chain Kit for Yamaha FZ-S V3",
+"metaDescription": "Rolon O-ring drive chain and sprocket kit for Yamaha FZ-S V3."
+},
+{
+"name": "Bosch Sintered Front Brake Pads for Honda CB350",
+"slug": "bosch-sintered-front-brake-pads-for-honda-cb350",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Brake Pads",
+"description": "High-friction sintered metallic front brake pads engineered for Honda CB350. Provides reliable stopping power and progressive lever feel for cruiser riding.",
+"features": [
+"Sintered metallic friction compound for thermal stability",
+"Strong initial bite and progressive feedback",
+"Low rotor wear characteristics",
+"Consistent wet and dry braking performance",
+"Designed specifically for Honda CB350"
+],
+"specifications": [
+{"key": "Compound", "value": "Sintered Metallic"},
+{"key": "Position", "value": "Front Wheel"},
+{"key": "Compatibility", "value": "Honda CB350"},
+{"key": "Certification", "value": "ISO Quality Standard"},
+{"key": "Lifespan", "value": "Extended Durability"}
+],
+"whatsInBox": [
+"1x Set of Front Brake Pads"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Pads+Honda+CB350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BPads%2BHonda%2BCB350)",
+"isMain": true
+}
+],
+"price": 1299,
+"salePrice": 1049,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "CB350", "yearFrom": 2021, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Sintered Front Brake Pads for Honda CB350",
+"metaDescription": "Bosch sintered metallic front brake pads for Honda CB350."
+},
+{
+"name": "Zana Heavy Duty Crash Guard for KTM Adventure 390",
+"slug": "zana-heavy-duty-crash-guard-for-ktm-adventure-390",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Crash Guards",
+"description": "Upper and lower protection crash guard set for KTM Adventure 390. Protects radiator, fairings, and engine cases during off-road trail excursions.",
+"features": [
+"High-tensile steel tube dual-tier structure",
+"Powder coated anti-rust black finish",
+"Replaceable Delrin slider pucks on impact points",
+"Direct bolt-on fitment on factory chassis mounts",
+"Designed specifically for KTM Adventure 390"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Protection", "value": "Radiator, Fairings & Engine"},
+{"key": "Compatibility", "value": "KTM Adventure 390"},
+{"key": "Finish", "value": "Textured Black Powder Coat"},
+{"key": "Weight", "value": "4.8 kg"}
+],
+"whatsInBox": [
+"1x Upper and Lower Crash Bars Set",
+"2x Slider Pucks",
+"1x Hardware Fastener Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Guard+ADV390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGuard%2BADV390)",
+"isMain": true
+}
+],
+"price": 4999,
+"salePrice": 4299,
+"gstPercent": 18,
+"stock": 15,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Adventure 390", "yearFrom": 2020, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Crash Guard for KTM Adventure 390",
+"metaDescription": "Heavy-duty steel upper and lower crash guard set for KTM Adventure 390."
+},
+{
+"name": "Rolon Brass Chain and Sprocket Kit for Royal Enfield Himalayan",
+"slug": "rolon-brass-chain-and-sprocket-kit-for-royal-enfield-himalayan",
+"brand": "Rolon",
+"category": "bike-parts",
+"subcategory": "Chain Kits",
+"description": "High-performance gold brass O-ring chain and hardened steel sprocket kit for Royal Enfield Himalayan. Built for long-distance touring endurance.",
+"features": [
+"Precision machined high-carbon steel sprockets",
+"Heavy-duty O-ring sealed chain links",
+"Corrosion-resistant gold brass finish",
+"Optimized tooth profile for reduced friction",
+"Designed specifically for Royal Enfield Himalayan"
+],
+"specifications": [
+{"key": "Chain Type", "value": "Heavy Duty O-Ring Seal"},
+{"key": "Material", "value": "High Carbon Hardened Steel"},
+{"key": "Compatibility", "value": "Royal Enfield Himalayan"},
+{"key": "Color", "value": "Gold Brass"},
+{"key": "Lifespan", "value": "Extended Tour Durability"}
+],
+"whatsInBox": [
+"1x Front Drive Sprocket",
+"1x Rear Driven Sprocket",
+"1x O-Ring Drive Chain",
+"1x Master Link"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rolon+Chain+Kit+Himalayan](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRolon%2BChain%2BKit%2BHimalayan)",
+"isMain": true
+}
+],
+"price": 4499,
+"salePrice": 3899,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Himalayan", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rolon Brass Chain and Sprocket Kit for Royal Enfield Himalayan",
+"metaDescription": "Rolon gold brass O-ring chain and sprocket kit for Royal Enfield Himalayan."
+},
+{
+"name": "Zana Saddle Stays for Royal Enfield Classic 350",
+"slug": "zana-saddle-stays-for-royal-enfield-classic-350",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Saddle Stays",
+"description": "Heavy-duty stainless steel saddlebag support stays designed for Royal Enfield Classic 350. Prevents soft pannier bags from interfering with rear wheel and suspension.",
+"features": [
+"Stainless steel heavy-duty tubular construction",
+"Matte black anti-corrosion powder coating",
+"Prevents saddlebag contact with rear wheel",
+"Secure mounting utilizing factory subframe points",
+"Designed specifically for Royal Enfield Classic 350"
+],
+"specifications": [
+{"key": "Material", "value": "Stainless Steel Tubing"},
+{"key": "Finish", "value": "Matte Black Powder Coat"},
+{"key": "Compatibility", "value": "Royal Enfield Classic 350"},
+{"key": "Mounting", "value": "Direct Subframe Bolt-On"},
+{"key": "Weight", "value": "2.7 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Saddle Stays",
+"1x Fastener Hardware Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Stays+Classic350](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BStays%2BClassic350)",
+"isMain": true
+}
+],
+"price": 3299,
+"salePrice": 2799,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Royal Enfield", "model": "Classic 350", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Zana Saddle Stays for Royal Enfield Classic 350",
+"metaDescription": "Stainless steel saddlebag support stays for Royal Enfield Classic 350."
+},
+{
+"name": "Autokraft CNC Adjustable Clutch and Brake Levers for KTM Duke 390",
+"slug": "autokraft-cnc-adjustable-clutch-and-brake-levers-for-ktm-duke-390",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Clutch and Brake Levers",
+"description": "Billet CNC machined aluminum adjustable levers designed for KTM Duke 390. Features 6-position reach adjustment and foldable pivot design.",
+"features": [
+"Aerospace grade 6061-T6 billet aluminum CNC machined",
+"6-position reach adjustment for customized lever distance",
+"Foldable pivot hinge prevents snapping during drops",
+"Anodized orange and black color finish",
+"Designed specifically for KTM Duke 390"
+],
+"specifications": [
+{"key": "Material", "value": "Billet CNC Aluminum 6061-T6"},
+{"key": "Adjustment", "value": "6-Position Reach Adjust"},
+{"key": "Compatibility", "value": "KTM Duke 390"},
+{"key": "Finish", "value": "Anodized Orange & Black"},
+{"key": "Type", "value": "Foldable Shorty Levers"}
+],
+"whatsInBox": [
+"1x Adjustable Brake Lever",
+"1x Adjustable Clutch Lever"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Levers+Duke390](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BLevers%2BDuke390)",
+"isMain": true
+}
+],
+"price": 2699,
+"salePrice": 2199,
+"gstPercent": 18,
+"stock": 25,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "KTM", "model": "Duke 390", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Adjustable Clutch and Brake Levers for KTM Duke 390",
+"metaDescription": "CNC aluminum adjustable foldable clutch and brake levers for KTM Duke 390."
+},
+{
+"name": "Bosch Sintered Front Brake Pads for Honda Hornet 2.0",
+"slug": "bosch-sintered-front-brake-pads-for-honda-hornet-20",
+"brand": "Bosch",
+"category": "bike-parts",
+"subcategory": "Brake Pads",
+"description": "High-friction sintered metallic front brake pads formulated for Honda Hornet 2.0. Delivers strong stopping bite and responsive lever feedback.",
+"features": [
+"Sintered metallic friction compound for thermal stability",
+"Strong initial bite and progressive feedback",
+"Low rotor wear characteristics",
+"Consistent wet and dry braking performance",
+"Designed specifically for Honda Hornet 2.0"
+],
+"specifications": [
+{"key": "Compound", "value": "Sintered Metallic"},
+{"key": "Position", "value": "Front Wheel"},
+{"key": "Compatibility", "value": "Honda Hornet 2.0"},
+{"key": "Certification", "value": "ISO Quality Standard"},
+{"key": "Lifespan", "value": "Extended Durability"}
+],
+"whatsInBox": [
+"1x Set of Front Brake Pads"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Bosch+Pads+Hornet+2.0](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DBosch%2BPads%2BHornet%2B2.0)",
+"isMain": true
+}
+],
+"price": 1199,
+"salePrice": 999,
+"gstPercent": 18,
+"stock": 40,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Honda", "model": "Hornet 2.0", "yearFrom": 2020, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Bosch Sintered Front Brake Pads for Honda Hornet 2.0",
+"metaDescription": "Bosch sintered metallic front brake pads for Honda Hornet 2.0."
+},
+{
+"name": "Zana Heavy Duty Crash Guard for Bajaj Dominar 400",
+"slug": "zana-heavy-duty-crash-guard-for-bajaj-dominar-400",
+"brand": "Zana",
+"category": "bike-parts",
+"subcategory": "Crash Guards",
+"description": "Heavy-duty tubular steel crash guard built for Bajaj Dominar 400 touring motorcycles. Protects engine casings and radiator shroud during tipping over.",
+"features": [
+"High-tensile steel tube frame protection",
+"Matte black anti-corrosion powder coating",
+"Replaceable Delrin slider pucks for slide impact absorption",
+"Direct bolt-on fitment using existing frame points",
+"Designed specifically for Bajaj Dominar 400"
+],
+"specifications": [
+{"key": "Material", "value": "Mild Steel Tubing"},
+{"key": "Protection", "value": "Engine Casing & Radiator"},
+{"key": "Compatibility", "value": "Bajaj Dominar 400"},
+{"key": "Finish", "value": "Matte Black Powder Coat"},
+{"key": "Weight", "value": "4.3 kg"}
+],
+"whatsInBox": [
+"1x Left and Right Crash Bars",
+"2x Slider Pucks",
+"1x Hardware Pack"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Zana+Guard+Dominar400](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DZana%2BGuard%2BDominar400)",
+"isMain": true
+}
+],
+"price": 3999,
+"salePrice": 3399,
+"gstPercent": 18,
+"stock": 20,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "Bajaj", "model": "Dominar 400", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": true,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Zana Heavy Duty Crash Guard for Bajaj Dominar 400",
+"metaDescription": "Heavy-duty steel crash guard with Delrin sliders for Bajaj Dominar 400."
+},
+{
+"name": "Rolon O-Ring Chain Kit for TVS Apache RTR 200 4V",
+"slug": "rolon-o-ring-chain-kit-for-tvs-apache-rtr-200-4v",
+"brand": "Rolon",
+"category": "bike-parts",
+"subcategory": "Chain Kits",
+"description": "High-durability O-ring sealed chain and high-carbon steel sprocket replacement kit for TVS Apache RTR 200 4V. Ensures smooth power transmission and low maintenance.",
+"features": [
+"High-carbon steel precision machined sprockets",
+"O-ring sealed chain links retain internal grease",
+"Stock gearing ratio specification",
+"Corrosion-resistant metal finish",
+"Designed specifically for TVS Apache RTR 200 4V"
+],
+"specifications": [
+{"key": "Chain Type", "value": "O-Ring Sealed Drive Chain"},
+{"key": "Material", "value": "Hardened Carbon Steel"},
+{"key": "Compatibility", "value": "Apache RTR 200 4V"},
+{"key": "Pitch", "value": "OEM Standard"},
+{"key": "Lifespan", "value": "Extended Mileage Durability"}
+],
+"whatsInBox": [
+"1x Front Drive Sprocket",
+"1x Rear Driven Sprocket",
+"1x O-Ring Drive Chain",
+"1x Master Link"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Rolon+Chain+Kit+Apache200](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DRolon%2BChain%2BKit%2BApache200)",
+"isMain": true
+}
+],
+"price": 2899,
+"salePrice": 2499,
+"gstPercent": 18,
+"stock": 30,
+"lowStockAlert": 5,
+"compatibleBikes": [
+{"brand": "TVS", "model": "Apache RTR 200 4V", "yearFrom": 2019, "yearTo": 2024}
+],
+"isFeatured": false,
+"isNewArrival": false,
+"isBestSeller": true,
+"status": "draft",
+"metaTitle": "Rolon O-Ring Chain Kit for TVS Apache RTR 200 4V",
+"metaDescription": "Rolon O-ring drive chain and sprocket kit for TVS Apache RTR 200 4V."
+},
+{
+"name": "Autokraft CNC Aluminum Fluid Reservoir Cap Front Brake",
+"slug": "autokraft-cnc-aluminum-fluid-reservoir-cap-front-brake",
+"brand": "Autokraft",
+"category": "bike-parts",
+"subcategory": "Tank Pads",
+"description": "Billet CNC machined aluminum front brake fluid reservoir cap. Adds custom aesthetic detailing while offering superior durability over stock plastic caps.",
+"features": [
+"Aerospace grade 6061-T6 billet aluminum",
+"Anodized surface finish with laser engraved logo",
+"Direct OEM replacement screw-on installation",
+"Resistant to brake fluid corrosion",
+"Universal fit for standard master cylinder reservoirs"
+],
+"specifications": [
+{"key": "Material", "value": "Billet CNC Aluminum 6061-T6"},
+{"key": "Compatibility", "value": "Universal Master Cylinder Reservoirs"},
+{"key": "Finish", "value": "Anodized Black & Gold"},
+{"key": "Installation", "value": "Direct Screw-On Replacement"},
+{"key": "Weight", "value": "50 grams"}
+],
+"whatsInBox": [
+"1x Front Fluid Reservoir Cap"
+],
+"images": [
+{
+"url": "[https://placehold.co/500x500/1A1A1A/FFB800?text=Autokraft+Reservoir+Cap](https://www.google.com/search?q=https://placehold.co/500x500/1A1A1A/FFB800%3Ftext%3DAutokraft%2BReservoir%2BCap)",
+"isMain": true
+}
+],
+"price": 699,
+"salePrice": 549,
+"gstPercent": 18,
+"stock": 50,
+"lowStockAlert": 5,
+"compatibleBikes": [],
+"isFeatured": false,
+"isNewArrival": true,
+"isBestSeller": false,
+"status": "draft",
+"metaTitle": "Autokraft CNC Aluminum Fluid Reservoir Cap Front Brake",
+"metaDescription": "Billet CNC aluminum front brake fluid master cylinder reservoir cap."
+}
+]
